@@ -1,0 +1,1 @@
+const header=document.querySelector('.topbar');document.querySelector('.menu').addEventListener('click',()=>header.classList.toggle('open'));document.querySelectorAll('.topbar a').forEach(a=>a.addEventListener('click',()=>header.classList.remove('open')));document.getElementById('year').textContent=new Date().getFullYear();
