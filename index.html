@@ -1,36 +1,118 @@
-<!-- connector-write-test -->
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ALLO VICTOR — Le VTC du Net</title>
-<meta name="description" content="ALLO VICTOR — Applications, Web, services numériques et mobilité.">
-<style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#08111f;color:#f7f9fc}
-main{max-width:960px;margin:auto;padding:72px 24px}.tag{color:#74b9ff;font-weight:700;letter-spacing:.08em}
-h1{font-size:clamp(48px,10vw,92px);margin:12px 0 0}.slogan{font-size:clamp(25px,5vw,42px);margin:4px 0 35px;color:#b9c9dc}
-p{line-height:1.65;color:#d7e0ea;font-size:18px}.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:40px 0}
-.card{padding:22px;border:1px solid #263b55;border-radius:16px;background:#0d1a2b}.card b{display:block;font-size:19px;margin-bottom:8px}
-footer{margin-top:70px;padding-top:25px;border-top:1px solid #263b55;color:#9cafc4;font-size:14px}
-a{color:#8fc7ff}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#173f35">
+  <meta name="description" content="Portail de services, d'entraide, de culture et de transmission.">
+  <title>AlloVictor — Services, entraide & transmission</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body><main>
-<div class="tag">ALLOVICTOR.FR</div>
-<h1>ALLO VICTOR</h1>
-<div class="slogan">Le VTC du Net</div>
-<p>ALLO VICTOR développe des projets et services autour du numérique et de la mobilité. Une même identité pour imaginer, créer et faire avancer des solutions utiles.</p>
-<section class="services">
-<div class="card"><b>Applications</b><span>Conception et développement de solutions mobiles.</span></div>
-<div class="card"><b>Web</b><span>Sites internet et services numériques.</span></div>
-<div class="card"><b>Numérique</b><span>Création, expérimentation et projets digitaux.</span></div>
-<div class="card"><b>Mobilité</b><span>Services liés au transport et à la mobilité.</span></div>
+<body>
+<header class="topbar">
+  <a class="brand" href="#accueil"><span class="brand-mark">A</span><span>AlloVictor<small>nom provisoire</small></span></a>
+  <button class="menu" aria-label="Ouvrir le menu">☰</button>
+  <nav>
+    <a href="services.html">Services</a><a href="famille.html">Ma Famille d'Abord</a><a href="culture.html">Culture & Voyages</a>
+    <a href="yemuna.html">Queen Yémuna</a><a href="projets.html">Nos projets</a><a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main id="accueil">
+<section class="hero">
+ <div class="hero-copy">
+   <span class="eyebrow">SERVICES • ENTRAIDE • CULTURE • TRANSMISSION</span>
+   <h1>Des services qui<br><em>rapprochent les gens.</em></h1>
+   <p>Un portail humain pour trouver de l'aide, accompagner ses proches, créer des liens et transmettre des cultures entre la France, la Guyane et le Suriname.</p>
+   <div class="actions"><a class="btn primary" href="services.html">Découvrir les services</a><a class="btn ghost" href="culture.html">Explorer les projets culturels</a></div>
+ </div>
+ <div class="hero-art">
+   <div class="orbit o1"><span>👨‍👩‍👧‍👦</span><b>Famille</b></div>
+   <div class="orbit o2"><span>🤝</span><b>Entraide</b></div>
+   <div class="orbit o3"><span>🌍</span><b>Transmission</b></div>
+   <div class="center"><span>♥</span><strong>Un même portail</strong><small>pour relier les besoins, les personnes et les projets</small></div>
+ </div>
 </section>
-<footer>
-<strong>ALLO VICTOR</strong><br>
-Site officiel exploité par ALLO VICTOR VTC, SASU.<br>
-SIREN : 987 761 749 — SIRET : 987 761 749 00017<br><br>
-<a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a>
+<section class="quick-needs">
+  <a href="famille.html#seniors"><span>👵</span><b>J'aide un senior</b><small>Présence, courses, rendez-vous</small></a>
+  <a href="famille.html#handicap"><span>♿</span><b>J'organise une aide</b><small>Handicap, aidant, planning</small></a>
+  <a href="famille.html#enfants"><span>🧒</span><b>J'ai besoin d'un relais</b><small>Enfants, garde, sortie d'école</small></a>
+  <a href="famille.html#mobilite"><span>🚗</span><b>Je cherche un accompagnement</b><small>Trajet, rendez-vous, événement</small></a>
+  <a href="culture.html"><span>🌍</span><b>Je découvre un territoire</b><small>Guyane, Suriname, culture</small></a>
+  <a href="yemuna.html"><span>🌿</span><b>Je prends soin de moi</b><small>Beauté, bien-être, cosmétique</small></a>
+</section>
+<section class="promise">
+ <p>Un besoin du quotidien, un proche à accompagner, une culture à découvrir ?</p>
+ <strong>Commencez par ce qui compte pour vous.</strong>
+</section>
+
+<section id="services" class="section">
+ <div class="heading"><span class="eyebrow">NOS UNIVERS</span><h2>Plus qu'un catalogue d'applications.</h2><p>Chaque univers part d'un besoin humain. Nos outils numériques viennent ensuite faciliter la rencontre, l'organisation et la transmission.</p></div>
+ <div class="universe-grid">
+  <article id="famille" class="universe family">
+   <div class="visual">👵 <span>♥</span> 👨‍👩‍👧</div><span class="tag">ENTRAIDE & ACCOMPAGNEMENT</span><h3>Ma Famille d'Abord</h3>
+   <p>Organiser l'entraide autour de la famille et trouver la bonne personne lorsqu'un proche a besoin d'aide.</p>
+   <div class="chips"><span>Personnes âgées</span><span>Handicap</span><span>Enfants</span><span>Aidants</span><span>Aide administrative</span><span>Voisinage</span></div>
+   <a href="famille.html">Découvrir les services →</a>
+  </article>
+  <article id="culture" class="universe culture">
+   <div class="visual">🇫🇷 <span>↔</span> 🇬🇫 <span>↔</span> 🇸🇷</div><span class="tag">CULTURE & VOYAGES</span><h3>Des ponts entre les territoires</h3>
+   <p>Voyages, rencontres, témoignages et transmission pour faire vivre les liens entre la métropole, la Guyane et le Suriname.</p>
+   <div class="chips"><span>Culture saamaka</span><span>Voyages</span><span>Patrimoine</span><span>Témoignages</span><span>Rencontres</span></div>
+   <a href="culture.html">Explorer →</a>
+  </article>
+  <article id="yemuna" class="universe yemuna-card">
+   <div class="visual yemuna-visual">🌿 <span>✨</span> 🧴</div><span class="tag">BEAUTÉ & BIEN-ÊTRE</span><h3>Queen Yémuna Cosmétique</h3>
+   <p>Un espace beauté, bien-être et cosmétique à Vélizy-Villacoublay, inspiré par un univers naturel et amazonien.</p>
+   <div class="chips"><span>Soins</span><span>Cosmétique</span><span>Bien-être</span><span>Conseil</span></div>
+   <a href="yemuna.html">Découvrir Queen Yémuna →</a>
+  </article>
+ </div>
+</section>
+
+<section id="famille-detail" class="section soft">
+ <div class="split">
+  <div><span class="eyebrow">MA FAMILLE D'ABORD</span><h2>L'entraide d'abord.<br>Un professionnel certifié quand il le faut.</h2><p>La famille, les proches, les voisins et la communauté peuvent répondre à certains besoins. Pour une prestation professionnelle, le portail permet aussi d'identifier un professionnel certifié et d'encadrer la prestation.</p></div>
+  <div class="service-list">
+   <div><span>01</span><b>Aide & présence</b><small>Seniors, handicap, enfants, aidants</small></div>
+   <div><span>02</span><b>Mobilité & accompagnement</b><small>Rendez-vous, gare, aéroport, sorties, événements</small></div>
+   <div><span>03</span><b>Professionnels certifiés</b><small>Mise en relation adaptée au besoin</small></div>
+   <div><span>04</span><b>Devis, factures & paiement</b><small>Un parcours clair pour les prestations professionnelles</small></div>
+  </div>
+ </div>
+</section>
+
+<section id="culture-detail" class="section">
+ <div class="heading"><span class="eyebrow">CULTURE, VOYAGES & TRANSMISSION</span><h2>Créer un pont vivant.</h2></div>
+ <div class="journey"><div><b>France métropolitaine</b><span>Départ, diaspora, rencontres</span></div><i>→</i><div><b>Guyane française</b><span>Culture, familles, échanges</span></div><i>→</i><div><b>Suriname</b><span>Territoires, langue, patrimoine</span></div></div>
+ <p class="center-text">Les voyages nourrissent les rencontres, les témoignages, les photos, les vidéos et la collecte linguistique. Les contributions destinées au dictionnaire restent soumises à validation avant intégration officielle.</p>
+</section>
+
+<section class="section visual-story">
+  <div class="visual-story-copy">
+    <span class="eyebrow">UN PORTAIL, PLUSIEURS CHEMINS</span>
+    <h2>On part de votre situation.</h2>
+    <p>Le portail n'impose pas une application. Il vous oriente d'abord vers une solution : une personne de confiance, un professionnel certifié, un accompagnement, un projet culturel ou un outil de transmission.</p>
+    <a class="btn primary" href="services.html">Voir tous les services</a>
+  </div>
+  <div class="visual-story-board">
+    <div class="scene-card senior"><span>👵</span><b>Aider un proche</b><small>Famille → entourage → professionnel</small></div>
+    <div class="scene-card mobility"><span>🚗</span><b>Accompagner</b><small>Mobilité intégrée au besoin</small></div>
+    <div class="scene-card culture-card"><span>🌿</span><b>Transmettre</b><small>France → Guyane → Suriname</small></div>
+    <div class="scene-card beauty"><span>🌿</span><b>Prendre soin de soi</b><small>Queen Yémuna Cosmétique</small></div>
+  </div>
+</section>
+<section id="projets" class="section projects">
+ <div class="heading"><span class="eyebrow">UN PORTAIL ÉVOLUTIF</span><h2>Aujourd'hui trois univers.<br>Demain, de nouveaux services.</h2><p>L'architecture est pensée pour accueillir progressivement de nouveaux projets sans perdre une identité commune : humaine, familiale, communautaire et culturelle.</p></div>
+ <div class="future"><span>+</span><b>Prochain service</b><small>La structure est prête à évoluer.</small></div>
+</section>
+</main>
+
+<footer id="contact">
+ <div><strong>AlloVictor</strong><small>Nom de travail — la future marque reste à définir.</small></div>
+ <div><b>Portail</b><a href="services.html">Services</a><a href="culture.html">Culture & Voyages</a><a href="yemuna.html">Queen Yémuna</a></div>
+ <div><b>Vision</b><p>Des services et des expériences humaines, accompagnés par des outils numériques utiles.</p></div>
+ <p class="copyright">© <span id="year"></span> — Portail de services</p>
 </footer>
-</main></body></html>
+<script src="app.js"></script>
+</body></html>
