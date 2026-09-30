@@ -40,3 +40,8 @@
   .card-body b{font-size:12px!important}
   .card-badge{display:none!important}
 }
+
+/* FACA card */
+.card-faca .card-picture{background:linear-gradient(145deg,#e8eee4,#d8c9a7)}
+.faca-ill span:nth-child(2){font-size:58px}
+@media(min-width:901px){.catalog-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
