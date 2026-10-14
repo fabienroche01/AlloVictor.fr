@@ -62,3 +62,34 @@
 .catalog-home .travel-symbols{display:flex;align-items:center;justify-content:center;gap:14px;font-size:32px;text-shadow:0 3px 14px #071f16}
 .catalog-home .card-culture .card-picture::after{background:linear-gradient(180deg,rgba(7,42,28,.33),transparent 46%,rgba(3,37,25,.7))}
 @media(max-width:760px){.catalog-home .card-picture{min-height:175px!important}.catalog-home .travel-labels span{font-size:9px}.catalog-home .travel-symbols{font-size:24px}.catalog-home .visual-caption{font-size:12px}.catalog-home .visual-overlay{padding-bottom:22px}}
+
+/* Maquette vitrine AlloVictor : accueil chaleureux, 4 univers photo */
+body.catalog-home{background:#fcf9f0!important}
+.catalog-home .catalog-nav{background:#fffdf6!important}
+.catalog-home .catalog-hero.compact-hero{display:flex!important;align-items:center;justify-content:space-between;gap:30px;background:radial-gradient(circle at 10% 80%,#eaf1de 0,transparent 28%),radial-gradient(circle at 96% 12%,#f0ead7 0,transparent 27%),#fcf9f0!important;color:#123c32!important;padding:38px max(5vw,24px) 17px!important}
+.catalog-home .compact-hero h1{font-size:clamp(36px,5.2vw,76px)!important;max-width:none!important;line-height:1.03!important;letter-spacing:-.025em}
+.catalog-home .compact-hero h1 em{font-style:normal!important;font-weight:700;color:#b58532!important}
+.catalog-home .compact-hero p{font-size:clamp(15px,1.55vw,21px)!important;line-height:1.45!important;max-width:960px!important;color:#365a50!important}
+.catalog-home .homepage-hero-script{flex:0 0 210px;transform:rotate(-7deg);font:italic 27px/1.14 Georgia,serif;text-align:center;color:#143c32}
+.catalog-home .homepage-hero-script span{color:#b58532;font-size:42px}
+.catalog-home .catalog-section{max-width:1760px!important;padding:12px max(2vw,22px) 65px!important}
+.catalog-home .catalog-title{margin-bottom:20px!important;padding-left:12px}
+.catalog-home .catalog-title h2{font-size:clamp(25px,2.6vw,40px)!important}
+.catalog-home .catalog-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:20px!important}
+.catalog-home .catalog-card{border-radius:23px!important;box-shadow:0 13px 30px #153e3214!important;border-color:#f0ebdf!important}
+.catalog-home .card-picture{min-height:305px!important}
+.catalog-home .card-body{padding:22px!important;min-height:214px;display:flex;flex-direction:column}
+.catalog-home .card-body h3{font-size:clamp(24px,2vw,33px)!important;line-height:1.16!important}
+.catalog-home .card-body p{font-size:14px!important;line-height:1.5!important}
+.catalog-home .card-body b{font-size:14px!important;margin-top:auto;background:#164b3b;color:white;border-radius:12px;padding:11px 14px;align-items:center}
+.catalog-home .card-culture .card-body b{background:#b88731}
+.catalog-home .card-picture .card-badge{font-size:9px!important;background:#114333ec!important;padding:8px 11px!important}
+.catalog-home .travel-art .travel-labels{margin-top:6px}
+.catalog-home .travel-labels span{font-size:13px!important;padding:7px 12px!important}
+.catalog-home .travel-symbols{font-size:39px!important}
+.catalog-home .card-family .card-picture{background-image:url("https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=900&q=90")}
+.catalog-home .card-culture .card-picture{background-image:url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=90")}
+.catalog-home .card-yemuna .card-picture{background-image:url("https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=90")}
+.catalog-home .card-faca .card-picture{background-image:url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=90")}
+@media(max-width:1030px){.catalog-home .catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.catalog-home .homepage-hero-script{display:none}.catalog-home .card-picture{min-height:270px!important}}
+@media(max-width:600px){.catalog-home .catalog-hero.compact-hero{padding:35px 18px 12px!important}.catalog-home .compact-hero h1{font-size:39px!important}.catalog-home .catalog-section{padding:14px 12px 40px!important}.catalog-home .catalog-grid{grid-template-columns:1fr!important}.catalog-home .card-picture{min-height:265px!important}.catalog-home .card-body{min-height:0;padding:20px!important}.catalog-home .card-body h3{font-size:28px!important}.catalog-home .card-badge{display:block!important}}
