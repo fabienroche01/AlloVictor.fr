@@ -45,3 +45,20 @@
 .card-faca .card-picture{background:linear-gradient(145deg,#e8eee4,#d8c9a7)}
 .faca-ill span:nth-child(2){font-size:58px}
 @media(min-width:901px){.catalog-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+
+/* Visuels photographiques des univers, accueil AlloVictor */
+.catalog-home .card-picture{isolation:isolate;background-size:cover!important;background-position:center!important;min-height:220px!important}
+.catalog-home .card-picture::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(11,39,30,.75),rgba(7,33,29,.02) 65%);z-index:0}
+.catalog-home .card-family .card-picture{background-image:url("https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=900&q=85")}
+.catalog-home .card-culture .card-picture{background-image:url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=85")}
+.catalog-home .card-yemuna .card-picture{background-image:url("https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85")}
+.catalog-home .card-faca .card-picture{background-image:url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85")}
+.catalog-home .visual-overlay{position:absolute;inset:0;z-index:1;width:100%;height:100%;display:flex;align-items:flex-end;justify-content:center;padding:18px 14px 42px}
+.catalog-home .visual-caption{font-size:15px;font-weight:800;color:white;text-shadow:0 2px 10px #102b25;letter-spacing:.01em;text-align:center}
+.catalog-home .card-picture .card-badge{z-index:2}
+.catalog-home .travel-art{align-items:stretch;justify-content:space-between;flex-direction:column;padding:15px 12px 39px;background:linear-gradient(125deg,rgba(0,60,44,.16),rgba(2,21,18,.16))}
+.catalog-home .travel-labels{display:flex;gap:6px;align-items:center;justify-content:center;flex-wrap:wrap}
+.catalog-home .travel-labels span{color:#fff;background:rgba(17,61,43,.85);border:1px solid #ffffffaa;backdrop-filter:blur(3px);border-radius:40px;padding:4px 9px;font-size:11px;font-weight:800;box-shadow:0 4px 10px #10251d66}
+.catalog-home .travel-symbols{display:flex;align-items:center;justify-content:center;gap:14px;font-size:32px;text-shadow:0 3px 14px #071f16}
+.catalog-home .card-culture .card-picture::after{background:linear-gradient(180deg,rgba(7,42,28,.33),transparent 46%,rgba(3,37,25,.7))}
+@media(max-width:760px){.catalog-home .card-picture{min-height:175px!important}.catalog-home .travel-labels span{font-size:9px}.catalog-home .travel-symbols{font-size:24px}.catalog-home .visual-caption{font-size:12px}.catalog-home .visual-overlay{padding-bottom:22px}}
