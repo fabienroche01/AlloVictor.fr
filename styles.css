@@ -93,3 +93,15 @@ body.catalog-home{background:#fcf9f0!important}
 .catalog-home .card-faca .card-picture{background-image:url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=90")}
 @media(max-width:1030px){.catalog-home .catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.catalog-home .homepage-hero-script{display:none}.catalog-home .card-picture{min-height:270px!important}}
 @media(max-width:600px){.catalog-home .catalog-hero.compact-hero{padding:35px 18px 12px!important}.catalog-home .compact-hero h1{font-size:39px!important}.catalog-home .catalog-section{padding:14px 12px 40px!important}.catalog-home .catalog-grid{grid-template-columns:1fr!important}.catalog-home .card-picture{min-height:265px!important}.catalog-home .card-body{min-height:0;padding:20px!important}.catalog-home .card-body h3{font-size:28px!important}.catalog-home .card-badge{display:block!important}}
+
+/* Accueil : cinq projets alignés sur une seule rangée sur grand écran */
+@media(min-width:1200px){
+ .catalog-home .catalog-grid{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:14px!important}
+ .catalog-home .card-picture{min-height:190px!important}
+ .catalog-home .card-body{padding:15px!important;min-height:190px!important}
+ .catalog-home .card-body h3{font-size:clamp(18px,1.4vw,24px)!important}
+ .catalog-home .card-body p{font-size:12px!important}
+ .catalog-home .card-body b{font-size:12px!important;padding:9px 10px!important}
+ .catalog-home .visual-caption{font-size:13px!important}
+ .catalog-home .card-picture .card-badge{font-size:8px!important;padding:6px 7px!important}
+}
