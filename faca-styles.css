@@ -62,3 +62,21 @@
 .poster-bottom a{color:#ffe3a4;font-weight:800;overflow-wrap:anywhere}
 .poster-actions{justify-content:center;margin:25px auto 0}
 @media(max-width:760px){.poster-head{padding:14px}.poster-organizer{font-size:24px}.poster-content{padding:20px 12px}.poster-program{grid-template-columns:repeat(2,1fr)}.poster-program>div:nth-child(2){border-right:0}.poster-program>div{border-bottom:1px solid #dfbe88}.poster-title{font-size:clamp(45px,12vw,80px)}.poster-motto{font-size:20px}.poster-bottom{font-size:15px}}
+
+/* Ambiance fluviale Guyane–Suriname, autour du flyer officiel */
+.faca-poster-area{position:relative;isolation:isolate;overflow:hidden;background:#103c32!important;padding:65px 0 80px!important}
+.faca-poster-area::before{content:"";position:absolute;inset:0;z-index:-2;background-image:linear-gradient(180deg,rgba(8,46,36,.67),rgba(9,47,34,.39) 36%,rgba(9,48,35,.69)),url("https://commons.wikimedia.org/wiki/Special:FilePath/Lawa_River_III.JPG?width=1600");background-size:cover;background-position:center;background-attachment:fixed}
+.faca-poster-area::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 50% 32%,transparent 25%,rgba(2,33,24,.32) 88%)}
+.faca-poster-area>.container{position:relative}
+.faca-poster-intro{border-radius:20px;background:rgba(10,54,42,.85);border:1px solid #ffe6ab78;box-shadow:0 10px 35px #00180f45;padding:25px 26px!important;max-width:870px!important;margin:0 auto 32px!important}
+.faca-poster-intro span{color:#f4cb78!important}
+.faca-poster-intro h1{color:#fffaf0!important}
+.faca-poster-intro p{color:#f0ead6!important}
+.faca-original-flyer{padding:10px;background:rgba(255,251,235,.96);border-radius:23px!important;box-shadow:0 22px 65px #001e16a6!important}
+.faca-original-flyer img{border-radius:13px!important}
+.faca-original-flyer figcaption{color:#2b473c!important}
+.faca-poster-area .poster-actions,.faca-poster-area .faca-events-bottom{background:rgba(255,248,231,.95);padding:15px 22px;border-radius:15px;max-width:870px;margin-left:auto;margin-right:auto}
+.faca-poster-area .faca-events-bottom{text-align:center}
+.faca-photo-credit{font-size:11px;text-align:center;margin:13px auto 0;color:#fff8e5}
+.faca-photo-credit a{color:#ffe5a1;text-decoration:underline}
+@media(max-width:800px){.faca-poster-area::before{background-attachment:scroll}.faca-poster-area{padding:34px 0 45px!important}.faca-poster-intro{padding:19px!important}}
