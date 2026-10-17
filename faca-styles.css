@@ -91,3 +91,9 @@
 .faca-flyer-contact a{display:block;color:white;font-size:clamp(14px,2vw,20px);font-weight:800;overflow-wrap:anywhere;line-height:1.5}
 .faca-flyer-contact a:last-child{font-size:14px;color:#fae1af;font-weight:600}
 @media(max-width:520px){.faca-flyer-contact{padding:15px;gap:12px}.faca-contact-icon{font-size:25px}}
+
+/* Correction contraste : drapeaux et en-tête de l'événement */
+.faca-poster-intro .faca-territory-flags span{color:#123f32!important;background:#fff7e8!important;border-color:#d8b16d!important;text-shadow:none!important;opacity:1!important}
+.faca-poster-intro>span{color:#fbd489!important}
+.faca-poster-intro h1{color:#ffffff!important;text-shadow:0 2px 8px #071e1666}
+.faca-poster-intro p{color:#fff2d5!important}
