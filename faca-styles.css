@@ -97,3 +97,7 @@
 .faca-poster-intro>span{color:#fbd489!important}
 .faca-poster-intro h1{color:#ffffff!important;text-shadow:0 2px 8px #071e1666}
 .faca-poster-intro p{color:#fff2d5!important}
+
+/* Surimpression lisible au centre de l'affiche, à la place de la devise */
+.faca-original-flyer>a{position:relative;display:block}
+.faca-original-flyer .flyer-independence-banner{position:absolute;top:38%;left:7%;right:7%;z-index:2;display:block;background:#ab241a;color:#fffaf0;border:2px solid #f2c273;border-radius:6px;padding:7px 8px;text-align:center;font-weight:900;font-size:clamp(10px,2.1vw,23px);line-height:1.15;letter-spacing:.045em;text-shadow:0 2px 3px #33140c;box-shadow:0 4px 14px #11362670;pointer-events:none}
