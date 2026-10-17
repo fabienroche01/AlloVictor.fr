@@ -112,3 +112,7 @@
   box-shadow:0 4px 12px #18342845;
   clip-path:polygon(0 0,6% 7%,6% 0,94% 0,94% 7%,100% 0,97% 50%,100% 100%,94% 93%,94% 100%,6% 100%,6% 93%,0 100%,3% 50%);
 }
+
+/* Retrait définitif du ruban superposé : préserver toutes les illustrations du flyer */
+.faca-original-flyer .flyer-independence-banner{display:none!important}
+.faca-flyer-contact a[href^="tel:"]{color:#ffdb93;font-size:clamp(17px,2.5vw,25px);text-decoration:none}
