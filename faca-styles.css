@@ -30,3 +30,35 @@
 .faca-events-bottom{text-align:center;margin:24px 0 0;color:#56645b;font-size:14px}
 .faca-events-bottom a{color:#164739;font-weight:700}
 @media(max-width:850px){.faca-event-highlight{grid-template-columns:1fr}.faca-event-visual{min-height:215px}.faca-event-info{padding:25px}.faca-events-feature{padding-top:35px}}
+
+/* Flyer événement en première position sur FACA */
+.faca-poster-area{background:#f7f3e8;padding:40px 0 60px}
+.faca-poster-intro{text-align:center;margin:0 auto 25px;max-width:830px}
+.faca-poster-intro span{font-size:12px;letter-spacing:.16em;color:#ae741d;font-weight:800}
+.faca-poster-intro h1{font:700 clamp(27px,3.5vw,43px)/1.12 "Playfair Display",Georgia,serif;margin:8px 0;color:#163a2d}
+.faca-poster-intro p{margin:0;color:#516558}
+.faca-web-poster{max-width:1030px;margin:auto;border:7px solid #fff2d6;border-radius:24px;overflow:hidden;box-shadow:0 14px 40px #12362a2a;background:linear-gradient(#fdf3d9ee,#faedcfeb),url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1400&q=85") center/cover}
+.poster-head{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:18px 38px;background:#fff9e6e8;color:#0b3d2e}
+.poster-organizer{font:700 37px Georgia,serif}.poster-organizer small{display:block;font:700 10px "DM Sans",sans-serif;letter-spacing:.13em}.poster-flags{font-size:31px}
+.poster-content{text-align:center;padding:28px 35px 26px}
+.poster-pretitle{font-weight:700;color:#113e30;font-size:clamp(15px,2.1vw,24px);letter-spacing:.04em}
+.poster-pretitle strong{color:#9b4e0d}
+.poster-title{font:italic 700 clamp(54px,9vw,112px)/1.1 Georgia,serif;color:#124636;text-shadow:0 2px 0 #ffe8b9;margin:12px auto}.poster-title em{color:#b75519}
+.poster-subtitle{font:700 clamp(22px,3.3vw,39px) Georgia,serif;background:#124536;color:white;display:inline-block;padding:7px 30px;border-radius:5px}
+.poster-subtitle span{color:#e6be6a}
+.poster-date{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin:25px 0;color:#153c2f}
+.poster-date>span{background:#fff8e8;border:2px solid #d7a45b;border-radius:14px;padding:11px 24px;font-size:clamp(17px,2vw,25px)}
+.poster-date small{display:block;font-size:12px;font-weight:400}
+.poster-motto{font:italic 24px Georgia,serif;color:#21513d}
+.poster-program{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:24px 0;border-radius:16px;overflow:hidden;background:#fff8e9ed}
+.poster-program>div{padding:20px 12px;border-right:1px solid #dfbe88;display:flex;flex-direction:column;gap:9px;align-items:center}
+.poster-program>div:last-child{border-right:0}
+.poster-program span{font-size:35px}
+.poster-program strong{font-size:14px;color:#8b3713;line-height:1.25}
+.poster-program small{font-size:12px;line-height:1.4}
+.poster-launch{background:#ac4e1d;color:#fff4dc;padding:12px 18px;letter-spacing:.08em;font-weight:800}
+.poster-bottom{display:flex;justify-content:space-around;align-items:center;gap:15px;flex-wrap:wrap;background:#123e30;color:#fff;padding:21px 12px;font-size:20px}
+.poster-bottom strong small{display:block;font-size:12px;font-weight:400}
+.poster-bottom a{color:#ffe3a4;font-weight:800;overflow-wrap:anywhere}
+.poster-actions{justify-content:center;margin:25px auto 0}
+@media(max-width:760px){.poster-head{padding:14px}.poster-organizer{font-size:24px}.poster-content{padding:20px 12px}.poster-program{grid-template-columns:repeat(2,1fr)}.poster-program>div:nth-child(2){border-right:0}.poster-program>div{border-bottom:1px solid #dfbe88}.poster-title{font-size:clamp(45px,12vw,80px)}.poster-motto{font-size:20px}.poster-bottom{font-size:15px}}
