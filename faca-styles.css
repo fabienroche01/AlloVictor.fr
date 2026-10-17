@@ -80,3 +80,7 @@
 .faca-photo-credit{font-size:11px;text-align:center;margin:13px auto 0;color:#fff8e5}
 .faca-photo-credit a{color:#ffe5a1;text-decoration:underline}
 @media(max-width:800px){.faca-poster-area::before{background-attachment:scroll}.faca-poster-area{padding:34px 0 45px!important}.faca-poster-intro{padding:19px!important}}
+
+.faca-territory-flags{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:0 auto 18px}
+.faca-territory-flags span{background:#fff9eb;color:#173f35;border:1px solid #e3bf81;padding:7px 14px;border-radius:999px;font-weight:800;font-size:14px;box-shadow:0 3px 12px #0002}
+@media(max-width:600px){.faca-territory-flags span{font-size:12px;padding:6px 9px}}
