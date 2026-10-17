@@ -101,3 +101,14 @@
 /* Surimpression lisible au centre de l'affiche, à la place de la devise */
 .faca-original-flyer>a{position:relative;display:block}
 .faca-original-flyer .flyer-independence-banner{position:absolute;top:38%;left:7%;right:7%;z-index:2;display:block;background:#ab241a;color:#fffaf0;border:2px solid #f2c273;border-radius:6px;padding:7px 8px;text-align:center;font-weight:900;font-size:clamp(10px,2.1vw,23px);line-height:1.15;letter-spacing:.045em;text-shadow:0 2px 3px #33140c;box-shadow:0 4px 14px #11362670;pointer-events:none}
+
+/* Bandeau indépendance : forme de ruban doré comme le haut du flyer */
+.faca-original-flyer .flyer-independence-banner{
+  top:38%;left:8%;right:8%;border:0;border-radius:0;
+  padding:9px 20px;color:#143f33;
+  background:linear-gradient(180deg,#ffeebf 0%,#ebbf67 55%,#d99c46 100%);
+  font-family:Georgia,serif;font-weight:800;font-size:clamp(12px,2vw,22px);
+  letter-spacing:.035em;text-shadow:0 1px 0 #fff4d0;
+  box-shadow:0 4px 12px #18342845;
+  clip-path:polygon(0 0,6% 7%,6% 0,94% 0,94% 7%,100% 0,97% 50%,100% 100%,94% 93%,94% 100%,6% 100%,6% 93%,0 100%,3% 50%);
+}
