@@ -122,14 +122,14 @@ function qyLoadPhotos(){
  cards.forEach(el=>io.observe(el));
 }
 async function qyFetchPhoto(card){
- const id=card.dataset.ref,x=qyItems.find(p=>p.ref===id);if(!x)return;
+ const id=card.dataset.ref,x=qyItems.find(p=>String(p.ref)===id);if(!x)return;
  const search=qyPhotoSearchTerm(x);
  try{
- const params=new URLSearchParams({action:"query",generator:"search",gsrsearch:"filetype:bitmap "+search,gsrnamespace:"6",gsrlimit:"18",prop:"imageinfo",iiprop:"url|extmetadata",iiurlwidth:"600",format:"json",origin:"*"});
+ const params=new URLSearchParams({action:"query",generator:"search",gsrsearch:search+" filetype:bitmap",gsrnamespace:"6",gsrlimit:"50",prop:"imageinfo",iiprop:"url|extmetadata",iiurlwidth:"600",format:"json",origin:"*"});
  const response=await fetch("https://commons.wikimedia.org/w/api.php?"+params.toString());
  if(!response.ok)return;
  const data=await response.json();
- const pages=Object.values(data.query?.pages||{}).filter(p=>p.imageinfo?.[0]?.thumburl);
+ const pages=Object.values(data.query?.pages||{}).filter(p=>p.imageinfo?.[0]?.thumburl).sort((a,b)=>(a.index||0)-(b.index||0));
  const shuffled=pages.sort((a,b)=>{const score=p=>((p.title||"").toLowerCase().includes(search.split(" ")[0])?10:0);return score(b)-score(a)});
  const chosen=shuffled.find(p=>{const info=p.imageinfo[0],url=info.thumburl||"";return !qyUsedPhotos.has(p.title)&&/\.(jpe?g|png|webp)(\?|$)/i.test(url)&&!/(logo|brand|trademark|advertisement|poster|screenshot|packaging)/i.test(p.title)});
  if(!chosen)return;
