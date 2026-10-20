@@ -126,7 +126,41 @@ const leaves='<g fill="#6c9b66"><path d="M73 198Q27 120 61 66Q113 139 73 198Z"/>
 const shape=carton?'<path d="M128 52h83l10 18v139H118V70Z" fill="#f8f1d9" stroke="#b8ae9e" stroke-width="2"/><rect x="157" y="39" width="26" height="14" rx="3" fill="'+color+'"/>':tube?'<path d="M139 50h65l-9 157h-47Z" fill="#faf9f4" stroke="#c9c5b9" stroke-width="2"/><rect x="148" y="207" width="47" height="13" rx="3" fill="#d8d4c9"/>':sachet?'<path d="M126 62h89l-8 153h-73Z" fill="#f9f5ea" stroke="#c9c5b9" stroke-width="2"/>':'<rect x="131" y="75" width="80" height="138" rx="17" fill="#faf9f4" stroke="#c9c5b9" stroke-width="2"/><rect x="144" y="58" width="54" height="21" rx="4" fill="'+color+'"/>';
 const svg='<svg viewBox="0 0 340 245" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration sans marque"><rect width="340" height="245" fill="#f3eadb"/><ellipse cx="170" cy="219" rx="105" ry="9" fill="#a79c85" opacity=".2"/>'+leaves+shape+'<rect x="143" y="108" width="54" height="63" rx="3" fill="'+color+'" opacity=".25"/><text x="170" y="135" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#24503d">ALOÉ VERA</text><text x="170" y="150" text-anchor="middle" font-family="Arial" font-size="7" fill="#24503d">NATURE</text></svg>';
 let art=card.querySelector(".qy-art");if(!art){art=document.createElement("div");art.className="qy-art qy-product-photo";card.insertBefore(art,card.firstChild)}art.innerHTML=svg;
-});}
+});qyApplyCataloguePhotos();}
+
+let qyCataloguePromise;
+function qyCataloguePhotos(){
+ if(qyCataloguePromise)return qyCataloguePromise;
+ qyCataloguePromise=(async()=>{
+  try{
+   if(!window.JSZip)await new Promise((ok,fail)=>{const s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js";s.onload=ok;s.onerror=fail;document.head.appendChild(s)});
+   const [zr,cr]=await Promise.all([fetch("photos_catalogue_queen_yemuna.zip"),fetch("correspondances_catalogue_a_verifier.csv")]);
+   if(!zr.ok||!cr.ok)return new Map();
+   const zip=await JSZip.loadAsync(await zr.arrayBuffer()),csv=await cr.text(),photos=new Map();
+   for(const line of csv.replace(/^\uFEFF/,"").split(/\r?\n/).slice(1)){
+    const m=line.match(/^(\d+),(\d+),([^,]*),/);if(!m)continue;
+    const choices=m[3].split(/\s*;\s*/).filter(Boolean);
+    if(choices.length!==1||!zip.file(choices[0]))continue;
+    const blob=await zip.file(choices[0]).async("blob");
+    photos.set(m[1],URL.createObjectURL(blob));
+   }
+   return photos;
+  }catch(e){console.warn("Photos catalogue indisponibles",e);return new Map()}
+ })();
+ return qyCataloguePromise;
+}
+async function qyApplyCataloguePhotos(){
+ const photos=await qyCataloguePhotos();
+ for(const card of document.querySelectorAll("#qy-aloe .qy-item[data-ref]")){
+  const url=photos.get(card.dataset.ref);if(!url)continue;
+  const art=card.querySelector(".qy-art");if(!art||art.querySelector(".qy-catalogue-photo"))continue;
+  art.innerHTML="";
+  const img=document.createElement("img");img.className="qy-catalogue-photo";img.src=url;
+  img.alt="Photographie catalogue - référence "+card.dataset.ref;img.loading="lazy";
+  img.style.cssText="width:100%;height:100%;object-fit:contain;display:block";
+  art.appendChild(img);
+ }
+}
 function qyDescription(x){const n=x.name.toLowerCase(),cat=qyCategory(x);if(/miel|bee honey/.test(n))return "Miel à déguster au petit-déjeuner ou dans vos recettes.";if(/infusion|tea/.test(n))return "Infusion aromatique pour une pause chaleureuse et relaxante.";if(/aloe vera gel|aloe berry|aloe pêche|aloe mango|aloe peaches|aloe vera 330|aloe pêche 330/.test(n))return "Boisson à l’aloe vera, à savourer dans votre routine quotidienne.";if(/shampoing/.test(n))return "Nettoie délicatement les cheveux et le cuir chevelu.";if(/après-shampoing|conditioner/.test(n))return "Aide à démêler et à adoucir les longueurs.";if(/huile capillaire/.test(n))return "Nourrit les cheveux et apporte de la brillance.";if(/dentifrice|toothgel/.test(n))return "Nettoie les dents et accompagne l’hygiène bucco-dentaire.";if(/savon|liquid soap|body wash/.test(n))return "Nettoie la peau au quotidien tout en douceur.";if(/lèvres/.test(n))return "Baume pour adoucir et protéger les lèvres.";if(/déodorant/.test(n))return "Soin d’hygiène pour une sensation de fraîcheur.";if(/parfum|alofa|malosi/.test(n))return "Fragrance pour accompagner votre quotidien.";if(/scrub|exfoliant|gommage/.test(n))return "Exfolie la peau pour la laisser douce au toucher.";if(/masque/.test(n))return "Soin à intégrer à votre rituel beauté du visage.";if(/sérum/.test(n))return "Soin concentré à appliquer dans votre routine visage.";if(/crème|lotion|gelée|gel hydratant|gel nettoyant|soin hydratant|activateur/.test(n))return "Soin cosmétique pour compléter votre routine de peau.";if(/fit 15|f15|c9|dx4|vital 5|programme|pack v3/.test(n))return "Programme bien-être composé de plusieurs produits.";if(/lite|protein/.test(n))return "Préparation nutritionnelle à intégrer selon son mode d’emploi.";if(/vitamin|calcium|daily|immune|focus|therm|arctic|collagen|lycium|nutra|absorbent|fiber|move|pro-b|argin|argi|maca|ail et thym|bee pollen|royal jelly|propolis|fields of greens|lean|sensatiable|iVision|active ha|immun|vitolize/.test(n))return "Complément alimentaire : respecter les conseils d’utilisation et précautions de l’étiquette.";if(/échantillon|echantillon/.test(n))return "Format découverte pour essayer ou faire découvrir le produit.";if(/sac|boîte cadeau|ruban|papier cadeau|tote bag|pochette/.test(n))return "Accessoire pratique pour présenter ou offrir vos produits.";if(/carnet|catalogue|brochure|carte|dépliant|academy|policy|agrément|premiers pas|travaillez/.test(n))return "Support d’information ou accessoire professionnel.";if(cat==="accessoires")return "Accessoire pratique pour accompagner votre activité.";if(cat==="nutrition")return "Produit de nutrition ou de bien-être à utiliser selon son étiquetage.";return "Produit à découvrir pour votre routine beauté et bien-être."}
 function qyProducts(){const query=(document.getElementById("qy-search")?.value||"").toLowerCase().trim(),category=document.getElementById("qy-category")?.value||"";const filtered=qyItems.filter(x=>x.type==="produit"&&(!category||qyCategory(x)===category)&&(!query||x.name.toLowerCase().includes(query)||x.ref.includes(query)));document.getElementById("qy-results").textContent=filtered.length+" produits";document.getElementById("qy-aloe").innerHTML=filtered.map(x=>'<article class="qy-item" data-ref="'+x.ref+'"><div class="qy-art qy-product-photo"></div><div class="qy-product-info"><h3>'+x.name+'</h3><small>Réf. '+x.ref+'</small><p class="qy-product-desc">'+qyDescription(x)+'</p><strong>'+qyEuro(x.price)+'</strong><button data-product="'+x.id+'" onclick="qyAdd(this.dataset.product)">🛒 Ajouter au panier</button></div></article>').join("")||"<p>Aucun produit trouvé.</p>";qyLoadPhotos()}
 function qyAdd(id){qyCart[id]=(qyCart[id]||0)+1;qySave();qyOpen()}function qySave(){localStorage.setItem("qy-cart",JSON.stringify(qyCart));qyUpdate()}
