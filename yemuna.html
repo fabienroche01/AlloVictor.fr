@@ -144,6 +144,16 @@ function qyCataloguePhotos(){
     const blob=await zip.file(choices[0]).async("blob");
     photos.set(m[1],URL.createObjectURL(blob));
    }
+   const photoreal=await fetch("queen_yemuna_18_visuels_photorealistes.zip");
+   if(photoreal.ok){
+    const gallery=await JSZip.loadAsync(await photoreal.arrayBuffer());
+    for(const [filename,entry] of Object.entries(gallery.files)){
+     const match=filename.match(/(?:^|\\/)ref_(\\d+[A-Za-z]?)\\.webp$/i);
+     if(!match||entry.dir)continue;
+     const blob=await entry.async("blob");
+     photos.set(match[1],URL.createObjectURL(blob));
+    }
+   }
    return photos;
   }catch(e){console.warn("Photos catalogue indisponibles",e);return new Map()}
  })();
