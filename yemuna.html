@@ -148,7 +148,7 @@ function qyCataloguePhotos(){
    if(photoreal.ok){
     const gallery=await JSZip.loadAsync(await photoreal.arrayBuffer());
     for(const [filename,entry] of Object.entries(gallery.files)){
-     const match=filename.match(/(?:^|\\/)ref_(\\d+[A-Za-z]?)\\.webp$/i);
+     const match=filename.match(new RegExp("ref_([0-9]+[A-Za-z]?)"+"[.]webp$","i"));
      if(!match||entry.dir)continue;
      const blob=await entry.async("blob");
      photos.set(match[1],URL.createObjectURL(blob));
