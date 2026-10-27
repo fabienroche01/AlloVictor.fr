@@ -143,45 +143,20 @@ function qyVisualCategory(x){
  if(/cadeau|boîte|sac|pochette|tote|ruban|papier|échantillon|echantillon/.test(n))return "coffrets";
  return "complements";
 }
-const qyPhotoFallback={boissons:"715",complements:"48",visage:"61",corps:"238",ruche:"207",poids:"376",energie:"72",immunite:"48",articulations:"26",digestion:"65",dentaire:"61",cheveux:"238",mains_pieds:"61",hygiene:"61",specifiques:"61",maquillage:"61",regard:"61",onglerie:"61",minceur:"376",coffrets:"734"};
-let qyPhotoPromise;
-function qyLoadPhotos(){qyApplyVisuals();}
-async function qyGetVisuals(){
- if(qyPhotoPromise)return qyPhotoPromise;
- qyPhotoPromise=(async()=>{
-  try{
-   if(!window.JSZip)await new Promise((ok,fail)=>{const s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js";s.onload=ok;s.onerror=fail;document.head.appendChild(s)});
-   const images=new Map();
-   for(const [archive,prefix] of [["queen_yemuna_18_visuels_photorealistes.zip","ref_"],["queen_yemuna_20_visuels_categories.zip","categorie_"]]){
-    try{
-     const response=await fetch(archive);if(!response.ok)continue;
-     const zip=await JSZip.loadAsync(await response.arrayBuffer());
-     for(const [filename,file] of Object.entries(zip.files)){
-      if(file.dir)continue;
-      const match=filename.match(new RegExp("(?:^|/)"+prefix+"([^/]+)[.]webp$","i"));
-      if(!match)continue;
-      images.set(prefix+match[1],URL.createObjectURL(await file.async("blob")));
-     }
-    }catch(e){console.warn("Archive photo indisponible",archive,e)}
-   }
-   return images;
-  }catch(e){console.warn("Visuels indisponibles",e);return new Map()}
- })();
- return qyPhotoPromise;
-}
-async function qyApplyVisuals(){
- const images=await qyGetVisuals();
- for(const card of document.querySelectorAll("#qy-aloe .qy-item[data-ref]")){
-  const x=qyItems.find(p=>String(p.ref)===card.dataset.ref);if(!x)continue;
-  const category=qyVisualCategory(x);
-  const url=images.get("ref_"+x.ref)||images.get("categorie_"+category)||images.get("categorie_complements");
-  const art=card.querySelector(".qy-art");if(!art)continue;
-  if(!url){art.innerHTML="";art.textContent="Visuel à venir";continue;}
-  if(art.querySelector("img")?.src===url)continue;
-  art.innerHTML="";
-  const img=document.createElement("img");img.src=url;img.loading="lazy";img.alt="Visuel d’ambiance "+category.replaceAll("_"," ");
-  img.style.cssText="width:100%;height:100%;display:block;object-fit:cover";
-  art.appendChild(img);
+// Correspondances examinées visuellement ; aucune attribution automatique depuis les ZIP.
+const qyVerifiedPhotos={"10651":"assets/yemuna/products/10651.webp","1318":"assets/yemuna/products/1318.webp","205":"assets/yemuna/products/205.webp","206":"assets/yemuna/products/206.webp","207":"assets/yemuna/products/207.webp","215":"assets/yemuna/products/215.webp","22":"assets/yemuna/products/22.webp","238":"assets/yemuna/products/238.webp","26":"assets/yemuna/products/26.webp","264":"assets/yemuna/products/264.webp","27":"assets/yemuna/products/27.webp","28":"assets/yemuna/products/28.webp","284":"assets/yemuna/products/284.webp","289":"assets/yemuna/products/289.webp","354":"assets/yemuna/products/354.webp","355":"assets/yemuna/products/355.webp","36":"assets/yemuna/products/36.webp","374":"assets/yemuna/products/374.webp","376":"assets/yemuna/products/376.webp","40":"assets/yemuna/products/40.webp","463":"assets/yemuna/products/463.webp","48":"assets/yemuna/products/48.webp","51":"assets/yemuna/products/51.webp","520":"assets/yemuna/products/520.webp","551":"assets/yemuna/products/551.webp","554":"assets/yemuna/products/554.webp","555":"assets/yemuna/products/555.webp","556":"assets/yemuna/products/556.webp","558":"assets/yemuna/products/558.webp","559":"assets/yemuna/products/559.webp","564":"assets/yemuna/products/564.webp","566":"assets/yemuna/products/566.webp","61":"assets/yemuna/products/61.webp","612":"assets/yemuna/products/612.webp","618":"assets/yemuna/products/618.webp","622":"assets/yemuna/products/622.webp","624":"assets/yemuna/products/624.webp","63":"assets/yemuna/products/63.webp","633":"assets/yemuna/products/633.webp","640":"assets/yemuna/products/640.webp","641":"assets/yemuna/products/641.webp","642":"assets/yemuna/products/642.webp","643":"assets/yemuna/products/643.webp","644":"assets/yemuna/products/644.webp","645":"assets/yemuna/products/645.webp","646":"assets/yemuna/products/646.webp","647":"assets/yemuna/products/647.webp","65":"assets/yemuna/products/65.webp","650":"assets/yemuna/products/650.webp","651":"assets/yemuna/products/651.webp","652":"assets/yemuna/products/652.webp","653":"assets/yemuna/products/653.webp","656":"assets/yemuna/products/656.webp","664":"assets/yemuna/products/664.webp","665":"assets/yemuna/products/665.webp","667":"assets/yemuna/products/667.webp","668":"assets/yemuna/products/668.webp","669":"assets/yemuna/products/669.webp","67":"assets/yemuna/products/67.webp","672":"assets/yemuna/products/672.webp","677":"assets/yemuna/products/677.webp","68":"assets/yemuna/products/68.webp","70":"assets/yemuna/products/70.webp","72":"assets/yemuna/products/72.webp","821":"assets/yemuna/products/821.webp","8234":"assets/yemuna/products/8234.webp","836":"assets/yemuna/products/836.webp","877":"assets/yemuna/products/877.webp"};
+function qyLoadPhotos(){
+ for(const card of document.querySelectorAll('#qy-aloe .qy-item[data-ref]')){
+  const art=card.querySelector('.qy-art');if(!art)continue;
+  art.replaceChildren();
+  const product=qyItems.find(x=>x.ref===card.dataset.ref);
+  const unavailable=()=>{art.replaceChildren();const note=document.createElement('span');note.className='qy-photo-unavailable';note.textContent='Photographie à venir';art.appendChild(note)};
+  const src=qyVerifiedPhotos[card.dataset.ref];if(!src){unavailable();continue}
+  const img=document.createElement('img');img.className='qy-catalogue-photo';
+  img.alt=(product?product.name:'Produit')+' — réf. '+card.dataset.ref;
+  img.width=360;img.height=360;img.loading='lazy';img.decoding='async';
+  img.style.cssText='width:100%;height:100%;object-fit:contain;display:block';
+  img.addEventListener('error',unavailable,{once:true});img.src=src;art.appendChild(img);
  }
 }
 function qyDescription(x){const n=x.name.toLowerCase(),cat=qyCategory(x);if(/miel|bee honey/.test(n))return "Miel à déguster au petit-déjeuner ou dans vos recettes.";if(/infusion|tea/.test(n))return "Infusion aromatique pour une pause chaleureuse et relaxante.";if(/aloe vera gel|aloe berry|aloe pêche|aloe mango|aloe peaches|aloe vera 330|aloe pêche 330/.test(n))return "Boisson à l’aloe vera, à savourer dans votre routine quotidienne.";if(/shampoing/.test(n))return "Nettoie délicatement les cheveux et le cuir chevelu.";if(/après-shampoing|conditioner/.test(n))return "Aide à démêler et à adoucir les longueurs.";if(/huile capillaire/.test(n))return "Nourrit les cheveux et apporte de la brillance.";if(/dentifrice|toothgel/.test(n))return "Nettoie les dents et accompagne l’hygiène bucco-dentaire.";if(/savon|liquid soap|body wash/.test(n))return "Nettoie la peau au quotidien tout en douceur.";if(/lèvres/.test(n))return "Baume pour adoucir et protéger les lèvres.";if(/déodorant/.test(n))return "Soin d’hygiène pour une sensation de fraîcheur.";if(/parfum|alofa|malosi/.test(n))return "Fragrance pour accompagner votre quotidien.";if(/scrub|exfoliant|gommage/.test(n))return "Exfolie la peau pour la laisser douce au toucher.";if(/masque/.test(n))return "Soin à intégrer à votre rituel beauté du visage.";if(/sérum/.test(n))return "Soin concentré à appliquer dans votre routine visage.";if(/crème|lotion|gelée|gel hydratant|gel nettoyant|soin hydratant|activateur/.test(n))return "Soin cosmétique pour compléter votre routine de peau.";if(/fit 15|f15|c9|dx4|vital 5|programme|pack v3/.test(n))return "Programme bien-être composé de plusieurs produits.";if(/lite|protein/.test(n))return "Préparation nutritionnelle à intégrer selon son mode d’emploi.";if(/vitamin|calcium|daily|immune|focus|therm|arctic|collagen|lycium|nutra|absorbent|fiber|move|pro-b|argin|argi|maca|ail et thym|bee pollen|royal jelly|propolis|fields of greens|lean|sensatiable|iVision|active ha|immun|vitolize/.test(n))return "Complément alimentaire : respecter les conseils d’utilisation et précautions de l’étiquette.";if(/échantillon|echantillon/.test(n))return "Format découverte pour essayer ou faire découvrir le produit.";if(/sac|boîte cadeau|ruban|papier cadeau|tote bag|pochette/.test(n))return "Accessoire pratique pour présenter ou offrir vos produits.";if(/carnet|catalogue|brochure|carte|dépliant|academy|policy|agrément|premiers pas|travaillez/.test(n))return "Support d’information ou accessoire professionnel.";if(cat==="accessoires")return "Accessoire pratique pour accompagner votre activité.";if(cat==="nutrition")return "Produit de nutrition ou de bien-être à utiliser selon son étiquetage.";return "Produit à découvrir pour votre routine beauté et bien-être."}
