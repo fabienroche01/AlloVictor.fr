@@ -1,0 +1,944 @@
+{
+  "207": {
+    "src": "assets/queen-yemuna/ref-207.webp",
+    "kind": "illustration",
+    "name": "Miel - Bee Honey",
+    "source": "queen_yemuna_18_visuels_photorealistes.zip#ref_207.webp (preserved existing visual)"
+  },
+  "48": {
+    "src": "assets/queen-yemuna/ref-48.webp",
+    "kind": "catalogue",
+    "name": "Absorbent-C",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_48.png"
+  },
+  "200": {
+    "src": "assets/queen-yemuna/ref-200.webp",
+    "kind": "illustration",
+    "name": "Infusion Fleur d'Aloès",
+    "source": "image_gen; illustrative packaging"
+  },
+  "72": {
+    "src": "assets/queen-yemuna/ref-72.webp",
+    "kind": "catalogue",
+    "name": "Lycium Plus",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_72.png"
+  },
+  "27": {
+    "src": "assets/queen-yemuna/ref-27.webp",
+    "kind": "catalogue",
+    "name": "Bee Propolis",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_27.png"
+  },
+  "473": {
+    "src": "assets/queen-yemuna/ref-473.webp",
+    "kind": "illustration",
+    "name": "ARGI+",
+    "source": "image_gen; illustrative packaging"
+  },
+  "641": {
+    "src": "assets/queen-yemuna/ref-641.webp",
+    "kind": "catalogue",
+    "name": "Après-Shampoing Aloe-Jojoba",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_641.png"
+  },
+  "28": {
+    "src": "assets/queen-yemuna/ref-28.webp",
+    "kind": "catalogue",
+    "name": "Bright Toothgel",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_28.png"
+  },
+  "61": {
+    "src": "assets/queen-yemuna/ref-61.webp",
+    "kind": "catalogue",
+    "name": "Gelée Aloès",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_61.png"
+  },
+  "238": {
+    "src": "assets/queen-yemuna/ref-238.webp",
+    "kind": "catalogue",
+    "name": "Aloe Scrub",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_238.png"
+  },
+  "63": {
+    "src": "assets/queen-yemuna/ref-63.webp",
+    "kind": "catalogue",
+    "name": "Crème Visage et Corps Aloès",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_63.png"
+  },
+  "22": {
+    "src": "assets/queen-yemuna/ref-22.webp",
+    "kind": "catalogue",
+    "name": "Aloe Lèvres",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_22.png"
+  },
+  "470": {
+    "src": "assets/queen-yemuna/ref-470.webp",
+    "kind": "illustration",
+    "name": "Lite Ultra Vanille",
+    "source": "image_gen; illustrative packaging"
+  },
+  "355": {
+    "src": "assets/queen-yemuna/ref-355.webp",
+    "kind": "catalogue",
+    "name": "ImmuBlend",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_355.png"
+  },
+  "206": {
+    "src": "assets/queen-yemuna/ref-206.webp",
+    "kind": "catalogue",
+    "name": "Calcium",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_206.png"
+  },
+  "374": {
+    "src": "assets/queen-yemuna/ref-374.webp",
+    "kind": "catalogue",
+    "name": "Vitolize Hommes",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_374.png"
+  },
+  "439": {
+    "src": "assets/queen-yemuna/ref-439.webp",
+    "kind": "illustration",
+    "name": "Daily",
+    "source": "image_gen; illustrative packaging"
+  },
+  "11130": {
+    "src": "assets/queen-yemuna/ref-11130.webp",
+    "kind": "illustration",
+    "name": "Carnet de commande",
+    "source": "image_gen; illustrative packaging"
+  },
+  "13130": {
+    "src": "assets/queen-yemuna/ref-13130.webp",
+    "kind": "illustration",
+    "name": "Carte d'Invitation x100",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10161": {
+    "src": "assets/queen-yemuna/ref-10161.webp",
+    "kind": "illustration",
+    "name": "Flacon Spray",
+    "source": "image_gen; illustrative packaging"
+  },
+  "463": {
+    "src": "assets/queen-yemuna/ref-463.webp",
+    "kind": "catalogue",
+    "name": "Therm",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_463.png"
+  },
+  "12315": {
+    "src": "assets/queen-yemuna/ref-12315.webp",
+    "kind": "illustration",
+    "name": "Brochure Business 28 pages",
+    "source": "image_gen; illustrative packaging"
+  },
+  "471": {
+    "src": "assets/queen-yemuna/ref-471.webp",
+    "kind": "illustration",
+    "name": "Lite Ultra Chocolat",
+    "source": "image_gen; illustrative packaging"
+  },
+  "553": {
+    "src": "assets/queen-yemuna/ref-553.webp",
+    "kind": "illustration",
+    "name": "Coffret Infinite by",
+    "source": "image_gen; illustrative packaging"
+  },
+  "551": {
+    "src": "assets/queen-yemuna/ref-551.webp",
+    "kind": "catalogue",
+    "name": "Move",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_551.png"
+  },
+  "555": {
+    "src": "assets/queen-yemuna/ref-555.webp",
+    "kind": "catalogue",
+    "name": "Sérum Raffermissant",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_555.png"
+  },
+  "16021": {
+    "src": "assets/queen-yemuna/ref-16021.webp",
+    "kind": "illustration",
+    "name": "Ruban de Noël Rouge et Blanc - 18 mètres",
+    "source": "image_gen; illustrative packaging"
+  },
+  "16024": {
+    "src": "assets/queen-yemuna/ref-16024.webp",
+    "kind": "illustration",
+    "name": "Papier Cadeau",
+    "source": "image_gen; illustrative packaging"
+  },
+  "561": {
+    "src": "assets/queen-yemuna/ref-561.webp",
+    "kind": "illustration",
+    "name": "Crème Contour des Yeux",
+    "source": "image_gen; illustrative packaging"
+  },
+  "612": {
+    "src": "assets/queen-yemuna/ref-612.webp",
+    "kind": "catalogue",
+    "name": "Activateur Aloès",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_612.png"
+  },
+  "610": {
+    "src": "assets/queen-yemuna/ref-610.webp",
+    "kind": "illustration",
+    "name": "Active Pro-B",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10384": {
+    "src": "assets/queen-yemuna/ref-10384.webp",
+    "kind": "illustration",
+    "name": "Petits Sacs x5",
+    "source": "image_gen; illustrative packaging"
+  },
+  "71633": {
+    "src": "assets/queen-yemuna/ref-71633.webp",
+    "kind": "illustration",
+    "name": "Mini Aloe - ARGI +",
+    "source": "image_gen; illustrative packaging"
+  },
+  "73512": {
+    "src": "assets/queen-yemuna/ref-73512.webp",
+    "kind": "illustration",
+    "name": "Aloe Berry Nectar 330 ml x 12",
+    "source": "image_gen; illustrative packaging"
+  },
+  "622": {
+    "src": "assets/queen-yemuna/ref-622.webp",
+    "kind": "catalogue",
+    "name": "Focus",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_622.png"
+  },
+  "950": {
+    "src": "assets/queen-yemuna/ref-950.webp",
+    "kind": "illustration",
+    "name": "Pack V3 Bien-Être",
+    "source": "image_gen; illustrative packaging"
+  },
+  "633": {
+    "src": "assets/queen-yemuna/ref-633.webp",
+    "kind": "catalogue",
+    "name": "Aloe Liquid Soap",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_633.png"
+  },
+  "10612": {
+    "src": "assets/queen-yemuna/ref-10612.webp",
+    "kind": "illustration",
+    "name": "Echantillons x 10 - Gelée d'Aloès",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10615": {
+    "src": "assets/queen-yemuna/ref-10615.webp",
+    "kind": "illustration",
+    "name": "Echantillons x 10 Shampoing Aloe Jojoba",
+    "source": "image_gen; illustrative packaging"
+  },
+  "647": {
+    "src": "assets/queen-yemuna/ref-647.webp",
+    "kind": "catalogue",
+    "name": "Aloe Body Lotion",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_647.png"
+  },
+  "613": {
+    "src": "assets/queen-yemuna/ref-613.webp",
+    "kind": "illustration",
+    "name": "Marine Collagen",
+    "source": "image_gen; illustrative packaging"
+  },
+  "659": {
+    "src": "assets/queen-yemuna/ref-659.webp",
+    "kind": "illustration",
+    "name": "Programme Équilibre et Bien-Être DX4",
+    "source": "image_gen; illustrative packaging"
+  },
+  "19125": {
+    "src": "assets/queen-yemuna/ref-19125.webp",
+    "kind": "illustration",
+    "name": "Sac Kraft x1",
+    "source": "image_gen; illustrative packaging"
+  },
+  "457": {
+    "src": "assets/queen-yemuna/ref-457.webp",
+    "kind": "illustration",
+    "name": "Vital 5 Berry Nectar",
+    "source": "image_gen; illustrative packaging"
+  },
+  "529": {
+    "src": "assets/queen-yemuna/ref-529.webp",
+    "kind": "illustration",
+    "name": "FIT 15 Débutant Chocolat",
+    "source": "image_gen; illustrative packaging"
+  },
+  "533": {
+    "src": "assets/queen-yemuna/ref-533.webp",
+    "kind": "illustration",
+    "name": "FIT 15 Intermédiaire Chocolat",
+    "source": "image_gen; illustrative packaging"
+  },
+  "537": {
+    "src": "assets/queen-yemuna/ref-537.webp",
+    "kind": "illustration",
+    "name": "FIT 15 Avancé Chocolat",
+    "source": "image_gen; illustrative packaging"
+  },
+  "625": {
+    "src": "assets/queen-yemuna/ref-625.webp",
+    "kind": "illustration",
+    "name": "Programme C9 Berry Vanille",
+    "source": "image_gen; illustrative packaging"
+  },
+  "629": {
+    "src": "assets/queen-yemuna/ref-629.webp",
+    "kind": "illustration",
+    "name": "Programme C9 Pêche Vanille",
+    "source": "image_gen; illustrative packaging"
+  },
+  "475": {
+    "src": "assets/queen-yemuna/ref-475.webp",
+    "kind": "illustration",
+    "name": "Programme C9 Vanille",
+    "source": "image_gen; illustrative packaging"
+  },
+  "564": {
+    "src": "assets/queen-yemuna/ref-564.webp",
+    "kind": "catalogue",
+    "name": "Cooling Lotion",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_564.png"
+  },
+  "312": {
+    "src": "assets/queen-yemuna/ref-312.webp",
+    "kind": "illustration",
+    "name": "Nutra Q10",
+    "source": "image_gen; illustrative packaging"
+  },
+  "645": {
+    "src": "assets/queen-yemuna/ref-645.webp",
+    "kind": "catalogue",
+    "name": "Protecting Day Lotion SPF 20",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_645.png"
+  },
+  "651": {
+    "src": "assets/queen-yemuna/ref-651.webp",
+    "kind": "catalogue",
+    "name": "Soin Hydratant Intense",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_651.png"
+  },
+  "644": {
+    "src": "assets/queen-yemuna/ref-644.webp",
+    "kind": "catalogue",
+    "name": "Malosi - Parfum pour lui",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_644.png"
+  },
+  "15100": {
+    "src": "assets/queen-yemuna/ref-15100.webp",
+    "kind": "illustration",
+    "name": "Academy",
+    "source": "image_gen; illustrative packaging"
+  },
+  "2150": {
+    "src": "assets/queen-yemuna/ref-2150.webp",
+    "kind": "illustration",
+    "name": "Verre doseur",
+    "source": "image_gen; illustrative packaging"
+  },
+  "815": {
+    "src": "assets/queen-yemuna/ref-815.webp",
+    "kind": "illustration",
+    "name": "Aloe Vera Gel",
+    "source": "image_gen; illustrative packaging"
+  },
+  "877": {
+    "src": "assets/queen-yemuna/ref-877.webp",
+    "kind": "catalogue",
+    "name": "Aloe Pêche",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_877.png"
+  },
+  "821": {
+    "src": "assets/queen-yemuna/ref-821.webp",
+    "kind": "catalogue",
+    "name": "FAB Active Boost",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_821.png"
+  },
+  "8234": {
+    "src": "assets/queen-yemuna/ref-8234.webp",
+    "kind": "catalogue",
+    "name": "4-Pack Mix",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_8234.png"
+  },
+  "653": {
+    "src": "assets/queen-yemuna/ref-653.webp",
+    "kind": "catalogue",
+    "name": "Sérum Régénérant",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_653.png"
+  },
+  "67610": {
+    "src": "assets/queen-yemuna/ref-67610.webp",
+    "kind": "illustration",
+    "name": "AloeTurm - pack de 10",
+    "source": "image_gen; illustrative packaging"
+  },
+  "85060": {
+    "src": "assets/queen-yemuna/ref-85060.webp",
+    "kind": "illustration",
+    "name": "E-carte cadeau",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10617": {
+    "src": "assets/queen-yemuna/ref-10617.webp",
+    "kind": "illustration",
+    "name": "Echantillons x 10 Aloe Liquid Soap",
+    "source": "image_gen; illustrative packaging"
+  },
+  "19015": {
+    "src": "assets/queen-yemuna/ref-19015.webp",
+    "kind": "illustration",
+    "name": "Tote Bag 1 - Aloe You",
+    "source": "image_gen; illustrative packaging"
+  },
+  "1047672": {
+    "src": "assets/queen-yemuna/ref-1047672.webp",
+    "kind": "illustration",
+    "name": "Boîte cadeau n°2",
+    "source": "image_gen; illustrative packaging"
+  },
+  "14950": {
+    "src": "assets/queen-yemuna/ref-14950.webp",
+    "kind": "illustration",
+    "name": "Carnet de Voyage",
+    "source": "image_gen; illustrative packaging"
+  },
+  "12350": {
+    "src": "assets/queen-yemuna/ref-12350.webp",
+    "kind": "illustration",
+    "name": "Travaillez en toute liberté, vivez selon vos choix",
+    "source": "image_gen; illustrative packaging"
+  },
+  "8154": {
+    "src": "assets/queen-yemuna/ref-8154.webp",
+    "kind": "illustration",
+    "name": "4-Pack Aloe Vera Gel",
+    "source": "image_gen; illustrative packaging"
+  },
+  "8364": {
+    "src": "assets/queen-yemuna/ref-8364.webp",
+    "kind": "illustration",
+    "name": "4-Pack Aloe Mango",
+    "source": "image_gen; illustrative packaging"
+  },
+  "650": {
+    "src": "assets/queen-yemuna/ref-650.webp",
+    "kind": "catalogue",
+    "name": "Crème Régénératrice (ex R3 Factor)",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_650.png"
+  },
+  "667": {
+    "src": "assets/queen-yemuna/ref-667.webp",
+    "kind": "catalogue",
+    "name": "Gel Nettoyant",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_667.png"
+  },
+  "669": {
+    "src": "assets/queen-yemuna/ref-669.webp",
+    "kind": "catalogue",
+    "name": "Gel Hydratant",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_669.png"
+  },
+  "677": {
+    "src": "assets/queen-yemuna/ref-677.webp",
+    "kind": "catalogue",
+    "name": "Masque-Gel de Nuit",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_677.png"
+  },
+  "697": {
+    "src": "assets/queen-yemuna/ref-697.webp",
+    "kind": "illustration",
+    "name": "Retail Pack",
+    "source": "image_gen; illustrative packaging"
+  },
+  "687": {
+    "src": "assets/queen-yemuna/ref-687.webp",
+    "kind": "illustration",
+    "name": "Bakuchiol",
+    "source": "image_gen; illustrative packaging"
+  },
+  "896": {
+    "src": "assets/queen-yemuna/ref-896.webp",
+    "kind": "illustration",
+    "name": "Freedom",
+    "source": "image_gen; illustrative packaging"
+  },
+  "6131": {
+    "src": "assets/queen-yemuna/ref-6131.webp",
+    "kind": "illustration",
+    "name": "Marine Collagen",
+    "source": "image_gen; illustrative packaging"
+  },
+  "68": {
+    "src": "assets/queen-yemuna/ref-68.webp",
+    "kind": "catalogue",
+    "name": "Fields of Greens",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_68.png"
+  },
+  "65": {
+    "src": "assets/queen-yemuna/ref-65.webp",
+    "kind": "catalogue",
+    "name": "Ail et Thym",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_65.png"
+  },
+  "264": {
+    "src": "assets/queen-yemuna/ref-264.webp",
+    "kind": "catalogue",
+    "name": "Active HA",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_264.png"
+  },
+  "36": {
+    "src": "assets/queen-yemuna/ref-36.webp",
+    "kind": "catalogue",
+    "name": "Royal Jelly",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_36.png"
+  },
+  "26": {
+    "src": "assets/queen-yemuna/ref-26.webp",
+    "kind": "catalogue",
+    "name": "Bee Pollen",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_26.png"
+  },
+  "640": {
+    "src": "assets/queen-yemuna/ref-640.webp",
+    "kind": "catalogue",
+    "name": "Shampoing Aloe-Jojoba",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_640.png"
+  },
+  "67": {
+    "src": "assets/queen-yemuna/ref-67.webp",
+    "kind": "catalogue",
+    "name": "Stick Déodorant Aloès",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_67.png"
+  },
+  "40": {
+    "src": "assets/queen-yemuna/ref-40.webp",
+    "kind": "catalogue",
+    "name": "Aloe First",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_40.png"
+  },
+  "51": {
+    "src": "assets/queen-yemuna/ref-51.webp",
+    "kind": "catalogue",
+    "name": "Aloe Propolis Crème",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_51.png"
+  },
+  "284": {
+    "src": "assets/queen-yemuna/ref-284.webp",
+    "kind": "catalogue",
+    "name": "Savon Corps et Visage à l'Aloe et à l'Avocat",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_284.png"
+  },
+  "70": {
+    "src": "assets/queen-yemuna/ref-70.webp",
+    "kind": "catalogue",
+    "name": "Gentleman's Pride",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_70.png"
+  },
+  "289": {
+    "src": "assets/queen-yemuna/ref-289.webp",
+    "kind": "catalogue",
+    "name": "Lean",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_289.png"
+  },
+  "205": {
+    "src": "assets/queen-yemuna/ref-205.webp",
+    "kind": "catalogue",
+    "name": "Aloe MSM Gel",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_205.png"
+  },
+  "376": {
+    "src": "assets/queen-yemuna/ref-376.webp",
+    "kind": "catalogue",
+    "name": "Arctic Sea",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_376.png"
+  },
+  "354": {
+    "src": "assets/queen-yemuna/ref-354.webp",
+    "kind": "catalogue",
+    "name": "Kids",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_354.png"
+  },
+  "215": {
+    "src": "assets/queen-yemuna/ref-215.webp",
+    "kind": "catalogue",
+    "name": "Multi-Maca",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_215.png"
+  },
+  "11101": {
+    "src": "assets/queen-yemuna/ref-11101.webp",
+    "kind": "illustration",
+    "name": "Agréments de Distribution (x5)",
+    "source": "image_gen; illustrative packaging"
+  },
+  "13123": {
+    "src": "assets/queen-yemuna/ref-13123.webp",
+    "kind": "illustration",
+    "name": "Company Policy",
+    "source": "image_gen; illustrative packaging"
+  },
+  "19117": {
+    "src": "assets/queen-yemuna/ref-19117.webp",
+    "kind": "illustration",
+    "name": "Sac Shopping",
+    "source": "image_gen; illustrative packaging"
+  },
+  "19800": {
+    "src": "assets/queen-yemuna/ref-19800.webp",
+    "kind": "illustration",
+    "name": "Pochettes",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10670": {
+    "src": "assets/queen-yemuna/ref-10670.webp",
+    "kind": "illustration",
+    "name": "FLPMobil - 12 mois",
+    "source": "image_gen; illustrative packaging"
+  },
+  "13233": {
+    "src": "assets/queen-yemuna/ref-13233.webp",
+    "kind": "illustration",
+    "name": "Dépliant Business - Devenez Entrepreneur x10",
+    "source": "image_gen; illustrative packaging"
+  },
+  "6438": {
+    "src": "assets/queen-yemuna/ref-6438.webp",
+    "kind": "illustration",
+    "name": "Grands sacs blancs x5",
+    "source": "image_gen; illustrative packaging"
+  },
+  "556": {
+    "src": "assets/queen-yemuna/ref-556.webp",
+    "kind": "catalogue",
+    "name": "Complexe Raffermissant",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_556.png"
+  },
+  "520": {
+    "src": "assets/queen-yemuna/ref-520.webp",
+    "kind": "catalogue",
+    "name": "Fast Break",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_520.png"
+  },
+  "558": {
+    "src": "assets/queen-yemuna/ref-558.webp",
+    "kind": "catalogue",
+    "name": "Crème Réparatrice",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_558.png"
+  },
+  "16023": {
+    "src": "assets/queen-yemuna/ref-16023.webp",
+    "kind": "illustration",
+    "name": "Papier de Soie Rouge et Doré - 25 feuilles",
+    "source": "image_gen; illustrative packaging"
+  },
+  "554": {
+    "src": "assets/queen-yemuna/ref-554.webp",
+    "kind": "catalogue",
+    "name": "Démaquillant Hydratant Infinite",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_554.png"
+  },
+  "559": {
+    "src": "assets/queen-yemuna/ref-559.webp",
+    "kind": "catalogue",
+    "name": "Soin Exfoliant - Les Soins Spécifiques",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_559.png"
+  },
+  "71612": {
+    "src": "assets/queen-yemuna/ref-71612.webp",
+    "kind": "illustration",
+    "name": "Aloe vera 330 ml x 12",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10383": {
+    "src": "assets/queen-yemuna/ref-10383.webp",
+    "kind": "illustration",
+    "name": "Grands sacs x5",
+    "source": "image_gen; illustrative packaging"
+  },
+  "77812": {
+    "src": "assets/queen-yemuna/ref-77812.webp",
+    "kind": "illustration",
+    "name": "Aloe Pêche 330 ml x 12",
+    "source": "image_gen; illustrative packaging"
+  },
+  "624": {
+    "src": "assets/queen-yemuna/ref-624.webp",
+    "kind": "catalogue",
+    "name": "iVision",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_624.png"
+  },
+  "618": {
+    "src": "assets/queen-yemuna/ref-618.webp",
+    "kind": "catalogue",
+    "name": "Sérum Hydratant",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_618.png"
+  },
+  "955": {
+    "src": "assets/queen-yemuna/ref-955.webp",
+    "kind": "illustration",
+    "name": "Pack V3 Vitalité",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10611": {
+    "src": "assets/queen-yemuna/ref-10611.webp",
+    "kind": "illustration",
+    "name": "Echantillons x10 Bright",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10614": {
+    "src": "assets/queen-yemuna/ref-10614.webp",
+    "kind": "illustration",
+    "name": "Echantillons x 10 Crème Propolis",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10620": {
+    "src": "assets/queen-yemuna/ref-10620.webp",
+    "kind": "illustration",
+    "name": "Echantillons x 90 - Mix pack",
+    "source": "image_gen; illustrative packaging"
+  },
+  "646": {
+    "src": "assets/queen-yemuna/ref-646.webp",
+    "kind": "catalogue",
+    "name": "Aloe Body Wash",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_646.png"
+  },
+  "1318": {
+    "src": "assets/queen-yemuna/ref-1318.webp",
+    "kind": "catalogue",
+    "name": "Hand Sanitizer - unité",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_1318.png"
+  },
+  "656": {
+    "src": "assets/queen-yemuna/ref-656.webp",
+    "kind": "catalogue",
+    "name": "Plant Protein",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_656.png"
+  },
+  "456": {
+    "src": "assets/queen-yemuna/ref-456.webp",
+    "kind": "illustration",
+    "name": "Vital 5 Aloe Vera Gel",
+    "source": "image_gen; illustrative packaging"
+  },
+  "528": {
+    "src": "assets/queen-yemuna/ref-528.webp",
+    "kind": "illustration",
+    "name": "F15 Débutant Vanille",
+    "source": "image_gen; illustrative packaging"
+  },
+  "532": {
+    "src": "assets/queen-yemuna/ref-532.webp",
+    "kind": "illustration",
+    "name": "FIT 15 Intermédiaire Vanille",
+    "source": "image_gen; illustrative packaging"
+  },
+  "536": {
+    "src": "assets/queen-yemuna/ref-536.webp",
+    "kind": "illustration",
+    "name": "FIT 15 Avancé Vanille",
+    "source": "image_gen; illustrative packaging"
+  },
+  "664": {
+    "src": "assets/queen-yemuna/ref-664.webp",
+    "kind": "catalogue",
+    "name": "Masque Aloe Bio-Cellulose",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_664.png"
+  },
+  "626": {
+    "src": "assets/queen-yemuna/ref-626.webp",
+    "kind": "illustration",
+    "name": "Programme C9 Berry Chocolat",
+    "source": "image_gen; illustrative packaging"
+  },
+  "630": {
+    "src": "assets/queen-yemuna/ref-630.webp",
+    "kind": "illustration",
+    "name": "Programme C9 Pêche Chocolat",
+    "source": "image_gen; illustrative packaging"
+  },
+  "476": {
+    "src": "assets/queen-yemuna/ref-476.webp",
+    "kind": "illustration",
+    "name": "Programme C9 Chocolat",
+    "source": "image_gen; illustrative packaging"
+  },
+  "19115": {
+    "src": "assets/queen-yemuna/ref-19115.webp",
+    "kind": "illustration",
+    "name": "Vide tube dentifrice",
+    "source": "image_gen; illustrative packaging"
+  },
+  "566": {
+    "src": "assets/queen-yemuna/ref-566.webp",
+    "kind": "catalogue",
+    "name": "Immune Gummy",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_566.png"
+  },
+  "665": {
+    "src": "assets/queen-yemuna/ref-665.webp",
+    "kind": "catalogue",
+    "name": "Sensatiable",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_665.png"
+  },
+  "643": {
+    "src": "assets/queen-yemuna/ref-643.webp",
+    "kind": "catalogue",
+    "name": "Alofa – Parfum pour Elle",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_643.png"
+  },
+  "642": {
+    "src": "assets/queen-yemuna/ref-642.webp",
+    "kind": "catalogue",
+    "name": "Huile Capillaire Nourrissante",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_642.png"
+  },
+  "1060": {
+    "src": "assets/queen-yemuna/ref-1060.webp",
+    "kind": "illustration",
+    "name": "Pack Privilège",
+    "source": "image_gen; illustrative packaging"
+  },
+  "672": {
+    "src": "assets/queen-yemuna/ref-672.webp",
+    "kind": "catalogue",
+    "name": "Absorbent-D",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_672.png"
+  },
+  "834": {
+    "src": "assets/queen-yemuna/ref-834.webp",
+    "kind": "illustration",
+    "name": "Aloe Berry Nectar",
+    "source": "image_gen; illustrative packaging"
+  },
+  "836": {
+    "src": "assets/queen-yemuna/ref-836.webp",
+    "kind": "catalogue",
+    "name": "Aloe Mango",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_836.png"
+  },
+  "822": {
+    "src": "assets/queen-yemuna/ref-822.webp",
+    "kind": "catalogue",
+    "name": "FAB Active Boost X 2026",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_822.png"
+  },
+  "10651": {
+    "src": "assets/queen-yemuna/ref-10651.webp",
+    "kind": "catalogue",
+    "name": "Shaker",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_10651.png"
+  },
+  "676": {
+    "src": "assets/queen-yemuna/ref-676.webp",
+    "kind": "illustration",
+    "name": "AloeTurm",
+    "source": "image_gen; illustrative packaging"
+  },
+  "1070": {
+    "src": "assets/queen-yemuna/ref-1070.webp",
+    "kind": "illustration",
+    "name": "Pack Combo Test",
+    "source": "image_gen; illustrative packaging"
+  },
+  "10616": {
+    "src": "assets/queen-yemuna/ref-10616.webp",
+    "kind": "illustration",
+    "name": "Echantillons x 10 Conditioner",
+    "source": "image_gen; illustrative packaging"
+  },
+  "19010": {
+    "src": "assets/queen-yemuna/ref-19010.webp",
+    "kind": "illustration",
+    "name": "Tote bag Aloe You #1",
+    "source": "image_gen; illustrative packaging"
+  },
+  "1047673": {
+    "src": "assets/queen-yemuna/ref-1047673.webp",
+    "kind": "illustration",
+    "name": "Boîte cadeau n°1",
+    "source": "image_gen; illustrative packaging"
+  },
+  "1047627": {
+    "src": "assets/queen-yemuna/ref-1047627.webp",
+    "kind": "illustration",
+    "name": "Boîte cadeau n°3",
+    "source": "image_gen; illustrative packaging"
+  },
+  "18155": {
+    "src": "assets/queen-yemuna/ref-18155.webp",
+    "kind": "illustration",
+    "name": "Premiers pas vers Manager",
+    "source": "image_gen; illustrative packaging"
+  },
+  "15150": {
+    "src": "assets/queen-yemuna/ref-15150.webp",
+    "kind": "illustration",
+    "name": "Jeton du coeur",
+    "source": "image_gen; illustrative packaging"
+  },
+  "8344": {
+    "src": "assets/queen-yemuna/ref-8344.webp",
+    "kind": "illustration",
+    "name": "4-Pack Aloe Berry Nectar",
+    "source": "image_gen; illustrative packaging"
+  },
+  "8774": {
+    "src": "assets/queen-yemuna/ref-8774.webp",
+    "kind": "illustration",
+    "name": "4-Pack Aloe Peaches",
+    "source": "image_gen; illustrative packaging"
+  },
+  "652": {
+    "src": "assets/queen-yemuna/ref-652.webp",
+    "kind": "catalogue",
+    "name": "Masque Poudre Effet Lifting",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_652.png"
+  },
+  "668": {
+    "src": "assets/queen-yemuna/ref-668.webp",
+    "kind": "catalogue",
+    "name": "Essence Tonifiante",
+    "source": "queen_yemuna_photos_catalogue_supplementaires.zip#ref_668.png"
+  },
+  "673": {
+    "src": "assets/queen-yemuna/ref-673.webp",
+    "kind": "illustration",
+    "name": "Routine 3 temps",
+    "source": "image_gen; illustrative packaging"
+  },
+  "19570": {
+    "src": "assets/queen-yemuna/ref-19570.webp",
+    "kind": "illustration",
+    "name": "Catalogue Produits 2025 - Lot de 10",
+    "source": "image_gen; illustrative packaging"
+  },
+  "686": {
+    "src": "assets/queen-yemuna/ref-686.webp",
+    "kind": "illustration",
+    "name": "Vitamin C",
+    "source": "image_gen; illustrative packaging"
+  },
+  "701": {
+    "src": "assets/queen-yemuna/ref-701.webp",
+    "kind": "illustration",
+    "name": "Duo Expert - Vitamin C & Bakuchiol",
+    "source": "image_gen; illustrative packaging"
+  },
+  "8964": {
+    "src": "assets/queen-yemuna/ref-8964.webp",
+    "kind": "illustration",
+    "name": "4-Pack Freedom",
+    "source": "image_gen; illustrative packaging"
+  },
+  "702": {
+    "src": "assets/queen-yemuna/ref-702.webp",
+    "kind": "illustration",
+    "name": "Fiber Fusion",
+    "source": "image_gen; illustrative packaging"
+  }
+}
