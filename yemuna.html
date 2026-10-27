@@ -173,9 +173,9 @@ async function qyApplyVisuals(){
  for(const card of document.querySelectorAll("#qy-aloe .qy-item[data-ref]")){
   const x=qyItems.find(p=>String(p.ref)===card.dataset.ref);if(!x)continue;
   const category=qyVisualCategory(x);
-  const url=images.get("categorie_"+category)||images.get("categorie_complements")||images.get("ref_"+x.ref)||images.get("ref_"+qyPhotoFallback[category]);
+  const url=images.get("ref_"+x.ref)||images.get("categorie_"+category)||images.get("categorie_complements");
   const art=card.querySelector(".qy-art");if(!art)continue;
-  if(!url){art.textContent=category.replaceAll("_"," ");continue;}
+  if(!url){art.innerHTML="";art.textContent="Visuel à venir";continue;}
   if(art.querySelector("img")?.src===url)continue;
   art.innerHTML="";
   const img=document.createElement("img");img.src=url;img.loading="lazy";img.alt="Visuel d’ambiance "+category.replaceAll("_"," ");
