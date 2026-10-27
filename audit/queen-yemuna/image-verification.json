@@ -9,7 +9,7 @@
       "name": "Shaker",
       "sourceFile": "ref_10651.png",
       "sourceSha256": "9cd9135cd2bc49729a916471395740991c67727c0d268ade2564937294ea5ca3",
-      "image": "assets/yemuna/products/10651.webp",
+      "image": "assets/yemuna/products-clean/10651.webp",
       "width": 80,
       "height": 136,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -19,7 +19,7 @@
       "name": "Hand Sanitizer - unité",
       "sourceFile": "ref_1318.png",
       "sourceSha256": "19bbe14670af46a4fdff100de03692398e77d49a36604a15cdaadcd218081127",
-      "image": "assets/yemuna/products/1318.webp",
+      "image": "assets/yemuna/products-clean/1318.webp",
       "width": 130,
       "height": 255,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -29,7 +29,7 @@
       "name": "Aloe MSM Gel",
       "sourceFile": "ref_205.png",
       "sourceSha256": "e046d75b4a0a4cb76eb84b7f2740c460a376a409ef803d01dae439873b655daf",
-      "image": "assets/yemuna/products/205.webp",
+      "image": "assets/yemuna/products-clean/205.webp",
       "width": 132,
       "height": 269,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -39,7 +39,7 @@
       "name": "Calcium",
       "sourceFile": "ref_206.png",
       "sourceSha256": "70952dcbf3d19b101755477841ecba2305e018a785cd59e26351cfd543cac998",
-      "image": "assets/yemuna/products/206.webp",
+      "image": "assets/yemuna/products-clean/206.webp",
       "width": 246,
       "height": 246,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -49,7 +49,7 @@
       "name": "Miel - Bee Honey",
       "sourceFile": "ref_207.png",
       "sourceSha256": "bd38413305fcffe50fb1c3946b3f97cfa619c6239e55c91ba38510e048161a36",
-      "image": "assets/yemuna/products/207.webp",
+      "image": "assets/yemuna/products-clean/207.webp",
       "width": 181,
       "height": 317,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -59,7 +59,7 @@
       "name": "Multi-Maca",
       "sourceFile": "ref_215.png",
       "sourceSha256": "74d38dee7a74d3cb962d03e1c2ae0aba5810b248a79e335a698890d60209bc76",
-      "image": "assets/yemuna/products/215.webp",
+      "image": "assets/yemuna/products-clean/215.webp",
       "width": 135,
       "height": 208,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -69,7 +69,7 @@
       "name": "Aloe Lèvres",
       "sourceFile": "ref_22.png",
       "sourceSha256": "a8d9c63d813b3027764d04e7404e17f8470b0e91bfe3879be5a1498d47a7c541",
-      "image": "assets/yemuna/products/22.webp",
+      "image": "assets/yemuna/products-clean/22.webp",
       "width": 276,
       "height": 144,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -79,7 +79,7 @@
       "name": "Aloe Scrub",
       "sourceFile": "ref_238.png",
       "sourceSha256": "789c245d5cc013c22a295fd4acb0ba3f03a062f200caa35585383722add53b1c",
-      "image": "assets/yemuna/products/238.webp",
+      "image": "assets/yemuna/products-clean/238.webp",
       "width": 111,
       "height": 209,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -89,7 +89,7 @@
       "name": "Bee Pollen",
       "sourceFile": "ref_26.png",
       "sourceSha256": "770c09958ca968f1da1d527f0d345e22c7839117d819fa6e286d2f97465d931f",
-      "image": "assets/yemuna/products/26.webp",
+      "image": "assets/yemuna/products-clean/26.webp",
       "width": 150,
       "height": 224,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -99,7 +99,7 @@
       "name": "Active HA",
       "sourceFile": "ref_264.png",
       "sourceSha256": "a65baa828dfd084e0a2ef8a4d4259c75cf19ac152fb2f9fa48feb67ceed879f3",
-      "image": "assets/yemuna/products/264.webp",
+      "image": "assets/yemuna/products-clean/264.webp",
       "width": 162,
       "height": 239,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -109,7 +109,7 @@
       "name": "Bee Propolis",
       "sourceFile": "ref_27.png",
       "sourceSha256": "1775be351c2094e7ff107a0d09345890cb3467349d0fc34abe4e1ad507f1e6f6",
-      "image": "assets/yemuna/products/27.webp",
+      "image": "assets/yemuna/products-clean/27.webp",
       "width": 148,
       "height": 219,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -119,7 +119,7 @@
       "name": "Bright Toothgel",
       "sourceFile": "ref_28.png",
       "sourceSha256": "6c007467ff1836e24929779fd1f7ab3350dfcc77da121b535ca6d5d4882f35e0",
-      "image": "assets/yemuna/products/28.webp",
+      "image": "assets/yemuna/products-clean/28.webp",
       "width": 192,
       "height": 388,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -129,7 +129,7 @@
       "name": "Savon Corps et Visage à l'Aloe et à l'Avocat",
       "sourceFile": "ref_284.png",
       "sourceSha256": "2edd7e15fd13007e86fc51bbd1bd9318ac23623dcff4fb7ffd279ad5104a62e8",
-      "image": "assets/yemuna/products/284.webp",
+      "image": "assets/yemuna/products-clean/284.webp",
       "width": 197,
       "height": 149,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -139,7 +139,7 @@
       "name": "Lean",
       "sourceFile": "ref_289.png",
       "sourceSha256": "1132f066d28b3a0e6cbb6b90f049f3453fbd8fc22df8377f2da502981266bee2",
-      "image": "assets/yemuna/products/289.webp",
+      "image": "assets/yemuna/products-clean/289.webp",
       "width": 230,
       "height": 230,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -149,7 +149,7 @@
       "name": "Kids",
       "sourceFile": "ref_354.png",
       "sourceSha256": "212fda977c93ccc2f1b6d56158d9c7c303585aa21edf55b3a151716f1f8e9823",
-      "image": "assets/yemuna/products/354.webp",
+      "image": "assets/yemuna/products-clean/354.webp",
       "width": 135,
       "height": 218,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -159,7 +159,7 @@
       "name": "ImmuBlend",
       "sourceFile": "ref_355.png",
       "sourceSha256": "cab18365afc67c1dcb83409e4ddbad7a2a94cbc2d4901b369b1ab531733094d9",
-      "image": "assets/yemuna/products/355.webp",
+      "image": "assets/yemuna/products-clean/355.webp",
       "width": 146,
       "height": 220,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -169,7 +169,7 @@
       "name": "Royal Jelly",
       "sourceFile": "ref_36.png",
       "sourceSha256": "ae7cfdd3b706c8b1222fedaf5e5567e9bc2122798ac31dc5ca98555b492941ea",
-      "image": "assets/yemuna/products/36.webp",
+      "image": "assets/yemuna/products-clean/36.webp",
       "width": 151,
       "height": 220,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -179,7 +179,7 @@
       "name": "Vitolize Hommes",
       "sourceFile": "ref_374.png",
       "sourceSha256": "b5b6b110d6c363921024b41bbcb601e8e34086e38a9fdadf7e86301f64a4736f",
-      "image": "assets/yemuna/products/374.webp",
+      "image": "assets/yemuna/products-clean/374.webp",
       "width": 141,
       "height": 208,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -189,7 +189,7 @@
       "name": "Arctic Sea",
       "sourceFile": "ref_376.png",
       "sourceSha256": "7a632c284423afd33e98474fa116756e79fae2dd445eae1ddcec85cd0ed3004a",
-      "image": "assets/yemuna/products/376.webp",
+      "image": "assets/yemuna/products-clean/376.webp",
       "width": 171,
       "height": 284,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -199,7 +199,7 @@
       "name": "Aloe First",
       "sourceFile": "ref_40.png",
       "sourceSha256": "3468f0c54c399b7d509144c7e2ebfb078e9a528c7424806ad4020a4e22871a1e",
-      "image": "assets/yemuna/products/40.webp",
+      "image": "assets/yemuna/products-clean/40.webp",
       "width": 128,
       "height": 263,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -209,7 +209,7 @@
       "name": "Therm",
       "sourceFile": "ref_463.png",
       "sourceSha256": "1664029f43a73fadf6a6f41147c5e8e101b682fd8a25b2ed5007a65b28ef9059",
-      "image": "assets/yemuna/products/463.webp",
+      "image": "assets/yemuna/products-clean/463.webp",
       "width": 148,
       "height": 236,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -219,7 +219,7 @@
       "name": "Absorbent-C",
       "sourceFile": "ref_48.png",
       "sourceSha256": "fa66d6e5d2ef7edea86e21a59f6118efdb176effce049ca3113a9bdd4a75fca0",
-      "image": "assets/yemuna/products/48.webp",
+      "image": "assets/yemuna/products-clean/48.webp",
       "width": 135,
       "height": 216,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -229,7 +229,7 @@
       "name": "Aloe Propolis Crème",
       "sourceFile": "ref_51.png",
       "sourceSha256": "2fecaf22b6b4f0e99f5ce91caffdccfd38595c961dc7b215b638da869c4e8b49",
-      "image": "assets/yemuna/products/51.webp",
+      "image": "assets/yemuna/products-clean/51.webp",
       "width": 172,
       "height": 335,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -239,7 +239,7 @@
       "name": "Fast Break",
       "sourceFile": "ref_520.png",
       "sourceSha256": "3dd266fdd4b581caa0d7a93b8aafc53000521640ce16214e7f17679471143c42",
-      "image": "assets/yemuna/products/520.webp",
+      "image": "assets/yemuna/products-clean/520.webp",
       "width": 371,
       "height": 163,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -249,7 +249,7 @@
       "name": "Move",
       "sourceFile": "ref_551.png",
       "sourceSha256": "75ff105756fe3543694bb399d71419e4295703b9fc8aea8a889c396f6ca42c8d",
-      "image": "assets/yemuna/products/551.webp",
+      "image": "assets/yemuna/products-clean/551.webp",
       "width": 145,
       "height": 229,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -259,7 +259,7 @@
       "name": "Démaquillant Hydratant Infinite",
       "sourceFile": "ref_554.png",
       "sourceSha256": "2cd1a207b30ffdcd8b0f336f3794f7465445ef5ca29901c7df281aaa3529a742",
-      "image": "assets/yemuna/products/554.webp",
+      "image": "assets/yemuna/products-clean/554.webp",
       "width": 131,
       "height": 262,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -269,7 +269,7 @@
       "name": "Sérum Raffermissant",
       "sourceFile": "ref_555.png",
       "sourceSha256": "90cc753e56b06b80aff1dd71936142eab998ea0b5e11e34e66b84eac98ef1631",
-      "image": "assets/yemuna/products/555.webp",
+      "image": "assets/yemuna/products-clean/555.webp",
       "width": 104,
       "height": 260,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -279,7 +279,7 @@
       "name": "Complexe Raffermissant",
       "sourceFile": "ref_556.png",
       "sourceSha256": "a2cd862f2217fa10fc4255c93478dd9782009beb91ae8391a90a2ddfb823d0c3",
-      "image": "assets/yemuna/products/556.webp",
+      "image": "assets/yemuna/products-clean/556.webp",
       "width": 131,
       "height": 192,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -289,7 +289,7 @@
       "name": "Crème Réparatrice",
       "sourceFile": "ref_558.png",
       "sourceSha256": "0e0271f4a5fccc37b8dc693f7c160607ca7890878285a0ba12f1d18b4cf4e491",
-      "image": "assets/yemuna/products/558.webp",
+      "image": "assets/yemuna/products-clean/558.webp",
       "width": 161,
       "height": 184,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -299,7 +299,7 @@
       "name": "Soin Exfoliant - Les Soins Spécifiques",
       "sourceFile": "ref_559.png",
       "sourceSha256": "9ea3d7600ecd830ef5cb6211648ef12664cf12daeed671a7dc7270265c3fc6ea",
-      "image": "assets/yemuna/products/559.webp",
+      "image": "assets/yemuna/products-clean/559.webp",
       "width": 119,
       "height": 226,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -309,7 +309,7 @@
       "name": "Cooling Lotion",
       "sourceFile": "ref_564.png",
       "sourceSha256": "d4bcd3b8b9160866555aa7c92577cb85c98a7697870cb98c2b542f7563201f0c",
-      "image": "assets/yemuna/products/564.webp",
+      "image": "assets/yemuna/products-clean/564.webp",
       "width": 127,
       "height": 263,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -319,7 +319,7 @@
       "name": "Immune Gummy",
       "sourceFile": "ref_566.png",
       "sourceSha256": "0a474eb5b03a4291e8e01968a6a0605a9fc1c42253676fdfd0b903497064dd7b",
-      "image": "assets/yemuna/products/566.webp",
+      "image": "assets/yemuna/products-clean/566.webp",
       "width": 145,
       "height": 221,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -329,7 +329,7 @@
       "name": "Gelée Aloès",
       "sourceFile": "ref_61.png",
       "sourceSha256": "8318a692f0ce8cc56110f4042e0e99dda5907d6f23216a31b6e135f53cea8522",
-      "image": "assets/yemuna/products/61.webp",
+      "image": "assets/yemuna/products-clean/61.webp",
       "width": 119,
       "height": 234,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -339,7 +339,7 @@
       "name": "Activateur Aloès",
       "sourceFile": "ref_612.png",
       "sourceSha256": "aca3cc055c0132dad8ac76f31db632a9a0c931a402084cefeaa7ab72ce732489",
-      "image": "assets/yemuna/products/612.webp",
+      "image": "assets/yemuna/products-clean/612.webp",
       "width": 106,
       "height": 248,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -349,7 +349,7 @@
       "name": "Sérum Hydratant",
       "sourceFile": "ref_618.png",
       "sourceSha256": "64469e57e470fe9496ac1a30f9634427f7fb9163f8283a94cf5bf98c4a324f31",
-      "image": "assets/yemuna/products/618.webp",
+      "image": "assets/yemuna/products-clean/618.webp",
       "width": 115,
       "height": 242,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -359,7 +359,7 @@
       "name": "Focus",
       "sourceFile": "ref_622.png",
       "sourceSha256": "a063d5f932a5eed93aab24eec80e17a9d5703b869172d653e2a781cee8a894b5",
-      "image": "assets/yemuna/products/622.webp",
+      "image": "assets/yemuna/products-clean/622.webp",
       "width": 165,
       "height": 274,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -369,7 +369,7 @@
       "name": "iVision",
       "sourceFile": "ref_624.png",
       "sourceSha256": "d6b23b292d6aadc72523c6318fbf384e3f7caef07e97368c2813418350cfb60e",
-      "image": "assets/yemuna/products/624.webp",
+      "image": "assets/yemuna/products-clean/624.webp",
       "width": 137,
       "height": 205,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -379,7 +379,7 @@
       "name": "Crème Visage et Corps Aloès",
       "sourceFile": "ref_63.png",
       "sourceSha256": "447140bfab58d5480c61d33dc870f230ba98e4f075708c1256cce9674aeda702",
-      "image": "assets/yemuna/products/63.webp",
+      "image": "assets/yemuna/products-clean/63.webp",
       "width": 118,
       "height": 236,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -389,7 +389,7 @@
       "name": "Aloe Liquid Soap",
       "sourceFile": "ref_633.png",
       "sourceSha256": "b38f112c7d40a11367f89ed7a50f11ea0ebf38042c506c50b22e743b6fce51c8",
-      "image": "assets/yemuna/products/633.webp",
+      "image": "assets/yemuna/products-clean/633.webp",
       "width": 127,
       "height": 252,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -399,7 +399,7 @@
       "name": "Shampoing Aloe-Jojoba",
       "sourceFile": "ref_640.png",
       "sourceSha256": "e41420ef4758662fd6d108ee5b93919c0f700520ec1f141923da7dee81c09a88",
-      "image": "assets/yemuna/products/640.webp",
+      "image": "assets/yemuna/products-clean/640.webp",
       "width": 121,
       "height": 253,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -409,7 +409,7 @@
       "name": "Après-Shampoing Aloe-Jojoba",
       "sourceFile": "ref_641.png",
       "sourceSha256": "c2ab8033824a96e70661969f1ea0e4d63d94b229a28bd3140b572bc74d94cb00",
-      "image": "assets/yemuna/products/641.webp",
+      "image": "assets/yemuna/products-clean/641.webp",
       "width": 121,
       "height": 253,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -419,7 +419,7 @@
       "name": "Huile Capillaire Nourrissante",
       "sourceFile": "ref_642.png",
       "sourceSha256": "67d54f25a825b8523328a08214a699a886d049d094fb0b1dc2ff5031da04317c",
-      "image": "assets/yemuna/products/642.webp",
+      "image": "assets/yemuna/products-clean/642.webp",
       "width": 147,
       "height": 342,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -429,7 +429,7 @@
       "name": "Alofa – Parfum pour Elle",
       "sourceFile": "ref_643.png",
       "sourceSha256": "180f81986364da6e8789d20a307ce373951033be72324e48807bb720583bdedf",
-      "image": "assets/yemuna/products/643.webp",
+      "image": "assets/yemuna/products-clean/643.webp",
       "width": 113,
       "height": 254,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -439,7 +439,7 @@
       "name": "Malosi - Parfum pour lui",
       "sourceFile": "ref_644.png",
       "sourceSha256": "06aee32eb2497aba9645dbbbcda417ba8171245319081f45a828be46109cee79",
-      "image": "assets/yemuna/products/644.webp",
+      "image": "assets/yemuna/products-clean/644.webp",
       "width": 112,
       "height": 253,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -449,7 +449,7 @@
       "name": "Protecting Day Lotion SPF 20",
       "sourceFile": "ref_645.png",
       "sourceSha256": "699505b9aec5a1ce7890299b73c8556936fdf294e6b90d9c3aff15b4334995b0",
-      "image": "assets/yemuna/products/645.webp",
+      "image": "assets/yemuna/products-clean/645.webp",
       "width": 125,
       "height": 240,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -459,7 +459,7 @@
       "name": "Aloe Body Wash",
       "sourceFile": "ref_646.png",
       "sourceSha256": "5602c303b8f2750e857fbe08fd01460500021a36ccde5327c35b67506596c740",
-      "image": "assets/yemuna/products/646.webp",
+      "image": "assets/yemuna/products-clean/646.webp",
       "width": 126,
       "height": 240,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -469,7 +469,7 @@
       "name": "Aloe Body Lotion",
       "sourceFile": "ref_647.png",
       "sourceSha256": "946364cc913636e063428034ff875b9e90060c0e10bd5fe76abcd1433ab3bbe2",
-      "image": "assets/yemuna/products/647.webp",
+      "image": "assets/yemuna/products-clean/647.webp",
       "width": 128,
       "height": 243,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -479,7 +479,7 @@
       "name": "Ail et Thym",
       "sourceFile": "ref_65.png",
       "sourceSha256": "11e3de0d396223d5529f329ac1d518ccf6d6672a9698e5482cf9b3ac54ce9834",
-      "image": "assets/yemuna/products/65.webp",
+      "image": "assets/yemuna/products-clean/65.webp",
       "width": 145,
       "height": 215,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -489,7 +489,7 @@
       "name": "Crème Régénératrice (ex R3 Factor)",
       "sourceFile": "ref_650.png",
       "sourceSha256": "d1e7e2e89975e3d15bdd48da050ac40ad0401c7d63460163f15dbaf668de07c7",
-      "image": "assets/yemuna/products/650.webp",
+      "image": "assets/yemuna/products-clean/650.webp",
       "width": 127,
       "height": 241,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -499,7 +499,7 @@
       "name": "Soin Hydratant Intense",
       "sourceFile": "ref_651.png",
       "sourceSha256": "fbe7f017779a536cec331924dd9d5ada5962a307fa08fd551c146afbf7490fa6",
-      "image": "assets/yemuna/products/651.webp",
+      "image": "assets/yemuna/products-clean/651.webp",
       "width": 183,
       "height": 145,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -509,7 +509,7 @@
       "name": "Masque Poudre Effet Lifting",
       "sourceFile": "ref_652.png",
       "sourceSha256": "11303761a15cb8579c9ae792818da83a95410c25512cc59ed12e9c13491beda1",
-      "image": "assets/yemuna/products/652.webp",
+      "image": "assets/yemuna/products-clean/652.webp",
       "width": 179,
       "height": 147,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -519,7 +519,7 @@
       "name": "Sérum Régénérant",
       "sourceFile": "ref_653.png",
       "sourceSha256": "7ec229270964287ec4d2468826957c9c871fbd8ea3c48f72737446c21e3981a8",
-      "image": "assets/yemuna/products/653.webp",
+      "image": "assets/yemuna/products-clean/653.webp",
       "width": 93,
       "height": 177,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -529,7 +529,7 @@
       "name": "Plant Protein",
       "sourceFile": "ref_656.png",
       "sourceSha256": "2c6fc5428a3ec3382955d6555f767c0cec5f0799530dbc059ffa2e71297371a5",
-      "image": "assets/yemuna/products/656.webp",
+      "image": "assets/yemuna/products-clean/656.webp",
       "width": 196,
       "height": 243,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -539,7 +539,7 @@
       "name": "Masque Aloe Bio-Cellulose",
       "sourceFile": "ref_664.png",
       "sourceSha256": "1f894164c0e5a70fb12c4466467f858d5f3fa014b905c893c2aa94f9509185d4",
-      "image": "assets/yemuna/products/664.webp",
+      "image": "assets/yemuna/products-clean/664.webp",
       "width": 175,
       "height": 210,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -549,7 +549,7 @@
       "name": "Sensatiable",
       "sourceFile": "ref_665.png",
       "sourceSha256": "35d6fa5948b511c42b6168d73c453914a658802e25a3757efcd049d5333d0c4a",
-      "image": "assets/yemuna/products/665.webp",
+      "image": "assets/yemuna/products-clean/665.webp",
       "width": 145,
       "height": 242,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -559,7 +559,7 @@
       "name": "Gel Nettoyant",
       "sourceFile": "ref_667.png",
       "sourceSha256": "7a9c95c1bc0644a2965f5441e422b181d56fbf0a042a301877946dc9dbaccc40",
-      "image": "assets/yemuna/products/667.webp",
+      "image": "assets/yemuna/products-clean/667.webp",
       "width": 161,
       "height": 348,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -569,7 +569,7 @@
       "name": "Essence Tonifiante",
       "sourceFile": "ref_668.png",
       "sourceSha256": "350802dfc1cdcef122a3cf0796174158c7787b7203dfad6bf07d917123d18252",
-      "image": "assets/yemuna/products/668.webp",
+      "image": "assets/yemuna/products-clean/668.webp",
       "width": 116,
       "height": 312,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -579,7 +579,7 @@
       "name": "Gel Hydratant",
       "sourceFile": "ref_669.png",
       "sourceSha256": "bd8ea99cc12d78713911e88e626b7accebce699770ccee4eda5ecbc6576d5747",
-      "image": "assets/yemuna/products/669.webp",
+      "image": "assets/yemuna/products-clean/669.webp",
       "width": 165,
       "height": 331,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -589,7 +589,7 @@
       "name": "Stick Déodorant Aloès",
       "sourceFile": "ref_67.png",
       "sourceSha256": "eaf31018031976e134dfd3a3a536f85771e049b75f52e64bef2282990fae28ec",
-      "image": "assets/yemuna/products/67.webp",
+      "image": "assets/yemuna/products-clean/67.webp",
       "width": 136,
       "height": 256,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -599,7 +599,7 @@
       "name": "Absorbent-D",
       "sourceFile": "ref_672.png",
       "sourceSha256": "d1d19205368c89467dab5d66468930006a2db592438c2f3fa645d52d2756785b",
-      "image": "assets/yemuna/products/672.webp",
+      "image": "assets/yemuna/products-clean/672.webp",
       "width": 141,
       "height": 213,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -609,7 +609,7 @@
       "name": "Masque-Gel de Nuit",
       "sourceFile": "ref_677.png",
       "sourceSha256": "f37a9300efd3f516d5a4d33992c718015947f914038b2b3bf38160c5674767b4",
-      "image": "assets/yemuna/products/677.webp",
+      "image": "assets/yemuna/products-clean/677.webp",
       "width": 126,
       "height": 239,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -619,7 +619,7 @@
       "name": "Fields of Greens",
       "sourceFile": "ref_68.png",
       "sourceSha256": "4cabd7163693e29a3755f4519fcdfecf3bd384b0d476e711a531031292ba71da",
-      "image": "assets/yemuna/products/68.webp",
+      "image": "assets/yemuna/products-clean/68.webp",
       "width": 145,
       "height": 221,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -629,7 +629,7 @@
       "name": "Gentleman's Pride",
       "sourceFile": "ref_70.png",
       "sourceSha256": "43a25c2afc81089a54852f23a905a91495eb5bf4ed41ca7afa73f7315e05d5d0",
-      "image": "assets/yemuna/products/70.webp",
+      "image": "assets/yemuna/products-clean/70.webp",
       "width": 129,
       "height": 222,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -639,7 +639,7 @@
       "name": "Lycium Plus",
       "sourceFile": "ref_72.png",
       "sourceSha256": "af3b91dc8227c5c393741e49522a392891e88ddf3b595d598d624bff3a183755",
-      "image": "assets/yemuna/products/72.webp",
+      "image": "assets/yemuna/products-clean/72.webp",
       "width": 136,
       "height": 206,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -649,7 +649,7 @@
       "name": "FAB Active Boost",
       "sourceFile": "ref_821.png",
       "sourceSha256": "9e7483aa8f73f1f074aad8c37b653cef9f352db675e49cf3c9eaa9d2f80ffc1d",
-      "image": "assets/yemuna/products/821.webp",
+      "image": "assets/yemuna/products-clean/821.webp",
       "width": 209,
       "height": 380,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -659,7 +659,7 @@
       "name": "4-Pack Mix",
       "sourceFile": "ref_8234.png",
       "sourceSha256": "1d1682442f2bc48d55bb4122abc55f31f3af9e01590163edd7c084953106282d",
-      "image": "assets/yemuna/products/8234.webp",
+      "image": "assets/yemuna/products-clean/8234.webp",
       "width": 222,
       "height": 194,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -669,7 +669,7 @@
       "name": "Aloe Mango",
       "sourceFile": "ref_836.png",
       "sourceSha256": "400fe9fa333d5354f0e622edaecd651ebcb2f61cd455f1518526e7909f1c8d05",
-      "image": "assets/yemuna/products/836.webp",
+      "image": "assets/yemuna/products-clean/836.webp",
       "width": 167,
       "height": 386,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -679,7 +679,7 @@
       "name": "Aloe Pêche",
       "sourceFile": "ref_877.png",
       "sourceSha256": "6b4a1e249638b73be50a093ec580ef976c360945ddf3f00bf8687b31328789c6",
-      "image": "assets/yemuna/products/877.webp",
+      "image": "assets/yemuna/products-clean/877.webp",
       "width": 164,
       "height": 379,
       "verification": "Identité lisible et conditionnement cohérent sur extrait catalogue ; qualité limitée par la résolution source."
@@ -1053,5 +1053,14 @@
       "reference": "702",
       "name": "Fiber Fusion"
     }
-  ]
+  ],
+  "retouching": {
+    "method": "Local harmonic fill in manually reviewed rectangles; lossless WebP; no generated labels.",
+    "photosReviewed": 68,
+    "photosRetouched": 67,
+    "unchangedReference": "10651",
+    "pixelsChangedOutsideMasks": 0,
+    "manufacturerAttribution": "Forever Living Products, in product cards",
+    "remainingMissingPhotos": 89
+  }
 }

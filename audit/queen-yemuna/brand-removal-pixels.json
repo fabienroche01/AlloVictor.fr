@@ -1,0 +1,1519 @@
+[
+  {
+    "reference": "22",
+    "rectangles": [
+      [
+        129,
+        54,
+        174,
+        74
+      ],
+      [
+        85,
+        75,
+        147,
+        88
+      ],
+      [
+        30,
+        123,
+        90,
+        141
+      ]
+    ],
+    "maskedPixels": 2786,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "3efed6c08184292ddd8c65aae9803c00225390176b946666e9f232b744a5e18f",
+    "retouchedSha256": "d34a218eb1caf21701607261fa619a8bd934f5f30adbd5abfd34ab1cf21972a2"
+  },
+  {
+    "reference": "26",
+    "rectangles": [
+      [
+        56,
+        99,
+        77,
+        113
+      ],
+      [
+        37,
+        112,
+        93,
+        128
+      ],
+      [
+        5,
+        209,
+        66,
+        224
+      ]
+    ],
+    "maskedPixels": 2084,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "c86495e7b3f0b4f93c313cf5b457a5732c1fb16f240229e6d5fd7e67e30bb836",
+    "retouchedSha256": "e1ca5e8e4a63dbf0abd0284dcf2d5e3878896f05cad0482b207e273a9d9cbb1f"
+  },
+  {
+    "reference": "27",
+    "rectangles": [
+      [
+        60,
+        103,
+        81,
+        119
+      ],
+      [
+        43,
+        120,
+        103,
+        132
+      ],
+      [
+        10,
+        207,
+        69,
+        219
+      ]
+    ],
+    "maskedPixels": 1764,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "4dd0b6119bbcc7bb7ee98dcf56bf66d28adf292144cba471fd633409f730ccd7",
+    "retouchedSha256": "c73bf55bd0dbfc832ac8e9b31801c7783ba22ec8cb08dd4787c283ab3b07c0e2"
+  },
+  {
+    "reference": "28",
+    "rectangles": [
+      [
+        62,
+        68,
+        113,
+        101
+      ],
+      [
+        47,
+        104,
+        121,
+        120
+      ]
+    ],
+    "maskedPixels": 2867,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "606cc46f7a21cbb8919d3b2d04e7173b41c8b1c9557310a76114c484c93fbda3",
+    "retouchedSha256": "6e8c06ee84bd9695316acc95e586cdb5574a2c6662928cd28ef41e9aee554cc2"
+  },
+  {
+    "reference": "36",
+    "rectangles": [
+      [
+        52,
+        106,
+        80,
+        124
+      ],
+      [
+        40,
+        124,
+        93,
+        137
+      ],
+      [
+        12,
+        208,
+        73,
+        220
+      ]
+    ],
+    "maskedPixels": 1925,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "a17b29124c86b6222555a66dfcdb71f9768f79485a380d73a81286cc17178223",
+    "retouchedSha256": "c40a61e23c5f3e1dbf3da88a032a403de061ad4dcb1485a5e6cdf2a6b668757e"
+  },
+  {
+    "reference": "40",
+    "rectangles": [
+      [
+        54,
+        98,
+        73,
+        122
+      ],
+      [
+        50,
+        210,
+        89,
+        224
+      ]
+    ],
+    "maskedPixels": 1002,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "1b8eaf43ead0be97a1921d285a20fbab4dd3ebb92183c38e22e33d758acdaf88",
+    "retouchedSha256": "faaf0de32fbb4b3dd2440bd2a3c033cf9d6e8c573fd219c9beb44c64e6d707d3"
+  },
+  {
+    "reference": "48",
+    "rectangles": [
+      [
+        35,
+        89,
+        51,
+        102
+      ],
+      [
+        32,
+        102,
+        70,
+        112
+      ],
+      [
+        111,
+        31,
+        135,
+        51
+      ]
+    ],
+    "maskedPixels": 1068,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "9bd95441e81dffd646e4bb25b7cff0f76f0e9669caa675cf1012e958e6f94d10",
+    "retouchedSha256": "0c6cc8f8476fd8e041565b0c6e0059ec8f0223c81ddd7df743427e89aa582fc0"
+  },
+  {
+    "reference": "51",
+    "rectangles": [
+      [
+        64,
+        83,
+        92,
+        102
+      ]
+    ],
+    "maskedPixels": 532,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "d035f7b658e30b211a063b6fcc9c7ff1f22e957a29945795450870000c5e9742",
+    "retouchedSha256": "49db10d7693c7398f8a4dd7ab85bab0ec9f00046604d5d70f976ec48bf83aefc"
+  },
+  {
+    "reference": "61",
+    "rectangles": [
+      [
+        43,
+        58,
+        57,
+        73
+      ],
+      [
+        34,
+        170,
+        69,
+        178
+      ]
+    ],
+    "maskedPixels": 490,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "0f665c33ccb30a347bc06962ec7e8be108f99d72ac619bf309a926a078614de5",
+    "retouchedSha256": "f20a886e6daa7c07a56d0ef86c55d4fcf0ac2013e56ad61b8518b9168363022f"
+  },
+  {
+    "reference": "63",
+    "rectangles": [
+      [
+        42,
+        56,
+        56,
+        72
+      ],
+      [
+        31,
+        172,
+        62,
+        180
+      ]
+    ],
+    "maskedPixels": 472,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "00b61b01b6427da9b0a00812812db1e640910dae3f866b1ab59e3e00d9525f67",
+    "retouchedSha256": "50c950e8be9d7a9017c2c572b9ada27be8d5ba3ff93f51c9ffa7108a1e41f600"
+  },
+  {
+    "reference": "65",
+    "rectangles": [
+      [
+        38,
+        99,
+        57,
+        116
+      ],
+      [
+        32,
+        114,
+        79,
+        126
+      ],
+      [
+        115,
+        29,
+        145,
+        48
+      ],
+      [
+        116,
+        56,
+        145,
+        69
+      ]
+    ],
+    "maskedPixels": 1796,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "57e3433b8d16c3b017ce162ec40738fce56eb73ebcfba166438be76b2d74f506",
+    "retouchedSha256": "0b33a09faa52205b025b8a684a1253a377f7c22f9eb0a08374dc3e4e81e6a7c1"
+  },
+  {
+    "reference": "67",
+    "rectangles": [
+      [
+        49,
+        88,
+        67,
+        110
+      ],
+      [
+        40,
+        186,
+        82,
+        194
+      ]
+    ],
+    "maskedPixels": 732,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "1aa181ae0de32f6579d6f0e0a6e3f3d4e98d94379db371d30795e3f8def73c22",
+    "retouchedSha256": "bf6b11dd05503930e772e5c1d2bae80ab1da47a4deff1c34e7d4f29a4ce759dd"
+  },
+  {
+    "reference": "68",
+    "rectangles": [
+      [
+        31,
+        91,
+        46,
+        110
+      ],
+      [
+        27,
+        110,
+        65,
+        121
+      ],
+      [
+        0,
+        210,
+        60,
+        221
+      ]
+    ],
+    "maskedPixels": 1363,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "280a176b2b2abc4f6587f938cc731971c041a3d2ca3638adcab3bf331205905e",
+    "retouchedSha256": "1b86331676556602fa2422729e6caa662bf297dfbf666121361d79da6fdfe70a"
+  },
+  {
+    "reference": "70",
+    "rectangles": [
+      [
+        47,
+        99,
+        64,
+        114
+      ],
+      [
+        39,
+        174,
+        75,
+        181
+      ]
+    ],
+    "maskedPixels": 507,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "5a3859a9631d626c26731c9a339989ffd979985aaac03d1b046b8d436721bd2d",
+    "retouchedSha256": "509b0487512eabf51c45b08f3a06ab7da77d13ff77b060e0d84544ca7deec2f8"
+  },
+  {
+    "reference": "72",
+    "rectangles": [
+      [
+        37,
+        94,
+        45,
+        104
+      ],
+      [
+        33,
+        105,
+        66,
+        114
+      ],
+      [
+        111,
+        32,
+        136,
+        52
+      ],
+      [
+        111,
+        58,
+        136,
+        72
+      ]
+    ],
+    "maskedPixels": 1227,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "7d04695c3cc146ef840889890c4d720f0ca6d8330320dd7c730d73f6e78879e3",
+    "retouchedSha256": "78edcc9e944ce7b3a609f2ff98c8eed9390a37613a9e4ab0e5780d8ae6691735"
+  },
+  {
+    "reference": "205",
+    "rectangles": [
+      [
+        42,
+        64,
+        64,
+        84
+      ],
+      [
+        36,
+        200,
+        71,
+        213
+      ]
+    ],
+    "maskedPixels": 895,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "fd1b072e3f8ae509ada6d0e114996ba8ebdd636c21d06690af3b2e945819b13f",
+    "retouchedSha256": "4ecbfd9b64d61db4a24a9ff428a1260d167e2223d12c1b9088450c6c843b1364"
+  },
+  {
+    "reference": "206",
+    "rectangles": [
+      [
+        94,
+        106,
+        106,
+        120
+      ],
+      [
+        90,
+        120,
+        139,
+        133
+      ],
+      [
+        64,
+        228,
+        125,
+        246
+      ]
+    ],
+    "maskedPixels": 1903,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "01c1c6cf695027e72b137b18cfaf4b551e420f029067f5733c43e7a5a54d5f60",
+    "retouchedSha256": "1608a6851200d0739672b326d987955b9d3c21bf54e3b7889d03cc56b5821f13"
+  },
+  {
+    "reference": "207",
+    "rectangles": [
+      [
+        66,
+        157,
+        96,
+        180
+      ],
+      [
+        49,
+        181,
+        110,
+        194
+      ],
+      [
+        17,
+        302,
+        82,
+        317
+      ]
+    ],
+    "maskedPixels": 2458,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "5bbf298634193482017fef7e61e38eeeea8262b93b67fcae11b04be0fe6a8b72",
+    "retouchedSha256": "9485f59afcde64d6a11ec84791e04c939b679c347f280e307738a4d25c62f505"
+  },
+  {
+    "reference": "215",
+    "rectangles": [
+      [
+        31,
+        92,
+        44,
+        105
+      ],
+      [
+        30,
+        104,
+        70,
+        115
+      ],
+      [
+        117,
+        39,
+        135,
+        60
+      ],
+      [
+        117,
+        65,
+        135,
+        81
+      ]
+    ],
+    "maskedPixels": 1262,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "99a17ecf24bece5323b4e5a0628f8399bf13acdc623ac514043852a4e392e33e",
+    "retouchedSha256": "116770ddb38b16bca6161b83bb78704b18c95d771f8e462927a9144ab4e9894e"
+  },
+  {
+    "reference": "238",
+    "rectangles": [
+      [
+        39,
+        56,
+        62,
+        72
+      ],
+      [
+        30,
+        70,
+        69,
+        83
+      ]
+    ],
+    "maskedPixels": 829,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "226b64b0f0e66d2a9fd19a2eeacf9a5cc482390e3d14dabf3fb3264fd709dce9",
+    "retouchedSha256": "d52a07614e20de8dca12c2d3652cabf69e2aaaf86d0e37f931289877fa59b6a3"
+  },
+  {
+    "reference": "264",
+    "rectangles": [
+      [
+        49,
+        112,
+        62,
+        125
+      ],
+      [
+        44,
+        126,
+        94,
+        138
+      ],
+      [
+        0,
+        232,
+        60,
+        239
+      ]
+    ],
+    "maskedPixels": 1189,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "c7bf9fb2b62344591dafed21c36b06f51436983b8f091eb64c1313d31db47daf",
+    "retouchedSha256": "a216b22cf2ab851cc6c0a8b024159c6c6f86ac13bb2ceaca4d6444efa7a8baa1"
+  },
+  {
+    "reference": "284",
+    "rectangles": [
+      [
+        80,
+        39,
+        96,
+        55
+      ]
+    ],
+    "maskedPixels": 256,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "d830b5dbb819985c5ef05a57a30fd0a30a137c307b2ea96232a4886b960ad5dd",
+    "retouchedSha256": "98c9aebf4bbf9e89d0e1c194d036532262ade18930330d45c02092859cb15a80"
+  },
+  {
+    "reference": "289",
+    "rectangles": [
+      [
+        105,
+        95,
+        115,
+        107
+      ],
+      [
+        92,
+        108,
+        141,
+        121
+      ],
+      [
+        17,
+        223,
+        78,
+        230
+      ]
+    ],
+    "maskedPixels": 1184,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "5ad6b6673a654f54fd532fc1919af3c938ce9e9c1df63f33e444669eff7156fa",
+    "retouchedSha256": "884b225eee9a386ecba719b2f7797e244e458480f9ca52359be083f27076ff24"
+  },
+  {
+    "reference": "354",
+    "rectangles": [
+      [
+        52,
+        98,
+        62,
+        106
+      ],
+      [
+        41,
+        106,
+        77,
+        115
+      ],
+      [
+        32,
+        164,
+        98,
+        177
+      ],
+      [
+        13,
+        210,
+        75,
+        218
+      ]
+    ],
+    "maskedPixels": 1758,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "aa8f8c98524cc8f45e03cbc055f7383b2127fd3d5ddca66b15f8930639ff46aa",
+    "retouchedSha256": "1f80f0ed7c4b8a3515b8d2e7b59b7edcc94c2ac25873bc5531eb0c3efba7b5f9"
+  },
+  {
+    "reference": "355",
+    "rectangles": [
+      [
+        35,
+        99,
+        46,
+        110
+      ],
+      [
+        30,
+        112,
+        76,
+        123
+      ],
+      [
+        117,
+        54,
+        146,
+        71
+      ]
+    ],
+    "maskedPixels": 1120,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "2a97208762efe2f77d0e93d267c87a01ca1057d3740470e8c2ad7680405f6976",
+    "retouchedSha256": "1cb3804186489e0bd45783f86ad7313800b6a83ec289e9b498f1050ecc73dcbd"
+  },
+  {
+    "reference": "374",
+    "rectangles": [
+      [
+        44,
+        97,
+        56,
+        109
+      ]
+    ],
+    "maskedPixels": 144,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "3125de78fa8375a119e30f1ecba915524cbff914f0f4cbbc99f3b04806d3c674",
+    "retouchedSha256": "9513589cd71da50bd45f8e2f923f20f158030239e6cd157368b2a54a31b26381"
+  },
+  {
+    "reference": "376",
+    "rectangles": [
+      [
+        47,
+        118,
+        59,
+        136
+      ],
+      [
+        39,
+        136,
+        101,
+        153
+      ]
+    ],
+    "maskedPixels": 1270,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "c5d45d4727554031060eadcc39b248b211104e0c0bf997e38bdcf5e2b37ebb52",
+    "retouchedSha256": "17b4f8c8ed9396a36ff8c3b4dec317cdd8534e02d1aad3a98eff040ecc7a45b7"
+  },
+  {
+    "reference": "463",
+    "rectangles": [
+      [
+        48,
+        105,
+        62,
+        120
+      ],
+      [
+        40,
+        122,
+        91,
+        136
+      ]
+    ],
+    "maskedPixels": 924,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "8736935ffca767e7fc79c240406683ed14a4bd86cf80e22bfd1537abb71815b1",
+    "retouchedSha256": "c7edb40de4232104d5b89dd0de7f42d4e541aa4770ec17e137aecfa39c7397a3"
+  },
+  {
+    "reference": "520",
+    "rectangles": [
+      [
+        102,
+        47,
+        138,
+        71
+      ]
+    ],
+    "maskedPixels": 864,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "410413e97c7d86cc513813a535ad0ad684d715f2d4f02b8fb513b28396225a86",
+    "retouchedSha256": "a6a045817e5983179338b2ff984da11e11cfa811f9b59c2ec173b46f41d832ff"
+  },
+  {
+    "reference": "551",
+    "rectangles": [
+      [
+        47,
+        97,
+        64,
+        116
+      ],
+      [
+        40,
+        117,
+        87,
+        129
+      ]
+    ],
+    "maskedPixels": 887,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "24769a8663ff9fb88f64e0231033e5b8c6512ae906b73cc9702cb600c83276e2",
+    "retouchedSha256": "e5b77d72a7ec7f3372a9d8ca45a8fbdb1be12f781305d556212ab7bad90efe8f"
+  },
+  {
+    "reference": "554",
+    "rectangles": [
+      [
+        46,
+        68,
+        80,
+        75
+      ]
+    ],
+    "maskedPixels": 238,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "85671a50afeb99cdf1848c79759f2cf067eab1eeb70afddef824364545f1f4f7",
+    "retouchedSha256": "687ea3d1eaaae765e5f2afb5d11c21126aeae99b0c05b2b9b4cbea390c8ba3b0"
+  },
+  {
+    "reference": "555",
+    "rectangles": [
+      [
+        34,
+        127,
+        65,
+        136
+      ]
+    ],
+    "maskedPixels": 279,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "bc1be0ad672124a29632be390ef02bcf33a98433f52f94df3f906102f76f2a67",
+    "retouchedSha256": "708d5825c6f6820c39ef1a63ea3b7ba630832a82c2483086056d6b2598c15653"
+  },
+  {
+    "reference": "556",
+    "rectangles": [
+      [
+        53,
+        79,
+        85,
+        87
+      ]
+    ],
+    "maskedPixels": 256,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "bd4d5ef7f70a7b3e60cc0246f0e3e45f8a5a365f3a14cef46570968983978139",
+    "retouchedSha256": "680ab855b4dfabf4d188845354281903e970950a8b03bd42c8703b08403c6cbc"
+  },
+  {
+    "reference": "558",
+    "rectangles": [
+      [
+        65,
+        102,
+        89,
+        108
+      ]
+    ],
+    "maskedPixels": 144,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "5f3f0a388f12fc04bc9b49962652bbf079b0d00b090fbb35660e9be5faa4ec47",
+    "retouchedSha256": "4a9926963c8a665f3ddcd7b107995f8aaddcc969830bf770a1e1058b8d84825b"
+  },
+  {
+    "reference": "559",
+    "rectangles": [
+      [
+        38,
+        55,
+        56,
+        78
+      ],
+      [
+        30,
+        157,
+        64,
+        164
+      ]
+    ],
+    "maskedPixels": 652,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "d4c0ec282050d43554c5bd5ac0001e3eaffbf59470c2687ad1522e964bf072b3",
+    "retouchedSha256": "a56277170d23c1aa1d212b851fea13b095696f1d6109329a72492a6bfe4882cc"
+  },
+  {
+    "reference": "564",
+    "rectangles": [
+      [
+        47,
+        55,
+        58,
+        67
+      ],
+      [
+        42,
+        68,
+        69,
+        74
+      ]
+    ],
+    "maskedPixels": 294,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "9ee537ad4cf4aa07887cfcbf99da9942f6d3893aa57f7975fd3182ed13a2e3fa",
+    "retouchedSha256": "203be88ec8cd3e48426400801a5a837cc0c0a873632ba50dd68a0610f1b90877"
+  },
+  {
+    "reference": "566",
+    "rectangles": [
+      [
+        60,
+        102,
+        72,
+        113
+      ],
+      [
+        24,
+        118,
+        69,
+        129
+      ],
+      [
+        116,
+        37,
+        145,
+        54
+      ]
+    ],
+    "maskedPixels": 1120,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "0c9ebe78515e2e3b395fa97222b6baf9978b401990c8ce79146f0fc0d51c9b33",
+    "retouchedSha256": "9904d36a2d126d62af6310d458ab216de3c05009fd13ac0606549ba285a86d5a"
+  },
+  {
+    "reference": "612",
+    "rectangles": [
+      [
+        32,
+        79,
+        51,
+        99
+      ],
+      [
+        24,
+        200,
+        60,
+        208
+      ]
+    ],
+    "maskedPixels": 668,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "69cc8b8cfac88dfb9aa56baad6fafcd46aa03d8d6a4540803d8bc228a436fe51",
+    "retouchedSha256": "33321d5434cb32aba0eb425ef36620ea20c2b41218d6607d6d699844cabdf803"
+  },
+  {
+    "reference": "618",
+    "rectangles": [
+      [
+        39,
+        57,
+        57,
+        76
+      ],
+      [
+        32,
+        154,
+        62,
+        162
+      ]
+    ],
+    "maskedPixels": 582,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "9080b58f4832accf93f67d88f98e4d599708e3ec608442b615a340008ff6b89e",
+    "retouchedSha256": "ca74a346fad48dcfe2515850e0afa51735e9199b4915bc8c00e10bd960c74c04"
+  },
+  {
+    "reference": "622",
+    "rectangles": [
+      [
+        52,
+        123,
+        65,
+        135
+      ],
+      [
+        42,
+        138,
+        104,
+        153
+      ],
+      [
+        21,
+        264,
+        80,
+        274
+      ]
+    ],
+    "maskedPixels": 1676,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "b63c0b5e02d01d53183455a9e1a96fc3c3df145145aafbfa1ac3ae3450c52adb",
+    "retouchedSha256": "5c4fa5d822bac7337a5c44735061bb8b84b50de8d34e99117cc67a93ddb122b3"
+  },
+  {
+    "reference": "624",
+    "rectangles": [
+      [
+        44,
+        95,
+        55,
+        107
+      ],
+      [
+        39,
+        108,
+        83,
+        118
+      ],
+      [
+        115,
+        30,
+        137,
+        49
+      ],
+      [
+        116,
+        58,
+        137,
+        70
+      ]
+    ],
+    "maskedPixels": 1242,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "06f3841987d481e13a436ba3df9d74d910f01cfb0854ad7596f0f2c28b9e538a",
+    "retouchedSha256": "c81dde4006dcf525ad846583d0a8b9547307440eb726186b2e7689e7bba03e68"
+  },
+  {
+    "reference": "633",
+    "rectangles": [
+      [
+        40,
+        91,
+        66,
+        113
+      ]
+    ],
+    "maskedPixels": 572,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "bfbde6c0acfde54dc51d3b259d1f7b6f4349bc30b95700eac519ed7b60241d73",
+    "retouchedSha256": "a0a4e05f715829fe59056e8144882d748d15b369e43dced17c15d85a448ef17a"
+  },
+  {
+    "reference": "640",
+    "rectangles": [
+      [
+        37,
+        54,
+        66,
+        74
+      ]
+    ],
+    "maskedPixels": 580,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "006ac93f1288d090eb37cbdbf804d0df8b28a1e34669dcbe1bea236f3060f60b",
+    "retouchedSha256": "1c453317d76538e7301fbaab15b0a847b57c0c191cd910d795ce825776a6a210"
+  },
+  {
+    "reference": "641",
+    "rectangles": [
+      [
+        38,
+        55,
+        65,
+        74
+      ]
+    ],
+    "maskedPixels": 513,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "5b93e80b555ae3944cbcb8625196dbeee665ad8733c729e12cee5fd484ed998b",
+    "retouchedSha256": "bdbd7951c9d6d74cc1298a9dc25a5cda983984b2ac708b4ee13f2e0f4494411d"
+  },
+  {
+    "reference": "642",
+    "rectangles": [
+      [
+        46,
+        182,
+        82,
+        204
+      ]
+    ],
+    "maskedPixels": 792,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "1a34a649d853c02c6f09dd5d6a037072e23894c22766462e483cf865320234f6",
+    "retouchedSha256": "3f242e1c6798770595e52337832fe275005a9b8c10e5cdcee80591f0fb793f54"
+  },
+  {
+    "reference": "643",
+    "rectangles": [
+      [
+        39,
+        114,
+        53,
+        130
+      ],
+      [
+        23,
+        135,
+        68,
+        146
+      ],
+      [
+        13,
+        238,
+        75,
+        254
+      ]
+    ],
+    "maskedPixels": 1711,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "780f18850846fe24983f495ec7b0d2704662a815b68d9cbafaec758b182d5cdf",
+    "retouchedSha256": "86a3fa7fa91b53b3cb8246f16ad83a532c9aa125d1df769e63a75d43ce02b338"
+  },
+  {
+    "reference": "644",
+    "rectangles": [
+      [
+        39,
+        113,
+        52,
+        128
+      ],
+      [
+        22,
+        130,
+        70,
+        141
+      ],
+      [
+        13,
+        236,
+        75,
+        254
+      ]
+    ],
+    "maskedPixels": 1777,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "627a7d2582de2b85c8dad754281b3f49b7263aab804750840b8feb843e0aeaf3",
+    "retouchedSha256": "3eec2a2efa016c8e02f1642ea6a409a8555014873fc9b566ba8e0597e6f36b7c"
+  },
+  {
+    "reference": "645",
+    "rectangles": [
+      [
+        42,
+        62,
+        61,
+        81
+      ],
+      [
+        37,
+        171,
+        74,
+        180
+      ]
+    ],
+    "maskedPixels": 694,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "6802ab5cad03b9a0f58770d1a14451b62e7bcbceee27ebaff854460cbfa6187d",
+    "retouchedSha256": "4acd1faf020416d9b56120b1f22625ac2f30165e8f2fdbd7dc50d67c99bfd83b"
+  },
+  {
+    "reference": "646",
+    "rectangles": [
+      [
+        44,
+        66,
+        64,
+        89
+      ]
+    ],
+    "maskedPixels": 460,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "9a6729433e258d16cbb472b0370330c9873c53513537c4cc5cce47158c8ab59b",
+    "retouchedSha256": "c778a2aea5fdbab0d2db8b9674a0d87bcd51669202cce8f553634e5cc12963dc"
+  },
+  {
+    "reference": "647",
+    "rectangles": [
+      [
+        43,
+        65,
+        68,
+        85
+      ]
+    ],
+    "maskedPixels": 500,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "358ffadcc0f8509c8ad8a5baa6f9472d10695e5269b6f248192afee53f95f55a",
+    "retouchedSha256": "6053e88a1adb314bd9dd49205f805342460e22f1579bb5beab6226d34435cd9f"
+  },
+  {
+    "reference": "650",
+    "rectangles": [
+      [
+        46,
+        53,
+        64,
+        75
+      ],
+      [
+        38,
+        169,
+        74,
+        177
+      ]
+    ],
+    "maskedPixels": 684,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "8b8b7ceca1865708da258e467aa518a04081ffefa5fc89168232faff85b1d8be",
+    "retouchedSha256": "0738c3e027991457d9be81d12563d0f5990f9aa599ea29c1bfa7186013843c68"
+  },
+  {
+    "reference": "651",
+    "rectangles": [
+      [
+        23,
+        75,
+        34,
+        94
+      ],
+      [
+        39,
+        111,
+        59,
+        116
+      ]
+    ],
+    "maskedPixels": 309,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "ad13314feba3c589fc63bab8c3ffb5132b977527bf4bc2a47edba7a4b06cf672",
+    "retouchedSha256": "189d515d8b3e20885146e5ec1e3895061a2590a0508ce6288a2ac53b780bbc6e"
+  },
+  {
+    "reference": "652",
+    "rectangles": [
+      [
+        28,
+        75,
+        44,
+        95
+      ],
+      [
+        47,
+        109,
+        70,
+        114
+      ]
+    ],
+    "maskedPixels": 435,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "fd14aca4efac8807f88f8a7610c986e394baccb09ea64467c00278b8053c212f",
+    "retouchedSha256": "df64cbdac4528dcc36795003ce079ca1e2ed8abde1bda122323bec8cb2004da1"
+  },
+  {
+    "reference": "653",
+    "rectangles": [
+      [
+        34,
+        91,
+        42,
+        102
+      ],
+      [
+        28,
+        142,
+        47,
+        147
+      ]
+    ],
+    "maskedPixels": 183,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "1e4456f2b2e0bff9c4f29d55ef2a9b7fa73c9383c3364f0fa1c55f1c7ec47563",
+    "retouchedSha256": "e36e877281b5511a4556d8c6a6971c7a058221b16d953a84dd776ebc878e7810"
+  },
+  {
+    "reference": "656",
+    "rectangles": [
+      [
+        71,
+        69,
+        105,
+        87
+      ],
+      [
+        59,
+        89,
+        116,
+        101
+      ],
+      [
+        0,
+        236,
+        58,
+        243
+      ]
+    ],
+    "maskedPixels": 1702,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "abc96fed7082060c452af215e8dcb0c4e1cc32b2a75316e123e83be9636e695c",
+    "retouchedSha256": "5ad9445a2af3308ec3a11fe920217f8353a43852157b59c27c3ad93423cb66fb"
+  },
+  {
+    "reference": "664",
+    "rectangles": [
+      [
+        71,
+        47,
+        85,
+        63
+      ],
+      [
+        58,
+        174,
+        98,
+        181
+      ]
+    ],
+    "maskedPixels": 504,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "7577b5555f6ce3e375f2fcc9c5392f9bfb1968fb54e5cdb10ca0eb991a675b32",
+    "retouchedSha256": "00fcf4edb7cebfe209b5bab2973426a4ba7e5f1313041dd0a1cd1c3334c2fbd8"
+  },
+  {
+    "reference": "665",
+    "rectangles": [
+      [
+        50,
+        106,
+        79,
+        127
+      ],
+      [
+        31,
+        131,
+        94,
+        144
+      ],
+      [
+        0,
+        233,
+        33,
+        242
+      ]
+    ],
+    "maskedPixels": 1725,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "7774d5d739ce0333fd5d54ffd5403aab29a5009bf3c6aa522b12bf30ef369899",
+    "retouchedSha256": "d0f1504502bdc1bff24bdb4c0bef3c98bbc1d0a5c17a59adb968a81727fde496"
+  },
+  {
+    "reference": "667",
+    "rectangles": [
+      [
+        94,
+        76,
+        106,
+        152
+      ]
+    ],
+    "maskedPixels": 912,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "434e59ecff8d57cd91a347804148c5bd49db2759c338ee05a2de739a25e13d0c",
+    "retouchedSha256": "f24e2469a90f1dfcd66bf6930ec90a3f893fb67ac792afbfc3bbdabb7d57e280"
+  },
+  {
+    "reference": "668",
+    "rectangles": [
+      [
+        70,
+        99,
+        81,
+        181
+      ]
+    ],
+    "maskedPixels": 902,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "9654d433b762d6f3358ff9c8b544c9f8d5f366581bef29efaafcd1611d12f1c5",
+    "retouchedSha256": "08919e0a6eb115a04487f4c6b9496a23c7addf5e9dccd3eb71d6e017870a49a5"
+  },
+  {
+    "reference": "669",
+    "rectangles": [
+      [
+        97,
+        77,
+        110,
+        154
+      ]
+    ],
+    "maskedPixels": 1001,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "cd1f9b21771b313c02e5f39d35c4105cc0152eb7a00f6f9e8050e0e5f10b0e47",
+    "retouchedSha256": "2442bb4e6b7a7fbba9189fcac6db762629f291ef89199bb232c1a5e25d8623f4"
+  },
+  {
+    "reference": "672",
+    "rectangles": [
+      [
+        55,
+        105,
+        63,
+        114
+      ],
+      [
+        37,
+        117,
+        83,
+        130
+      ]
+    ],
+    "maskedPixels": 670,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "393d8f62e55d3d1bf982796f2b3668212e37c3ad4b25522015c26c3164cda5d8",
+    "retouchedSha256": "212273d5f02c95adbd4287db7700efc42bc0b1aa578c20a000c3348223b30016"
+  },
+  {
+    "reference": "677",
+    "rectangles": [
+      [
+        44,
+        53,
+        63,
+        75
+      ],
+      [
+        34,
+        170,
+        68,
+        179
+      ]
+    ],
+    "maskedPixels": 724,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "d1868ecb8c7ff4838e9b2c5916b799721f4cf740283880ebbe96fb45b8025106",
+    "retouchedSha256": "c7158371be6fb1e2cc688229f6d60866365b44cba6e83ddc0cdcd99bf0fc6565"
+  },
+  {
+    "reference": "821",
+    "rectangles": [
+      [
+        86,
+        76,
+        104,
+        96
+      ],
+      [
+        52,
+        186,
+        105,
+        208
+      ],
+      [
+        72,
+        286,
+        127,
+        295
+      ],
+      [
+        73,
+        335,
+        133,
+        350
+      ]
+    ],
+    "maskedPixels": 2921,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "aed45b41a5c0ee1d7e908c33be9e0f9d9aa4cc09760ba25fbe591216035ed679",
+    "retouchedSha256": "9f26d7766db3494248d3b92cb60a06b0a05c2ab2491df8389690257219a02f5f"
+  },
+  {
+    "reference": "836",
+    "rectangles": [
+      [
+        60,
+        153,
+        88,
+        182
+      ],
+      [
+        49,
+        182,
+        100,
+        193
+      ]
+    ],
+    "maskedPixels": 1373,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "e4141b12b791b8e4fb4e066b3ed93468480d285c18af9a21e45dbb31a2b06b36",
+    "retouchedSha256": "9dd1a8d37507fb5e477786e47271c6e9f1130a2f494395dacb453083c3e48a8b"
+  },
+  {
+    "reference": "877",
+    "rectangles": [
+      [
+        59,
+        151,
+        89,
+        181
+      ],
+      [
+        49,
+        179,
+        100,
+        190
+      ]
+    ],
+    "maskedPixels": 1401,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "23040826ba7a149f4a6591c1598634535a8e602fa18a551e6bb9d6944180c177",
+    "retouchedSha256": "4bba94db2197ac78321d3971db0dd90c8f7f4179fd469096e4ada6edb60e1aa1"
+  },
+  {
+    "reference": "1318",
+    "rectangles": [
+      [
+        45,
+        110,
+        61,
+        127
+      ],
+      [
+        32,
+        126,
+        76,
+        137
+      ],
+      [
+        35,
+        202,
+        76,
+        210
+      ],
+      [
+        12,
+        240,
+        75,
+        255
+      ]
+    ],
+    "maskedPixels": 2013,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "679ab0470a057ea0079768e8a1f9674172c73216945ba188e6e9d6c31349e542",
+    "retouchedSha256": "1e1bfbb778ff56e2f3dc4a2a3b2deef6a945a99f1d0221d1571a346d21709f26"
+  },
+  {
+    "reference": "8234",
+    "rectangles": [
+      [
+        39,
+        72,
+        51,
+        85
+      ],
+      [
+        72,
+        72,
+        85,
+        85
+      ],
+      [
+        107,
+        72,
+        123,
+        85
+      ],
+      [
+        141,
+        72,
+        158,
+        85
+      ],
+      [
+        55,
+        108,
+        163,
+        128
+      ]
+    ],
+    "maskedPixels": 2914,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "189fd78b70cbbc599d838a7d48a01ad1ada6648e021c1ac0ad9c146e4709be65",
+    "retouchedSha256": "509a66cbf8ebad4921f01fb4468d18b106f35347a54cc5e24d89772d85be6566"
+  },
+  {
+    "reference": "10651",
+    "rectangles": [],
+    "maskedPixels": 0,
+    "changedPixelsOutsideMasks": 0,
+    "originalSha256": "dfb6fa0a38c3c0139d5b5495a5be271b9524d2f8e36698c862efcce7f3311509",
+    "retouchedSha256": "5b66c8525aa12f06f821c51f6d113b4d8ad14f721f0bdcf37053538494036d4f"
+  }
+]
