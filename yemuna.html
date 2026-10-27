@@ -24,7 +24,7 @@
 .qy-image-disclaimer{font-size:11px;color:#736b5c;margin:5px 0 0}
 @media(max-width:980px){#aloe .qy-product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:650px){#aloe .qy-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}#aloe{padding:32px 3%}#aloe .qy-product-grid .qy-item h3{font-size:14px;min-height:56px}.qy-art{height:145px}.qy-art .qy-decor{font-size:70px}.qy-product-info{padding:11px}#aloe .qy-product-grid .qy-item button{font-size:12px}}
-.qy-product-desc{font-size:13px;line-height:1.45;color:#617163;margin:9px 0 15px;min-height:55px}@media(max-width:650px){.qy-product-desc{font-size:12px;min-height:85px}}.qy-unique-art svg{width:100%!important;height:100%!important;max-width:none!important;filter:none!important}.qy-unique-art:before,.qy-unique-art:after{display:none!important}.qy-art-product svg{width:90%;height:95%;max-width:220px;filter:drop-shadow(0 12px 12px #31482b25)}.qy-art-product:after{content:""}</style><section class="qy-shop" id="soins"><h2>Choix de la prestation</h2><p class="qy-note">Tarifs et durées indicatifs fictifs, à valider avec l'institut. La réservation automatique n'est pas encore activée.</p><div class="qy-layout"><nav class="qy-side" aria-label="Catégories de soins"><a href="#visage">Soins du visage</a><a href="#corps">Soins du corps</a></nav><div class="qy-grid" id="qy-soins"></div></div></section>
+.qy-product-desc{font-size:13px;line-height:1.45;color:#617163;margin:9px 0 15px;min-height:55px}@media(max-width:650px){.qy-product-desc{font-size:12px;min-height:85px}}.qy-unique-art svg{width:100%!important;height:100%!important;max-width:none!important;filter:none!important}.qy-unique-art:before,.qy-unique-art:after{display:none!important}.qy-art-product svg{width:90%;height:95%;max-width:220px;filter:drop-shadow(0 12px 12px #31482b25)}.qy-art-product:after{content:""}</style><section class="qy-shop" id="soins"><h2>Choix de la prestation</h2><p class="qy-note">Découvrez les cinq prestations de notre institut et envoyez une demande de rendez-vous.</p><div class="qy-layout"><nav class="qy-side" aria-label="Catégories de soins"><a href="#visage">Visage</a><a href="#dos">Dos</a><a href="#mains-pieds">Mains et pieds</a><a href="#diagnostic">Diagnostic de peau</a><a href="#conseils">Conseils dermocosmétiques</a></nav><div class="qy-grid" id="qy-soins"></div></div></section>
 <style>
 .qy-booking{max-width:1120px;margin:30px auto;padding:26px;border:1px solid #e3ddc9;border-radius:20px;background:#fbf8f0;color:#194632;box-shadow:0 8px 28px #1b493410}
 .qy-booking h2{font:clamp(25px,4vw,36px) Georgia,serif;margin:0 0 10px;color:#174b37}
@@ -47,7 +47,7 @@
 <label>Votre téléphone <input name="telephone" type="tel" autocomplete="tel" required maxlength="30"></label>
 <label class="wide">Prestation souhaitée <select name="prestation" required>
 <option value="">Choisir un soin</option>
-<option>Soins du visage</option><option>Soins du dos</option><option>Beauté des mains et des pieds</option><option>Diagnostic esthétique de la peau</option><option>Conseils dermocosmétiques</option><option>Autre soin — à préciser</option>
+<option>Soins du visage</option><option>Soins du dos</option><option>Beauté des mains et des pieds</option><option>Diagnostic esthétique de la peau</option><option>Conseils dermocosmétiques</option>
 </select></label>
 <label>Date souhaitée <input id="qy-booking-date" name="date" type="date" required></label>
 <label>Horaire souhaité <select id="qy-booking-time" name="heure" required><option value="">Choisir un horaire</option></select></label>
@@ -62,9 +62,9 @@
 
 <script>
 (function(){
-const groups=[["visage","Soins du visage",[["Soin visage découverte",45],["Soin visage hydratant",65],["Hydrafacial",95]]],["corps","Soins du corps",[["Massage relaxant",70],["Soin du dos",55]]]];
+const groups=[["visage","Soins du visage",[["Soins du visage","Adaptés à votre type de peau"]]],["dos","Soins du dos",[["Soins du dos","Détente et purification"]]],["mains-pieds","Beauté des mains et des pieds",[["Beauté des mains et des pieds","Soin et bien-être"]]],["diagnostic","Diagnostic esthétique de la peau",[["Diagnostic esthétique de la peau","Conseils personnalisés"]]],["conseils","Conseils dermocosmétiques",[["Conseils dermocosmétiques","Produits adaptés à vos besoins"]]]];
 const root=document.getElementById("qy-soins");if(!root)return;
-root.innerHTML=groups.map(([id,label,items])=>'<h3 class="qy-cat" id="'+id+'">'+label+'</h3>'+items.map(([name,price])=>'<article class="qy-item"><div style="flex:1"><h3>'+name+'</h3><small>Tarif indicatif</small></div><strong>'+price+' €</strong><a class="qy-service-book" href="#reservation" data-service="'+name+'">Réserver</a></article>').join("")).join("");
+root.innerHTML=groups.map(([id,label,items])=>'<h3 class="qy-cat" id="'+id+'">'+label+'</h3>'+items.map(([name,description])=>'<article class="qy-item"><div style="flex:1"><h3>'+name+'</h3><span class="qy-duration">'+description+'</span></div><a class="qy-service-book" href="#reservation" data-service="'+name+'">Réserver</a></article>').join("")).join("");
 root.querySelectorAll(".qy-service-book").forEach(link=>link.addEventListener("click",()=>{
 const select=document.querySelector("#qy-booking-form select[name=prestation]");if(!select)return;
 const name=link.dataset.service;let option=Array.from(select.options).find(o=>o.textContent===name);
