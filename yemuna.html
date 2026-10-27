@@ -125,21 +125,22 @@ function qyDisplayName(x){
 function qyVisualCategory(x){
  const n=x.name.toLowerCase();
  if(/miel|honey|propolis|pollen|royal|bee /.test(n))return "ruche";
- if(/infusion|tea|gel à boire|boisson|berry nectar|peaches|mango|aloe vera gel/.test(n))return "boissons";
- if(/coffret|pack|kit|combo|programme|c9|f15/.test(n))return "coffrets";
- if(/dent|tooth/.test(n))return "dentaire";
+ if(/infusion|tea|gel à boire|boisson|nectar|pêche|mango|aloe vera gel|aloeTurm|4-pack aloe|4-pack mix/.test(n))return "boissons";
+ if(/coffret|pack|kit|combo|programme|c9|f15|fit 15|vital 5|dx4|retail|routine 3 temps/.test(n))return "coffrets";
+ if(/dent|tooth|bright|vide tube dentifrice/.test(n))return "dentaire";
  if(/shampoo|shampoing|cheveu|capill|conditioner|jojoba/.test(n))return "cheveux";
  if(/maquillage|lipstick|fond de teint|poudre compacte|rouge à lèvre/.test(n))return "maquillage";
- if(/cil|regard|mascara|eye|sourcil/.test(n))return "regard";
+ if(/cil|regard|mascara|eye|sourcil|contour des yeux|ivision/.test(n))return "regard";
  if(/ongle|nail/.test(n))return "onglerie";
  if(/main|pied|hand|foot/.test(n))return "mains_pieds";
- if(/artic|freedom|arctic sea|omega/.test(n))return "articulations";
- if(/digest|fiber|fibre|probiotic/.test(n))return "digestion";
- if(/weight|minceur|lite ultra|protein|garcinia/.test(n))return "poids";
- if(/energie|energy|argi|active pro|vitamin b/.test(n))return "energie";
- if(/immun|vitamin c|absorbent|lycium|garlic/.test(n))return "immunite";
- if(/lotion|body|corps|massage/.test(n))return "corps";
- if(/creme|crème|visage|face|cleanser|gelly|serum|sérum|scrub|mask|masque|hydrating/.test(n))return "visage";
+ if(/artic|freedom|arctic sea|omega|move|msm/.test(n))return "articulations";
+ if(/digest|fiber|fibre|probiotic|active pro-b|ail et thym/.test(n))return "digestion";
+ if(/weight|minceur|lite ultra|protein|garcinia|lean|therm/.test(n))return "poids";
+ if(/energie|energy|argi|active boost|vitolize|maca/.test(n))return "energie";
+ if(/immun|vitamin c|absorbent|lycium|garlic|vitamin d|gummy/.test(n))return "immunite";
+ if(/lotion|body|corps|massage|savon|soap|déodorant|deodorant/.test(n))return "corps";
+ if(/creme|crème|visage|face|cleanser|gelly|serum|sérum|scrub|mask|masque|hydrating|bakuchiol|essence|démaquillant/.test(n))return "visage";
+ if(/cadeau|boîte|sac|pochette|tote|ruban|papier|échantillon|echantillon/.test(n))return "coffrets";
  return "complements";
 }
 const qyPhotoFallback={boissons:"715",complements:"48",visage:"61",corps:"238",ruche:"207",poids:"376",energie:"72",immunite:"48",articulations:"26",digestion:"65",dentaire:"61",cheveux:"238",mains_pieds:"61",hygiene:"61",specifiques:"61",maquillage:"61",regard:"61",onglerie:"61",minceur:"376",coffrets:"734"};
