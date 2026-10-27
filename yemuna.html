@@ -167,4 +167,27 @@ function qyChange(id,n){qyCart[id]=Math.max(0,(qyCart[id]||0)+n);if(!qyCart[id])
 function qySend(){const list=Object.entries(qyCart).map(([id,n])=>{const x=qyItems.find(v=>v.id===id);return x?n+" x "+x.name+" — "+qyEuro(x.price*n):""}).filter(Boolean);if(!list.length)return;const message="Bonjour Queen Yemuna, je souhaite connaître les disponibilités pour :\n"+list.join("\n");navigator.clipboard.writeText(message).then(()=>alert("Demande copiée. Vous pouvez la coller dans un message à Queen Yemuna.")).catch(()=>prompt("Copiez votre demande :",message))}
 try{qyRender()}catch(e){console.error("Queen Yemuna:",e);document.getElementById("qy-results").textContent="157 produits";try{qyLoadPhotos()}catch(_){}}
 </script></main>
-<footer><div><strong>AlloVictor</strong><small>Nom de travail — la future marque reste à définir.</small></div><div><b>Services</b><a href="famille.html">Ma Famille d'Abord</a><a href="culture.html">Culture & Voyages</a><a href="yemuna.html">Institut Queen Yemuna</a></div><div><b>Projet</b><a href="projets.html">Nos projets</a><a href="apropos.html">À propos</a><a href="contact.html">Contact</a></div><p class="copyright">© <span id="year"></span> — Portail de services</p></footer><script src="app.js"></script></body></html>
+<footer><div><strong>AlloVictor</strong><small>Nom de travail — la future marque reste à définir.</small></div><div><b>Services</b><a href="famille.html">Ma Famille d'Abord</a><a href="culture.html">Culture & Voyages</a><a href="yemuna.html">Institut Queen Yemuna</a></div><div><b>Projet</b><a href="projets.html">Nos projets</a><a href="apropos.html">À propos</a><a href="contact.html">Contact</a></div><p class="copyright">© <span id="year"></span> — Portail de services</p></footer><script src="app.js"></script><script>
+/* Masquer les mentions fabricant sur toutes les fiches visibles, y compris les fiches ajoutées dynamiquement. */
+(function(){
+  const root=document.getElementById("qy-aloe");
+  if(!root)return;
+  function nettoyer(){
+    root.querySelectorAll(".qy-item").forEach(card=>{
+      card.querySelectorAll("p,small,span,div").forEach(el=>{
+        if(el.children.length===0&&/^\\s*Fabricant\\s*:\\s*Forever(?:\\s+Living\\s+Products)?\\s*$/i.test(el.textContent||""))el.remove();
+      });
+      const walker=document.createTreeWalker(card,NodeFilter.SHOW_TEXT);
+      const toClear=[];
+      while(walker.nextNode()){
+        const node=walker.currentNode;
+        if(/Fabricant\\s*:\\s*Forever(?:\\s+Living\\s+Products)?/i.test(node.nodeValue||""))toClear.push(node);
+      }
+      toClear.forEach(node=>{node.nodeValue=node.nodeValue.replace(/Fabricant\\s*:\\s*Forever(?:\\s+Living\\s+Products)?/gi,"").trim()});
+    });
+  }
+  nettoyer();
+  new MutationObserver(nettoyer).observe(root,{childList:true,subtree:true});
+})();
+</script>
+</body></html>
