@@ -1,0 +1,3120 @@
+{
+  "sourceHtmlBlob": "28a7243c810da2d6fa804bbcc566907ef326ee20",
+  "verifiedIntegratedCount": 0,
+  "products": [
+    {
+      "id": "f207",
+      "ref": "207",
+      "name": "Miel - Bee Honey",
+      "price": 17.31,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "207",
+          "page": "36",
+          "candidates": [
+            "page_36_image_1105.jpeg",
+            "page_36_image_1106.jpeg",
+            "page_36_image_1108.jpeg",
+            "page_36_image_1083.png",
+            "page_36_image_1093.png",
+            "page_36_image_1103.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f48",
+      "ref": "48",
+      "name": "Absorbent-C",
+      "price": 18.12,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "48",
+          "page": "23",
+          "candidates": [
+            "page_23_image_711.jpeg",
+            "page_23_image_669.png",
+            "page_23_image_679.png",
+            "page_23_image_689.png",
+            "page_23_image_699.png",
+            "page_23_image_709.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f200",
+      "ref": "200",
+      "name": "Infusion Fleur d'Aloès",
+      "price": 18.74,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "200",
+          "page": "15",
+          "candidates": [
+            "page_15_image_371.jpeg",
+            "page_15_image_372.jpeg",
+            "page_15_image_374.jpeg",
+            "page_15_image_369.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f72",
+      "ref": "72",
+      "name": "Lycium Plus",
+      "price": 34.11,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "72",
+          "page": "21",
+          "candidates": [
+            "page_21_image_608.jpeg",
+            "page_21_image_566.png",
+            "page_21_image_576.png",
+            "page_21_image_586.png",
+            "page_21_image_596.png",
+            "page_21_image_606.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f27",
+      "ref": "27",
+      "name": "Bee Propolis",
+      "price": 32.91,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "27",
+          "page": "37",
+          "candidates": [
+            "page_37_image_1135.jpeg",
+            "page_37_image_1123.png",
+            "page_37_image_1133.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f473",
+      "ref": "473",
+      "name": "ARGI+",
+      "price": 55.5,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "473",
+          "page": "24",
+          "candidates": [
+            "page_24_image_757.jpeg",
+            "page_24_image_758.jpeg",
+            "page_24_image_760.jpeg",
+            "page_24_image_755.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f641",
+      "ref": "641",
+      "name": "Après-Shampoing Aloe-Jojoba",
+      "price": 20.47,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "641",
+          "page": "51",
+          "candidates": [
+            "page_51_image_1606.png",
+            "page_51_image_1616.png",
+            "page_51_image_1626.png",
+            "page_51_image_1636.png",
+            "page_51_image_1646.png",
+            "page_51_image_1656.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f28",
+      "ref": "28",
+      "name": "Bright Toothgel",
+      "price": 8.75,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "28",
+          "page": "50",
+          "candidates": [
+            "page_50_image_1592.jpeg",
+            "page_50_image_1593.jpeg",
+            "page_50_image_1590.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f61",
+      "ref": "61",
+      "name": "Gelée Aloès",
+      "price": 17.1,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "61",
+          "page": "49",
+          "candidates": [
+            "page_49_image_1527.png",
+            "page_49_image_1537.png",
+            "page_49_image_1547.png",
+            "page_49_image_1557.png",
+            "page_49_image_1567.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f238",
+      "ref": "238",
+      "name": "Aloe Scrub",
+      "price": 18.41,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "238",
+          "page": "49",
+          "candidates": [
+            "page_49_image_1527.png",
+            "page_49_image_1537.png",
+            "page_49_image_1547.png",
+            "page_49_image_1557.png",
+            "page_49_image_1567.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f63",
+      "ref": "63",
+      "name": "Crème Visage et Corps Aloès",
+      "price": 17.1,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "63",
+          "page": "49",
+          "candidates": [
+            "page_49_image_1527.png",
+            "page_49_image_1537.png",
+            "page_49_image_1547.png",
+            "page_49_image_1557.png",
+            "page_49_image_1567.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f22",
+      "ref": "22",
+      "name": "Aloe Lèvres",
+      "price": 4,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "22",
+          "page": "48",
+          "candidates": [
+            "page_48_image_1513.jpeg",
+            "page_48_image_1514.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f470",
+      "ref": "470",
+      "name": "Lite Ultra Vanille",
+      "price": 21.33,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "470",
+          "page": "28",
+          "candidates": [
+            "page_28_image_946.jpeg"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f355",
+      "ref": "355",
+      "name": "ImmuBlend",
+      "price": 21.97,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "355",
+          "page": "23",
+          "candidates": [
+            "page_23_image_711.jpeg",
+            "page_23_image_669.png",
+            "page_23_image_679.png",
+            "page_23_image_689.png",
+            "page_23_image_699.png",
+            "page_23_image_709.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f206",
+      "ref": "206",
+      "name": "Calcium",
+      "price": 24.94,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "206",
+          "page": "19",
+          "candidates": [
+            "page_19_image_481.jpeg",
+            "page_19_image_485.jpeg",
+            "page_19_image_447.png",
+            "page_19_image_457.png",
+            "page_19_image_467.png",
+            "page_19_image_477.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f374",
+      "ref": "374",
+      "name": "Vitolize Hommes",
+      "price": 27.56,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "374",
+          "page": "21",
+          "candidates": [
+            "page_21_image_608.jpeg",
+            "page_21_image_566.png",
+            "page_21_image_576.png",
+            "page_21_image_586.png",
+            "page_21_image_596.png",
+            "page_21_image_606.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f439",
+      "ref": "439",
+      "name": "Daily",
+      "price": 16.22,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "439",
+          "page": "18",
+          "candidates": [
+            "page_18_image_431.jpeg",
+            "page_18_image_395.png",
+            "page_18_image_405.png",
+            "page_18_image_415.png",
+            "page_18_image_425.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f11130",
+      "ref": "11130",
+      "name": "Carnet de commande",
+      "price": 5.21,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f13130",
+      "ref": "13130",
+      "name": "Carte d'Invitation x100",
+      "price": 8.23,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10161",
+      "ref": "10161",
+      "name": "Flacon Spray",
+      "price": 2.51,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f463",
+      "ref": "463",
+      "name": "Therm",
+      "price": 29.57,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "463",
+          "page": "29",
+          "candidates": [
+            "page_29_image_998.jpeg",
+            "page_29_image_960.png",
+            "page_29_image_970.png",
+            "page_29_image_980.png",
+            "page_29_image_990.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f12315",
+      "ref": "12315",
+      "name": "Brochure Business 28 pages",
+      "price": 2.69,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f471",
+      "ref": "471",
+      "name": "Lite Ultra Chocolat",
+      "price": 21.33,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "471",
+          "page": "28",
+          "candidates": [
+            "page_28_image_946.jpeg"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f553",
+      "ref": "553",
+      "name": "Coffret Infinite by",
+      "price": 153.77,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "553",
+          "page": "43",
+          "candidates": [
+            "page_43_image_1346.jpeg",
+            "page_43_image_1304.png",
+            "page_43_image_1314.png",
+            "page_43_image_1324.png",
+            "page_43_image_1334.png",
+            "page_43_image_1344.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f551",
+      "ref": "551",
+      "name": "Move",
+      "price": 48.29,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "551",
+          "page": "27",
+          "candidates": [
+            "page_27_image_935.jpeg",
+            "page_27_image_939.jpeg",
+            "page_27_image_941.jpeg",
+            "page_27_image_901.png",
+            "page_27_image_911.png",
+            "page_27_image_921.png",
+            "page_27_image_931.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f555",
+      "ref": "555",
+      "name": "Sérum Raffermissant",
+      "price": 45.68,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "555",
+          "page": "43",
+          "candidates": [
+            "page_43_image_1346.jpeg",
+            "page_43_image_1304.png",
+            "page_43_image_1314.png",
+            "page_43_image_1324.png",
+            "page_43_image_1334.png",
+            "page_43_image_1344.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f16021",
+      "ref": "16021",
+      "name": "Ruban de Noël Rouge et Blanc - 18 mètres",
+      "price": 3.53,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f16024",
+      "ref": "16024",
+      "name": "Papier Cadeau",
+      "price": 5.51,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f561",
+      "ref": "561",
+      "name": "Crème Contour des Yeux",
+      "price": 16.04,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f612",
+      "ref": "612",
+      "name": "Activateur Aloès",
+      "price": 14.09,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "612",
+          "page": "45",
+          "candidates": [
+            "page_45_image_1494.jpeg",
+            "page_45_image_1440.png",
+            "page_45_image_1450.png",
+            "page_45_image_1470.png",
+            "page_45_image_1480.png",
+            "page_45_image_1490.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f610",
+      "ref": "610",
+      "name": "Active Pro-B",
+      "price": 27.85,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "610",
+          "page": "18",
+          "candidates": [
+            "page_18_image_431.jpeg",
+            "page_18_image_395.png",
+            "page_18_image_405.png",
+            "page_18_image_415.png",
+            "page_18_image_425.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10384",
+      "ref": "10384",
+      "name": "Petits Sacs x5",
+      "price": 5.32,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f71633",
+      "ref": "71633",
+      "name": "Mini Aloe - ARGI +",
+      "price": 32.68,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "71633",
+          "page": "24",
+          "candidates": [
+            "page_24_image_757.jpeg",
+            "page_24_image_758.jpeg",
+            "page_24_image_760.jpeg",
+            "page_24_image_755.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f73512",
+      "ref": "73512",
+      "name": "Aloe Berry Nectar 330 ml x 12",
+      "price": 103.37,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f622",
+      "ref": "622",
+      "name": "Focus",
+      "price": 64.65,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "622",
+          "page": "20",
+          "candidates": [
+            "page_20_image_542.jpeg",
+            "page_20_image_545.jpeg",
+            "page_20_image_498.png",
+            "page_20_image_510.png",
+            "page_20_image_520.png",
+            "page_20_image_530.png",
+            "page_20_image_540.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f950",
+      "ref": "950",
+      "name": "Pack V3 Bien-Être",
+      "price": 81.7,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "950",
+          "page": "26",
+          "candidates": [
+            "page_26_image_875.jpeg",
+            "page_26_image_883.jpeg",
+            "page_26_image_789.png",
+            "page_26_image_799.png",
+            "page_26_image_809.png",
+            "page_26_image_839.png",
+            "page_26_image_849.png",
+            "page_26_image_859.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f633",
+      "ref": "633",
+      "name": "Aloe Liquid Soap",
+      "price": 16.72,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "633",
+          "page": "51",
+          "candidates": [
+            "page_51_image_1606.png",
+            "page_51_image_1616.png",
+            "page_51_image_1626.png",
+            "page_51_image_1636.png",
+            "page_51_image_1646.png",
+            "page_51_image_1656.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10612",
+      "ref": "10612",
+      "name": "Echantillons x 10 - Gelée d'Aloès",
+      "price": 5.89,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10615",
+      "ref": "10615",
+      "name": "Echantillons x 10 Shampoing Aloe Jojoba",
+      "price": 5.89,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f647",
+      "ref": "647",
+      "name": "Aloe Body Lotion",
+      "price": 19.66,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "647",
+          "page": "49",
+          "candidates": [
+            "page_49_image_1527.png",
+            "page_49_image_1537.png",
+            "page_49_image_1547.png",
+            "page_49_image_1557.png",
+            "page_49_image_1567.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f613",
+      "ref": "613",
+      "name": "Marine Collagen",
+      "price": 62.09,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "613",
+          "page": "20",
+          "candidates": [
+            "page_20_image_542.jpeg",
+            "page_20_image_545.jpeg",
+            "page_20_image_498.png",
+            "page_20_image_510.png",
+            "page_20_image_520.png",
+            "page_20_image_530.png",
+            "page_20_image_540.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f659",
+      "ref": "659",
+      "name": "Programme Équilibre et Bien-Être DX4",
+      "price": 106.32,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "659",
+          "page": "32",
+          "candidates": [
+            "page_32_image_1031.jpeg",
+            "page_32_image_1033.jpeg",
+            "page_32_image_1019.png",
+            "page_32_image_1029.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f19125",
+      "ref": "19125",
+      "name": "Sac Kraft x1",
+      "price": 1.56,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f457",
+      "ref": "457",
+      "name": "Vital 5 Berry Nectar",
+      "price": 231.54,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "457",
+          "page": "33",
+          "candidates": [
+            "page_33_image_1060.jpeg",
+            "page_33_image_1062.jpeg",
+            "page_33_image_1048.png",
+            "page_33_image_1058.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f529",
+      "ref": "529",
+      "name": "FIT 15 Débutant Chocolat",
+      "price": 127.34,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "529",
+          "page": "33",
+          "candidates": [
+            "page_33_image_1060.jpeg",
+            "page_33_image_1062.jpeg",
+            "page_33_image_1048.png",
+            "page_33_image_1058.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f533",
+      "ref": "533",
+      "name": "FIT 15 Intermédiaire Chocolat",
+      "price": 127.34,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "533",
+          "page": "33",
+          "candidates": [
+            "page_33_image_1060.jpeg",
+            "page_33_image_1062.jpeg",
+            "page_33_image_1048.png",
+            "page_33_image_1058.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f537",
+      "ref": "537",
+      "name": "FIT 15 Avancé Chocolat",
+      "price": 127.34,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "537",
+          "page": "33",
+          "candidates": [
+            "page_33_image_1060.jpeg",
+            "page_33_image_1062.jpeg",
+            "page_33_image_1048.png",
+            "page_33_image_1058.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f625",
+      "ref": "625",
+      "name": "Programme C9 Berry Vanille",
+      "price": 106.87,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "625",
+          "page": "32",
+          "candidates": [
+            "page_32_image_1031.jpeg",
+            "page_32_image_1033.jpeg",
+            "page_32_image_1019.png",
+            "page_32_image_1029.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f629",
+      "ref": "629",
+      "name": "Programme C9 Pêche Vanille",
+      "price": 106.87,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "629",
+          "page": "32",
+          "candidates": [
+            "page_32_image_1031.jpeg",
+            "page_32_image_1033.jpeg",
+            "page_32_image_1019.png",
+            "page_32_image_1029.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f475",
+      "ref": "475",
+      "name": "Programme C9 Vanille",
+      "price": 106.87,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "475",
+          "page": "32",
+          "candidates": [
+            "page_32_image_1031.jpeg",
+            "page_32_image_1033.jpeg",
+            "page_32_image_1019.png",
+            "page_32_image_1029.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f564",
+      "ref": "564",
+      "name": "Cooling Lotion",
+      "price": 12.58,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "564",
+          "page": "26",
+          "candidates": [
+            "page_26_image_875.jpeg",
+            "page_26_image_883.jpeg",
+            "page_26_image_789.png",
+            "page_26_image_799.png",
+            "page_26_image_809.png",
+            "page_26_image_839.png",
+            "page_26_image_849.png",
+            "page_26_image_859.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f312",
+      "ref": "312",
+      "name": "Nutra Q10",
+      "price": 25.67,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "312",
+          "page": "27",
+          "candidates": [
+            "page_27_image_935.jpeg",
+            "page_27_image_939.jpeg",
+            "page_27_image_941.jpeg",
+            "page_27_image_901.png",
+            "page_27_image_911.png",
+            "page_27_image_921.png",
+            "page_27_image_931.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f645",
+      "ref": "645",
+      "name": "Protecting Day Lotion SPF 20",
+      "price": 32.14,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "645",
+          "page": "44",
+          "candidates": [
+            "page_44_image_1371.png",
+            "page_44_image_1381.png",
+            "page_44_image_1395.png",
+            "page_44_image_1405.png",
+            "page_44_image_1415.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f651",
+      "ref": "651",
+      "name": "Soin Hydratant Intense",
+      "price": 29.28,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "651",
+          "page": "44",
+          "candidates": [
+            "page_44_image_1371.png",
+            "page_44_image_1381.png",
+            "page_44_image_1395.png",
+            "page_44_image_1405.png",
+            "page_44_image_1415.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f644",
+      "ref": "644",
+      "name": "Malosi - Parfum pour lui",
+      "price": 29.51,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "644",
+          "page": "53",
+          "candidates": [
+            "page_53_image_1712.png",
+            "page_53_image_1722.png",
+            "page_53_image_1732.png",
+            "page_53_image_1742.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f15100",
+      "ref": "15100",
+      "name": "Academy",
+      "price": 24,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f2150",
+      "ref": "2150",
+      "name": "Verre doseur",
+      "price": 2.5,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f815",
+      "ref": "815",
+      "name": "Aloe Vera Gel",
+      "price": 26.1,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f877",
+      "ref": "877",
+      "name": "Aloe Pêche",
+      "price": 26.1,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "877",
+          "page": "13",
+          "candidates": [
+            "page_13_image_315.jpeg",
+            "page_13_image_319.jpeg",
+            "page_13_image_321.jpeg",
+            "page_13_image_281.png",
+            "page_13_image_291.png",
+            "page_13_image_303.png",
+            "page_13_image_313.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f821",
+      "ref": "821",
+      "name": "FAB Active Boost",
+      "price": 34.89,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "821",
+          "page": "14",
+          "candidates": [
+            "page_14_image_353.jpeg"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f8234",
+      "ref": "8234",
+      "name": "4-Pack Mix",
+      "price": 104.41,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "8234",
+          "page": "13",
+          "candidates": [
+            "page_13_image_315.jpeg",
+            "page_13_image_319.jpeg",
+            "page_13_image_321.jpeg",
+            "page_13_image_281.png",
+            "page_13_image_291.png",
+            "page_13_image_303.png",
+            "page_13_image_313.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f653",
+      "ref": "653",
+      "name": "Sérum Régénérant",
+      "price": 26.63,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "653",
+          "page": "45",
+          "candidates": [
+            "page_45_image_1494.jpeg",
+            "page_45_image_1440.png",
+            "page_45_image_1450.png",
+            "page_45_image_1470.png",
+            "page_45_image_1480.png",
+            "page_45_image_1490.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f67610",
+      "ref": "67610",
+      "name": "AloeTurm - pack de 10",
+      "price": 47.84,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "67610",
+          "page": "22",
+          "candidates": [
+            "page_22_image_640.jpeg",
+            "page_22_image_641.jpeg",
+            "page_22_image_638.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f85060",
+      "ref": "85060",
+      "name": "E-carte cadeau",
+      "price": 10,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10617",
+      "ref": "10617",
+      "name": "Echantillons x 10 Aloe Liquid Soap",
+      "price": 5.89,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f19015",
+      "ref": "19015",
+      "name": "Tote Bag 1 - Aloe You",
+      "price": 7,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f1047672",
+      "ref": "1047672",
+      "name": "Boîte cadeau n°2",
+      "price": 3.65,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f14950",
+      "ref": "14950",
+      "name": "Carnet de Voyage",
+      "price": 15.6,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f12350",
+      "ref": "12350",
+      "name": "Travaillez en toute liberté, vivez selon vos choix",
+      "price": 1.56,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f8154",
+      "ref": "8154",
+      "name": "4-Pack Aloe Vera Gel",
+      "price": 104.41,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f8364",
+      "ref": "8364",
+      "name": "4-Pack Aloe Mango",
+      "price": 104.41,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "8364",
+          "page": "13",
+          "candidates": [
+            "page_13_image_315.jpeg",
+            "page_13_image_319.jpeg",
+            "page_13_image_321.jpeg",
+            "page_13_image_281.png",
+            "page_13_image_291.png",
+            "page_13_image_303.png",
+            "page_13_image_313.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f650",
+      "ref": "650",
+      "name": "Crème Régénératrice (ex R3 Factor)",
+      "price": 38.71,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "650",
+          "page": "45",
+          "candidates": [
+            "page_45_image_1494.jpeg",
+            "page_45_image_1440.png",
+            "page_45_image_1450.png",
+            "page_45_image_1470.png",
+            "page_45_image_1480.png",
+            "page_45_image_1490.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f667",
+      "ref": "667",
+      "name": "Gel Nettoyant",
+      "price": 22.02,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "667",
+          "page": "41",
+          "candidates": [
+            "page_41_image_1237.png",
+            "page_41_image_1205.png",
+            "page_41_image_1215.png",
+            "page_41_image_1225.png",
+            "page_41_image_1235.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f669",
+      "ref": "669",
+      "name": "Gel Hydratant",
+      "price": 23.34,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "669",
+          "page": "41",
+          "candidates": [
+            "page_41_image_1237.png",
+            "page_41_image_1205.png",
+            "page_41_image_1215.png",
+            "page_41_image_1225.png",
+            "page_41_image_1235.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f677",
+      "ref": "677",
+      "name": "Masque-Gel de Nuit",
+      "price": 20.69,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "677",
+          "page": "45",
+          "candidates": [
+            "page_45_image_1494.jpeg",
+            "page_45_image_1440.png",
+            "page_45_image_1450.png",
+            "page_45_image_1470.png",
+            "page_45_image_1480.png",
+            "page_45_image_1490.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f697",
+      "ref": "697",
+      "name": "Retail Pack",
+      "price": 435.29,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f687",
+      "ref": "687",
+      "name": "Bakuchiol",
+      "price": 43.58,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "687",
+          "page": "40",
+          "candidates": [],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f896",
+      "ref": "896",
+      "name": "Freedom",
+      "price": 35.63,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "896",
+          "page": "15",
+          "candidates": [
+            "page_15_image_371.jpeg",
+            "page_15_image_372.jpeg",
+            "page_15_image_374.jpeg",
+            "page_15_image_369.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f6131",
+      "ref": "6131",
+      "name": "Marine Collagen",
+      "price": 58.99,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f68",
+      "ref": "68",
+      "name": "Fields of Greens",
+      "price": 12.43,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "68",
+          "page": "19",
+          "candidates": [
+            "page_19_image_481.jpeg",
+            "page_19_image_485.jpeg",
+            "page_19_image_447.png",
+            "page_19_image_457.png",
+            "page_19_image_467.png",
+            "page_19_image_477.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f65",
+      "ref": "65",
+      "name": "Ail et Thym",
+      "price": 18.75,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "65",
+          "page": "23",
+          "candidates": [
+            "page_23_image_711.jpeg",
+            "page_23_image_669.png",
+            "page_23_image_679.png",
+            "page_23_image_689.png",
+            "page_23_image_699.png",
+            "page_23_image_709.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f264",
+      "ref": "264",
+      "name": "Active HA",
+      "price": 31.12,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "264",
+          "page": "27",
+          "candidates": [
+            "page_27_image_935.jpeg",
+            "page_27_image_939.jpeg",
+            "page_27_image_941.jpeg",
+            "page_27_image_901.png",
+            "page_27_image_911.png",
+            "page_27_image_921.png",
+            "page_27_image_931.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f36",
+      "ref": "36",
+      "name": "Royal Jelly",
+      "price": 34,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "36",
+          "page": "36",
+          "candidates": [
+            "page_36_image_1105.jpeg",
+            "page_36_image_1106.jpeg",
+            "page_36_image_1108.jpeg",
+            "page_36_image_1083.png",
+            "page_36_image_1093.png",
+            "page_36_image_1103.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f26",
+      "ref": "26",
+      "name": "Bee Pollen",
+      "price": 15.75,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "26",
+          "page": "37",
+          "candidates": [
+            "page_37_image_1135.jpeg",
+            "page_37_image_1123.png",
+            "page_37_image_1133.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f640",
+      "ref": "640",
+      "name": "Shampoing Aloe-Jojoba",
+      "price": 18.79,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "640",
+          "page": "51",
+          "candidates": [
+            "page_51_image_1606.png",
+            "page_51_image_1616.png",
+            "page_51_image_1626.png",
+            "page_51_image_1636.png",
+            "page_51_image_1646.png",
+            "page_51_image_1656.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f67",
+      "ref": "67",
+      "name": "Stick Déodorant Aloès",
+      "price": 8.28,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "67",
+          "page": "53",
+          "candidates": [
+            "page_53_image_1712.png",
+            "page_53_image_1722.png",
+            "page_53_image_1732.png",
+            "page_53_image_1742.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f40",
+      "ref": "40",
+      "name": "Aloe First",
+      "price": 22.78,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "40",
+          "page": "51",
+          "candidates": [
+            "page_51_image_1606.png",
+            "page_51_image_1616.png",
+            "page_51_image_1626.png",
+            "page_51_image_1636.png",
+            "page_51_image_1646.png",
+            "page_51_image_1656.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f51",
+      "ref": "51",
+      "name": "Aloe Propolis Crème",
+      "price": 22.78,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "51",
+          "page": "36",
+          "candidates": [
+            "page_36_image_1105.jpeg",
+            "page_36_image_1106.jpeg",
+            "page_36_image_1108.jpeg",
+            "page_36_image_1083.png",
+            "page_36_image_1093.png",
+            "page_36_image_1103.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f284",
+      "ref": "284",
+      "name": "Savon Corps et Visage à l'Aloe et à l'Avocat",
+      "price": 5.74,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "284",
+          "page": "51",
+          "candidates": [
+            "page_51_image_1606.png",
+            "page_51_image_1616.png",
+            "page_51_image_1626.png",
+            "page_51_image_1636.png",
+            "page_51_image_1646.png",
+            "page_51_image_1656.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f70",
+      "ref": "70",
+      "name": "Gentleman's Pride",
+      "price": 17.44,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "70",
+          "page": "49",
+          "candidates": [
+            "page_49_image_1527.png",
+            "page_49_image_1537.png",
+            "page_49_image_1547.png",
+            "page_49_image_1557.png",
+            "page_49_image_1567.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f289",
+      "ref": "289",
+      "name": "Lean",
+      "price": 31.12,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "289",
+          "page": "29",
+          "candidates": [
+            "page_29_image_998.jpeg",
+            "page_29_image_960.png",
+            "page_29_image_970.png",
+            "page_29_image_980.png",
+            "page_29_image_990.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f205",
+      "ref": "205",
+      "name": "Aloe MSM Gel",
+      "price": 26.54,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "205",
+          "page": "26",
+          "candidates": [
+            "page_26_image_875.jpeg",
+            "page_26_image_883.jpeg",
+            "page_26_image_789.png",
+            "page_26_image_799.png",
+            "page_26_image_809.png",
+            "page_26_image_839.png",
+            "page_26_image_849.png",
+            "page_26_image_859.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f376",
+      "ref": "376",
+      "name": "Arctic Sea",
+      "price": 31.97,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "376",
+          "page": "18",
+          "candidates": [
+            "page_18_image_431.jpeg",
+            "page_18_image_395.png",
+            "page_18_image_405.png",
+            "page_18_image_415.png",
+            "page_18_image_425.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f354",
+      "ref": "354",
+      "name": "Kids",
+      "price": 14.33,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "354",
+          "page": "19",
+          "candidates": [
+            "page_19_image_481.jpeg",
+            "page_19_image_485.jpeg",
+            "page_19_image_447.png",
+            "page_19_image_457.png",
+            "page_19_image_467.png",
+            "page_19_image_477.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f215",
+      "ref": "215",
+      "name": "Multi-Maca",
+      "price": 27.17,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "215",
+          "page": "21",
+          "candidates": [
+            "page_21_image_608.jpeg",
+            "page_21_image_566.png",
+            "page_21_image_576.png",
+            "page_21_image_586.png",
+            "page_21_image_596.png",
+            "page_21_image_606.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f11101",
+      "ref": "11101",
+      "name": "Agréments de Distribution (x5)",
+      "price": 2.15,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f13123",
+      "ref": "13123",
+      "name": "Company Policy",
+      "price": 3.14,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f19117",
+      "ref": "19117",
+      "name": "Sac Shopping",
+      "price": 3.44,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f19800",
+      "ref": "19800",
+      "name": "Pochettes",
+      "price": 8.87,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10670",
+      "ref": "10670",
+      "name": "FLPMobil - 12 mois",
+      "price": 10,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f13233",
+      "ref": "13233",
+      "name": "Dépliant Business - Devenez Entrepreneur x10",
+      "price": 5.24,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f6438",
+      "ref": "6438",
+      "name": "Grands sacs blancs x5",
+      "price": 4.9,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f556",
+      "ref": "556",
+      "name": "Complexe Raffermissant",
+      "price": 39.95,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "556",
+          "page": "43",
+          "candidates": [
+            "page_43_image_1346.jpeg",
+            "page_43_image_1304.png",
+            "page_43_image_1314.png",
+            "page_43_image_1324.png",
+            "page_43_image_1334.png",
+            "page_43_image_1344.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f520",
+      "ref": "520",
+      "name": "Fast Break",
+      "price": 41.1,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "520",
+          "page": "29",
+          "candidates": [
+            "page_29_image_998.jpeg",
+            "page_29_image_960.png",
+            "page_29_image_970.png",
+            "page_29_image_980.png",
+            "page_29_image_990.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f558",
+      "ref": "558",
+      "name": "Crème Réparatrice",
+      "price": 50.95,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "558",
+          "page": "43",
+          "candidates": [
+            "page_43_image_1346.jpeg",
+            "page_43_image_1304.png",
+            "page_43_image_1314.png",
+            "page_43_image_1324.png",
+            "page_43_image_1334.png",
+            "page_43_image_1344.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f16023",
+      "ref": "16023",
+      "name": "Papier de Soie Rouge et Doré - 25 feuilles",
+      "price": 3.84,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f554",
+      "ref": "554",
+      "name": "Démaquillant Hydratant Infinite",
+      "price": 23.05,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "554",
+          "page": "43",
+          "candidates": [
+            "page_43_image_1346.jpeg",
+            "page_43_image_1304.png",
+            "page_43_image_1314.png",
+            "page_43_image_1324.png",
+            "page_43_image_1334.png",
+            "page_43_image_1344.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f559",
+      "ref": "559",
+      "name": "Soin Exfoliant - Les Soins Spécifiques",
+      "price": 16.04,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "559",
+          "page": "45",
+          "candidates": [
+            "page_45_image_1494.jpeg",
+            "page_45_image_1440.png",
+            "page_45_image_1450.png",
+            "page_45_image_1470.png",
+            "page_45_image_1480.png",
+            "page_45_image_1490.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f71612",
+      "ref": "71612",
+      "name": "Aloe vera 330 ml x 12",
+      "price": 103.37,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10383",
+      "ref": "10383",
+      "name": "Grands sacs x5",
+      "price": 6.29,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f77812",
+      "ref": "77812",
+      "name": "Aloe Pêche 330 ml x 12",
+      "price": 103.37,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "77812",
+          "page": "13",
+          "candidates": [
+            "page_13_image_315.jpeg",
+            "page_13_image_319.jpeg",
+            "page_13_image_321.jpeg",
+            "page_13_image_281.png",
+            "page_13_image_291.png",
+            "page_13_image_303.png",
+            "page_13_image_313.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f624",
+      "ref": "624",
+      "name": "iVision",
+      "price": 28.01,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "624",
+          "page": "21",
+          "candidates": [
+            "page_21_image_608.jpeg",
+            "page_21_image_566.png",
+            "page_21_image_576.png",
+            "page_21_image_586.png",
+            "page_21_image_596.png",
+            "page_21_image_606.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f618",
+      "ref": "618",
+      "name": "Sérum Hydratant",
+      "price": 30.83,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "618",
+          "page": "44",
+          "candidates": [
+            "page_44_image_1371.png",
+            "page_44_image_1381.png",
+            "page_44_image_1395.png",
+            "page_44_image_1405.png",
+            "page_44_image_1415.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f955",
+      "ref": "955",
+      "name": "Pack V3 Vitalité",
+      "price": 105.61,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "955",
+          "page": "26",
+          "candidates": [
+            "page_26_image_875.jpeg",
+            "page_26_image_883.jpeg",
+            "page_26_image_789.png",
+            "page_26_image_799.png",
+            "page_26_image_809.png",
+            "page_26_image_839.png",
+            "page_26_image_849.png",
+            "page_26_image_859.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10611",
+      "ref": "10611",
+      "name": "Echantillons x10 Bright",
+      "price": 5.89,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10614",
+      "ref": "10614",
+      "name": "Echantillons x 10 Crème Propolis",
+      "price": 5.89,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10620",
+      "ref": "10620",
+      "name": "Echantillons x 90 - Mix pack",
+      "price": 38.34,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f646",
+      "ref": "646",
+      "name": "Aloe Body Wash",
+      "price": 19.82,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "646",
+          "page": "51",
+          "candidates": [
+            "page_51_image_1606.png",
+            "page_51_image_1616.png",
+            "page_51_image_1626.png",
+            "page_51_image_1636.png",
+            "page_51_image_1646.png",
+            "page_51_image_1656.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f1318",
+      "ref": "1318",
+      "name": "Hand Sanitizer - unité",
+      "price": 3.62,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "1318",
+          "page": "53",
+          "candidates": [
+            "page_53_image_1712.png",
+            "page_53_image_1722.png",
+            "page_53_image_1732.png",
+            "page_53_image_1742.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f656",
+      "ref": "656",
+      "name": "Plant Protein",
+      "price": 43.15,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "656",
+          "page": "27",
+          "candidates": [
+            "page_27_image_935.jpeg",
+            "page_27_image_939.jpeg",
+            "page_27_image_941.jpeg",
+            "page_27_image_901.png",
+            "page_27_image_911.png",
+            "page_27_image_921.png",
+            "page_27_image_931.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f456",
+      "ref": "456",
+      "name": "Vital 5 Aloe Vera Gel",
+      "price": 231.54,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "456",
+          "page": "33",
+          "candidates": [
+            "page_33_image_1060.jpeg",
+            "page_33_image_1062.jpeg",
+            "page_33_image_1048.png",
+            "page_33_image_1058.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f528",
+      "ref": "528",
+      "name": "F15 Débutant Vanille",
+      "price": 127.34,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "528",
+          "page": "33",
+          "candidates": [
+            "page_33_image_1060.jpeg",
+            "page_33_image_1062.jpeg",
+            "page_33_image_1048.png",
+            "page_33_image_1058.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f532",
+      "ref": "532",
+      "name": "FIT 15 Intermédiaire Vanille",
+      "price": 127.34,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "532",
+          "page": "33",
+          "candidates": [
+            "page_33_image_1060.jpeg",
+            "page_33_image_1062.jpeg",
+            "page_33_image_1048.png",
+            "page_33_image_1058.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f536",
+      "ref": "536",
+      "name": "FIT 15 Avancé Vanille",
+      "price": 127.34,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "536",
+          "page": "33",
+          "candidates": [
+            "page_33_image_1060.jpeg",
+            "page_33_image_1062.jpeg",
+            "page_33_image_1048.png",
+            "page_33_image_1058.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f664",
+      "ref": "664",
+      "name": "Masque Aloe Bio-Cellulose",
+      "price": 27.96,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "664",
+          "page": "45",
+          "candidates": [
+            "page_45_image_1494.jpeg",
+            "page_45_image_1440.png",
+            "page_45_image_1450.png",
+            "page_45_image_1470.png",
+            "page_45_image_1480.png",
+            "page_45_image_1490.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f626",
+      "ref": "626",
+      "name": "Programme C9 Berry Chocolat",
+      "price": 106.87,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "626",
+          "page": "32",
+          "candidates": [
+            "page_32_image_1031.jpeg",
+            "page_32_image_1033.jpeg",
+            "page_32_image_1019.png",
+            "page_32_image_1029.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f630",
+      "ref": "630",
+      "name": "Programme C9 Pêche Chocolat",
+      "price": 106.87,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "630",
+          "page": "32",
+          "candidates": [
+            "page_32_image_1031.jpeg",
+            "page_32_image_1033.jpeg",
+            "page_32_image_1019.png",
+            "page_32_image_1029.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f476",
+      "ref": "476",
+      "name": "Programme C9 Chocolat",
+      "price": 106.87,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "476",
+          "page": "32",
+          "candidates": [
+            "page_32_image_1031.jpeg",
+            "page_32_image_1033.jpeg",
+            "page_32_image_1019.png",
+            "page_32_image_1029.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f19115",
+      "ref": "19115",
+      "name": "Vide tube dentifrice",
+      "price": 3.18,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f566",
+      "ref": "566",
+      "name": "Immune Gummy",
+      "price": 28.64,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "566",
+          "page": "23",
+          "candidates": [
+            "page_23_image_711.jpeg",
+            "page_23_image_669.png",
+            "page_23_image_679.png",
+            "page_23_image_689.png",
+            "page_23_image_699.png",
+            "page_23_image_709.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f665",
+      "ref": "665",
+      "name": "Sensatiable",
+      "price": 20.32,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "665",
+          "page": "29",
+          "candidates": [
+            "page_29_image_998.jpeg",
+            "page_29_image_960.png",
+            "page_29_image_970.png",
+            "page_29_image_980.png",
+            "page_29_image_990.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f643",
+      "ref": "643",
+      "name": "Alofa – Parfum pour Elle",
+      "price": 29.51,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "643",
+          "page": "53",
+          "candidates": [
+            "page_53_image_1712.png",
+            "page_53_image_1722.png",
+            "page_53_image_1732.png",
+            "page_53_image_1742.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f642",
+      "ref": "642",
+      "name": "Huile Capillaire Nourrissante",
+      "price": 24.43,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "642",
+          "page": "52",
+          "candidates": [
+            "page_52_image_1698.jpeg",
+            "page_52_image_1696.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f1060",
+      "ref": "1060",
+      "name": "Pack Privilège",
+      "price": 42.14,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f672",
+      "ref": "672",
+      "name": "Absorbent-D",
+      "price": 11.02,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "672",
+          "page": "18",
+          "candidates": [
+            "page_18_image_431.jpeg",
+            "page_18_image_395.png",
+            "page_18_image_405.png",
+            "page_18_image_415.png",
+            "page_18_image_425.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f834",
+      "ref": "834",
+      "name": "Aloe Berry Nectar",
+      "price": 26.1,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f836",
+      "ref": "836",
+      "name": "Aloe Mango",
+      "price": 26.1,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "836",
+          "page": "13",
+          "candidates": [
+            "page_13_image_315.jpeg",
+            "page_13_image_319.jpeg",
+            "page_13_image_321.jpeg",
+            "page_13_image_281.png",
+            "page_13_image_291.png",
+            "page_13_image_303.png",
+            "page_13_image_313.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f822",
+      "ref": "822",
+      "name": "FAB Active Boost X 2026",
+      "price": 34.89,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "822",
+          "page": "14",
+          "candidates": [
+            "page_14_image_353.jpeg"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10651",
+      "ref": "10651",
+      "name": "Shaker",
+      "price": 4.5,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "10651",
+          "page": "32",
+          "candidates": [
+            "page_32_image_1031.jpeg",
+            "page_32_image_1033.jpeg",
+            "page_32_image_1019.png",
+            "page_32_image_1029.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f676",
+      "ref": "676",
+      "name": "AloeTurm",
+      "price": 5.03,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "676",
+          "page": "22",
+          "candidates": [
+            "page_22_image_640.jpeg",
+            "page_22_image_641.jpeg",
+            "page_22_image_638.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f1070",
+      "ref": "1070",
+      "name": "Pack Combo Test",
+      "price": 103.36,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f10616",
+      "ref": "10616",
+      "name": "Echantillons x 10 Conditioner",
+      "price": 5.89,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f19010",
+      "ref": "19010",
+      "name": "Tote bag Aloe You #1",
+      "price": 4.15,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f1047673",
+      "ref": "1047673",
+      "name": "Boîte cadeau n°1",
+      "price": 4.15,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f1047627",
+      "ref": "1047627",
+      "name": "Boîte cadeau n°3",
+      "price": 5.21,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f18155",
+      "ref": "18155",
+      "name": "Premiers pas vers Manager",
+      "price": 2.59,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f15150",
+      "ref": "15150",
+      "name": "Jeton du coeur",
+      "price": 2,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f8344",
+      "ref": "8344",
+      "name": "4-Pack Aloe Berry Nectar",
+      "price": 104.41,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f8774",
+      "ref": "8774",
+      "name": "4-Pack Aloe Peaches",
+      "price": 104.41,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "8774",
+          "page": "13",
+          "candidates": [
+            "page_13_image_315.jpeg",
+            "page_13_image_319.jpeg",
+            "page_13_image_321.jpeg",
+            "page_13_image_281.png",
+            "page_13_image_291.png",
+            "page_13_image_303.png",
+            "page_13_image_313.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f652",
+      "ref": "652",
+      "name": "Masque Poudre Effet Lifting",
+      "price": 17.83,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "652",
+          "page": "44",
+          "candidates": [
+            "page_44_image_1371.png",
+            "page_44_image_1381.png",
+            "page_44_image_1395.png",
+            "page_44_image_1405.png",
+            "page_44_image_1415.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f668",
+      "ref": "668",
+      "name": "Essence Tonifiante",
+      "price": 21.13,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "668",
+          "page": "41",
+          "candidates": [
+            "page_41_image_1237.png",
+            "page_41_image_1205.png",
+            "page_41_image_1215.png",
+            "page_41_image_1225.png",
+            "page_41_image_1235.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f673",
+      "ref": "673",
+      "name": "Routine 3 temps",
+      "price": 60.54,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "673",
+          "page": "41",
+          "candidates": [
+            "page_41_image_1237.png",
+            "page_41_image_1205.png",
+            "page_41_image_1215.png",
+            "page_41_image_1225.png",
+            "page_41_image_1235.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        },
+        {
+          "ref": "673",
+          "page": "42",
+          "candidates": [
+            "page_42_image_1286.jpeg",
+            "page_42_image_1264.png",
+            "page_42_image_1274.png",
+            "page_42_image_1284.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f19570",
+      "ref": "19570",
+      "name": "Catalogue Produits 2025 - Lot de 10",
+      "price": 6,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f686",
+      "ref": "686",
+      "name": "Vitamin C",
+      "price": 43.58,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "686",
+          "page": "40",
+          "candidates": [],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f701",
+      "ref": "701",
+      "name": "Duo Expert - Vitamin C & Bakuchiol",
+      "price": 82.78,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [
+        {
+          "ref": "701",
+          "page": "42",
+          "candidates": [
+            "page_42_image_1286.jpeg",
+            "page_42_image_1264.png",
+            "page_42_image_1274.png",
+            "page_42_image_1284.png"
+          ],
+          "status": "À valider visuellement — ne pas publier automatiquement"
+        }
+      ],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f8964",
+      "ref": "8964",
+      "name": "4-Pack Freedom",
+      "price": 142.51,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    },
+    {
+      "id": "f702",
+      "ref": "702",
+      "name": "Fiber Fusion",
+      "price": 26.31,
+      "type": "produit",
+      "existingImage": "runtime ZIP/CSV or synthetic SVG; not verified",
+      "csvCandidates": [],
+      "verifiedImage": null,
+      "status": "pending_visual_verification"
+    }
+  ]
+}
