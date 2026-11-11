@@ -81,7 +81,7 @@
 <p class="qy-booking-note">Votre créneau n’est pas bloqué automatiquement. La réservation sera effective uniquement après confirmation de l’institut.</p>
 <button type="submit">Envoyer ma demande de rendez-vous</button>
 <button type="button" id="qy-booking-whatsapp">Envoyer ma demande par WhatsApp</button>
-<p class="qy-booking-note">Choisissez l’un des deux moyens d’envoi. Pour recevoir une réponse, envoyez bien le message dans votre messagerie ou sur WhatsApp.</p>
+<p class="qy-booking-note">Le bouton de demande par e-mail transmet directement le formulaire. Le bouton WhatsApp ouvre un message à envoyer vous-même.</p>
 <p id="qy-booking-status" role="status" aria-live="polite"></p>
 </form>
 <p class="qy-booking-note">Contact direct : <a href="tel:+33612842682">06 12 84 26 82</a> · <a href="mailto:naturellemineral97@gmail.com">naturellemineral97@gmail.com</a></p>
@@ -174,15 +174,38 @@ document.getElementById("qy-booking-whatsapp").addEventListener("click",()=>{
  status.textContent="WhatsApp va s’ouvrir : appuyez sur Envoyer pour transmettre votre demande.";
  window.open("https://wa.me/33612842682?text="+encodeURIComponent(message),"_blank","noopener,noreferrer");
 });
-form.addEventListener("submit",e=>{
+form.addEventListener("submit",async e=>{
  e.preventDefault();
  date.setCustomValidity(validDate()?"":"Choisissez un mardi, jeudi ou vendredi à venir.");
  if(!form.reportValidity())return;
  const data=new FormData(form),val=k=>String(data.get(k)||"").trim();
- const subject="Demande de rendez-vous — Queen Yemuna — "+val("date");
- const body=["Bonjour,","Je souhaite demander un rendez-vous à l’institut Queen Yemuna Cosmétique.","","Nom : "+val("nom"),"Téléphone : "+val("telephone"),"E-mail : "+val("email"),"Consentement aux e-mails promotionnels : "+(val("marketing")==="oui"?"Oui":"Non"),"Prestation : "+val("prestation"),"Date souhaitée : "+val("date"),"Heure souhaitée : "+val("heure"),"Précisions : "+(val("details")||"Aucune"),"","Adresse : 4 rue Galilée, 77420 Champs-sur-Marne.","Je comprends que le rendez-vous doit être confirmé par l’institut."].join("\n");
- status.textContent="Votre application de messagerie va s’ouvrir. Envoyez l’e-mail pour transmettre votre demande.";
- window.location.href="mailto:naturellemineral97@gmail.com?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+ const submit=form.querySelector('button[type="submit"]');
+ const original=submit.textContent;
+ submit.disabled=true;submit.textContent="Envoi en cours…";
+ status.textContent="Transmission de votre demande…";
+ try{
+  const payload={
+   _subject:"Nouvelle demande de RDV Queen Yemuna — "+val("date"),
+   _captcha:"true",
+   _template:"table",
+   _replyto:val("email"),
+   nom:val("nom"),telephone:val("telephone"),email:val("email"),
+   prestation:val("prestation"),date_souhaitee:val("date"),heure_souhaitee:val("heure"),
+   precisions:val("details")||"Aucune",
+   consentement_marketing:val("marketing")==="oui"?"Oui":"Non",
+   confirmation:"Demande en attente de confirmation par Queen Yemuna Cosmétique"
+  };
+  const response=await fetch("https://formsubmit.co/ajax/naturellemineral97@gmail.com",{
+   method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},
+   body:JSON.stringify(payload)
+  });
+  const result=await response.json();
+  if(!response.ok||result.success===false||result.success==="false")throw Error("Envoi non confirmé");
+  status.textContent="Votre demande a été transmise. Votre rendez-vous reste à confirmer par l’institut.";
+  form.reset();choice.textContent="Sélectionnez un mardi, jeudi ou vendredi.";drawCalendar();
+ }catch(err){
+  status.textContent="L’envoi automatique n’a pas pu être confirmé. Merci de nous contacter par WhatsApp ou au 06 12 84 26 82.";
+ }finally{submit.disabled=false;submit.textContent=original}
 });
 })();
 </script></body></html>
