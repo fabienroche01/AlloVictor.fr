@@ -56,6 +56,7 @@
 .qy-booking button[type=submit]{border:0;background:#16543b;color:white;border-radius:10px;padding:14px 22px;font-weight:750;cursor:pointer}
 .qy-booking .qy-booking-note{font-size:13px;color:#53685b}
 @media(max-width:640px){.qy-booking{margin:20px 12px;padding:18px}.qy-booking-fields{grid-template-columns:1fr}}
+.qy-calendar-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 0}.qy-calendar-nav button{border:1px solid #b8cbbd;border-radius:8px;background:#fff;color:#174b37;font-size:26px;min-width:44px;min-height:44px;cursor:pointer}.qy-calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}.qy-calendar-grid span,.qy-calendar-grid button{text-align:center;padding:9px 0;min-width:0}.qy-calendar-grid button{border:1px solid #cbd9ce;border-radius:8px;background:#fff;color:#174b37;cursor:pointer;font:inherit}.qy-calendar-grid button:disabled{background:#f3f4f3;color:#9ca9a0;cursor:not-allowed}.qy-calendar-grid button[aria-pressed=true]{background:#16543b;color:white;font-weight:bold}.qy-date-fallback{position:absolute!important;width:1px!important;height:1px!important;opacity:0;pointer-events:none}.qy-calendar-wrap{min-width:0}.qy-calendar-wrap strong{display:block}
 </style>
 <section class="qy-booking" id="reservation" aria-labelledby="qy-booking-title">
 <h2 id="qy-booking-title">Réserver un soin à l’institut</h2>
@@ -70,7 +71,7 @@
 <option value="">Choisir un soin</option>
 <option>Soins du visage</option><option>Soins du dos</option><option>Beauté des mains et des pieds</option><option>Diagnostic esthétique de la peau</option><option>Conseils dermocosmétiques</option>
 </select></label>
-<label>Date souhaitée <input id="qy-booking-date" name="date" type="date" required></label>
+<div class="wide qy-calendar-wrap"><strong>Choisissez votre date dans le calendrier</strong><div class="qy-calendar-nav"><button type="button" id="qy-cal-prev" aria-label="Mois précédent">‹</button><span id="qy-cal-month" aria-live="polite"></span><button type="button" id="qy-cal-next" aria-label="Mois suivant">›</button></div><div id="qy-cal-grid" class="qy-calendar-grid" role="group" aria-label="Dates de rendez-vous"></div><p id="qy-cal-choice" class="qy-booking-note">Sélectionnez un mardi, jeudi ou vendredi.</p><input id="qy-booking-date" name="date" type="date" required class="qy-date-fallback" aria-label="Date souhaitée"></div>
 <label>Horaire souhaité <select id="qy-booking-time" name="heure" required><option value="">Choisir un horaire</option></select></label>
 <label class="wide">Précisions (facultatif) <textarea name="details" maxlength="500" placeholder="Votre demande ou le soin souhaité"></textarea></label>
 </div>
@@ -124,6 +125,28 @@ if(!form)return;
 const date=form.elements.namedItem("date"),time=form.elements.namedItem("heure"),status=document.getElementById("qy-booking-status");
 const today=new Date(),localToday=[today.getFullYear(),String(today.getMonth()+1).padStart(2,"0"),String(today.getDate()).padStart(2,"0")].join("-");
 date.min=localToday;
+const grid=document.getElementById("qy-cal-grid"),monthLabel=document.getElementById("qy-cal-month"),choice=document.getElementById("qy-cal-choice");
+let displayed=new Date(today.getFullYear(),today.getMonth(),1);
+const fmt=d=>[d.getFullYear(),String(d.getMonth()+1).padStart(2,"0"),String(d.getDate()).padStart(2,"0")].join("-");
+function drawCalendar(){
+ grid.innerHTML="";
+ monthLabel.textContent=displayed.toLocaleDateString("fr-FR",{month:"long",year:"numeric"});
+ ["L","M","M","J","V","S","D"].forEach(t=>{const s=document.createElement("span");s.textContent=t;grid.appendChild(s)});
+ const first=(displayed.getDay()+6)%7,days=new Date(displayed.getFullYear(),displayed.getMonth()+1,0).getDate();
+ for(let i=0;i<first;i++)grid.appendChild(document.createElement("span"));
+ for(let day=1;day<=days;day++){
+  const d=new Date(displayed.getFullYear(),displayed.getMonth(),day),iso=fmt(d),b=document.createElement("button");
+  b.type="button";b.textContent=day;b.disabled=iso<localToday||![2,4,5].includes(d.getDay());
+  b.setAttribute("aria-label",d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"}));
+  b.setAttribute("aria-pressed",String(date.value===iso));
+  b.addEventListener("click",()=>{date.value=iso;date.setCustomValidity("");choice.textContent="Date choisie : "+d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});drawCalendar()});
+  grid.appendChild(b);
+ }
+ document.getElementById("qy-cal-prev").disabled=displayed.getFullYear()===today.getFullYear()&&displayed.getMonth()===today.getMonth();
+}
+document.getElementById("qy-cal-prev").addEventListener("click",()=>{displayed=new Date(displayed.getFullYear(),displayed.getMonth()-1,1);drawCalendar()});
+document.getElementById("qy-cal-next").addEventListener("click",()=>{displayed=new Date(displayed.getFullYear(),displayed.getMonth()+1,1);drawCalendar()});
+drawCalendar();
 for(let minutes=14*60+30;minutes<=17*60;minutes+=30){
  const h=String(Math.floor(minutes/60)).padStart(2,"0")+":"+String(minutes%60).padStart(2,"0");
  const opt=document.createElement("option");opt.value=h;opt.textContent=h;time.appendChild(opt);
