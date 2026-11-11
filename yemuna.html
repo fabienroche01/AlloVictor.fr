@@ -53,7 +53,7 @@
 .qy-booking label{display:flex;flex-direction:column;gap:6px;font-weight:650;font-size:14px}
 .qy-booking input,.qy-booking select,.qy-booking textarea{width:100%;box-sizing:border-box;min-height:44px;border:1px solid #c7d5c9;border-radius:9px;background:white;color:#1a382c;padding:10px;font:inherit}
 .qy-booking textarea{min-height:78px}.qy-booking .wide{grid-column:1/-1}
-.qy-booking button[type=submit]{border:0;background:#16543b;color:white;border-radius:10px;padding:14px 22px;font-weight:750;cursor:pointer}
+.qy-booking #qy-booking-whatsapp{border:0;background:#197447;color:#fff;border-radius:10px;padding:14px 22px;font-weight:750;cursor:pointer;margin:8px 0 0 10px}@media(max-width:480px){.qy-booking #qy-booking-whatsapp{margin-left:0;width:100%}}.qy-booking button[type=submit]{border:0;background:#16543b;color:white;border-radius:10px;padding:14px 22px;font-weight:750;cursor:pointer}
 .qy-booking .qy-booking-note{font-size:13px;color:#53685b}
 @media(max-width:640px){.qy-booking{margin:20px 12px;padding:18px}.qy-booking-fields{grid-template-columns:1fr}}
 .qy-calendar-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 0}.qy-calendar-nav button{border:1px solid #b8cbbd;border-radius:8px;background:#fff;color:#174b37;font-size:26px;min-width:44px;min-height:44px;cursor:pointer}.qy-calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}.qy-calendar-grid span,.qy-calendar-grid button{text-align:center;padding:9px 0;min-width:0}.qy-calendar-grid button{border:1px solid #cbd9ce;border-radius:8px;background:#fff;color:#174b37;cursor:pointer;font:inherit}.qy-calendar-grid button:disabled{background:#f3f4f3;color:#9ca9a0;cursor:not-allowed}.qy-calendar-grid button[aria-pressed=true]{background:#16543b;color:white;font-weight:bold}.qy-marketing-consent{display:flex!important;flex-direction:row!important;align-items:flex-start;gap:10px;font-weight:400!important}.qy-marketing-consent input{width:20px!important;min-height:20px!important;height:20px;flex:0 0 20px;margin-top:2px}.qy-booking-help{padding:14px;background:#edf5ef;border-left:4px solid #16543b;border-radius:7px}.qy-date-fallback{position:absolute!important;width:1px!important;height:1px!important;opacity:0;pointer-events:none}.qy-calendar-wrap{min-width:0}.qy-calendar-wrap strong{display:block}
@@ -80,6 +80,8 @@
 <p class="qy-booking-note qy-booking-help"><strong>Vous ne trouvez pas de date ou d’horaire qui vous convient ?</strong> Appelez-nous au <a href="tel:+33612842682">06 12 84 26 82</a> : nous pourrons étudier ensemble un autre jour ou un autre horaire, même s’il n’apparaît pas dans le calendrier, selon nos disponibilités.</p>
 <p class="qy-booking-note">Votre créneau n’est pas bloqué automatiquement. La réservation sera effective uniquement après confirmation de l’institut.</p>
 <button type="submit">Envoyer ma demande de rendez-vous</button>
+<button type="button" id="qy-booking-whatsapp">Envoyer ma demande par WhatsApp</button>
+<p class="qy-booking-note">Choisissez l’un des deux moyens d’envoi. Pour recevoir une réponse, envoyez bien le message dans votre messagerie ou sur WhatsApp.</p>
 <p id="qy-booking-status" role="status" aria-live="polite"></p>
 </form>
 <p class="qy-booking-note">Contact direct : <a href="tel:+33612842682">06 12 84 26 82</a> · <a href="mailto:naturellemineral97@gmail.com">naturellemineral97@gmail.com</a></p>
@@ -163,6 +165,14 @@ date.addEventListener("change",()=>{
  date.setCustomValidity(validDate()?"":"Choisissez un mardi, jeudi ou vendredi à venir.");
  if(!validDate())status.textContent="Les rendez-vous sont proposés uniquement les mardis, jeudis et vendredis.";
  else status.textContent="";
+});
+document.getElementById("qy-booking-whatsapp").addEventListener("click",()=>{
+ date.setCustomValidity(validDate()?"":"Choisissez un mardi, jeudi ou vendredi à venir.");
+ if(!form.reportValidity())return;
+ const data=new FormData(form),val=k=>String(data.get(k)||"").trim();
+ const message=["Bonjour Queen Yemuna Cosmétique, je souhaite demander un rendez-vous.","Nom : "+val("nom"),"Téléphone : "+val("telephone"),"E-mail : "+val("email"),"Prestation : "+val("prestation"),"Date : "+val("date"),"Heure : "+val("heure"),"Précisions : "+(val("details")||"Aucune"),"J'attends votre confirmation."].join("\n");
+ status.textContent="WhatsApp va s’ouvrir : appuyez sur Envoyer pour transmettre votre demande.";
+ window.open("https://wa.me/33612842682?text="+encodeURIComponent(message),"_blank","noopener,noreferrer");
 });
 form.addEventListener("submit",e=>{
  e.preventDefault();
