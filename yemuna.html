@@ -56,7 +56,7 @@
 .qy-booking button[type=submit]{border:0;background:#16543b;color:white;border-radius:10px;padding:14px 22px;font-weight:750;cursor:pointer}
 .qy-booking .qy-booking-note{font-size:13px;color:#53685b}
 @media(max-width:640px){.qy-booking{margin:20px 12px;padding:18px}.qy-booking-fields{grid-template-columns:1fr}}
-.qy-calendar-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 0}.qy-calendar-nav button{border:1px solid #b8cbbd;border-radius:8px;background:#fff;color:#174b37;font-size:26px;min-width:44px;min-height:44px;cursor:pointer}.qy-calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}.qy-calendar-grid span,.qy-calendar-grid button{text-align:center;padding:9px 0;min-width:0}.qy-calendar-grid button{border:1px solid #cbd9ce;border-radius:8px;background:#fff;color:#174b37;cursor:pointer;font:inherit}.qy-calendar-grid button:disabled{background:#f3f4f3;color:#9ca9a0;cursor:not-allowed}.qy-calendar-grid button[aria-pressed=true]{background:#16543b;color:white;font-weight:bold}.qy-date-fallback{position:absolute!important;width:1px!important;height:1px!important;opacity:0;pointer-events:none}.qy-calendar-wrap{min-width:0}.qy-calendar-wrap strong{display:block}
+.qy-calendar-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 0}.qy-calendar-nav button{border:1px solid #b8cbbd;border-radius:8px;background:#fff;color:#174b37;font-size:26px;min-width:44px;min-height:44px;cursor:pointer}.qy-calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}.qy-calendar-grid span,.qy-calendar-grid button{text-align:center;padding:9px 0;min-width:0}.qy-calendar-grid button{border:1px solid #cbd9ce;border-radius:8px;background:#fff;color:#174b37;cursor:pointer;font:inherit}.qy-calendar-grid button:disabled{background:#f3f4f3;color:#9ca9a0;cursor:not-allowed}.qy-calendar-grid button[aria-pressed=true]{background:#16543b;color:white;font-weight:bold}.qy-marketing-consent{display:flex!important;flex-direction:row!important;align-items:flex-start;gap:10px;font-weight:400!important}.qy-marketing-consent input{width:20px!important;min-height:20px!important;height:20px;flex:0 0 20px;margin-top:2px}.qy-booking-help{padding:14px;background:#edf5ef;border-left:4px solid #16543b;border-radius:7px}.qy-date-fallback{position:absolute!important;width:1px!important;height:1px!important;opacity:0;pointer-events:none}.qy-calendar-wrap{min-width:0}.qy-calendar-wrap strong{display:block}
 </style>
 <section class="qy-booking" id="reservation" aria-labelledby="qy-booking-title">
 <h2 id="qy-booking-title">Réserver un soin à l’institut</h2>
@@ -67,6 +67,7 @@
 <div class="qy-booking-fields">
 <label>Votre nom et prénom <input name="nom" autocomplete="name" required maxlength="100"></label>
 <label>Votre téléphone <input name="telephone" type="tel" autocomplete="tel" required maxlength="30"></label>
+<label>Votre adresse e-mail <input name="email" type="email" autocomplete="email" required maxlength="150"></label>
 <label class="wide">Prestation souhaitée <select name="prestation" required>
 <option value="">Choisir un soin</option>
 <option>Soins du visage</option><option>Soins du dos</option><option>Beauté des mains et des pieds</option><option>Diagnostic esthétique de la peau</option><option>Conseils dermocosmétiques</option>
@@ -74,7 +75,9 @@
 <div class="wide qy-calendar-wrap"><strong>Choisissez votre date dans le calendrier</strong><div class="qy-calendar-nav"><button type="button" id="qy-cal-prev" aria-label="Mois précédent">‹</button><span id="qy-cal-month" aria-live="polite"></span><button type="button" id="qy-cal-next" aria-label="Mois suivant">›</button></div><div id="qy-cal-grid" class="qy-calendar-grid" role="group" aria-label="Dates de rendez-vous"></div><p id="qy-cal-choice" class="qy-booking-note">Sélectionnez un mardi, jeudi ou vendredi.</p><input id="qy-booking-date" name="date" type="date" required class="qy-date-fallback" aria-label="Date souhaitée"></div>
 <label>Horaire souhaité <select id="qy-booking-time" name="heure" required><option value="">Choisir un horaire</option></select></label>
 <label class="wide">Précisions (facultatif) <textarea name="details" maxlength="500" placeholder="Votre demande ou le soin souhaité"></textarea></label>
+<label class="wide qy-marketing-consent"><input type="checkbox" name="marketing" value="oui"> <span>J’accepte de recevoir par e-mail les actualités, conseils et offres de Queen Yemuna Cosmétique. Facultatif, je pourrai me désinscrire à tout moment.</span></label>
 </div>
+<p class="qy-booking-note qy-booking-help"><strong>Vous ne trouvez pas de date ou d’horaire qui vous convient ?</strong> Appelez-nous au <a href="tel:+33612842682">06 12 84 26 82</a> : nous pourrons étudier ensemble un autre jour ou un autre horaire, même s’il n’apparaît pas dans le calendrier, selon nos disponibilités.</p>
 <p class="qy-booking-note">Votre créneau n’est pas bloqué automatiquement. La réservation sera effective uniquement après confirmation de l’institut.</p>
 <button type="submit">Envoyer ma demande de rendez-vous</button>
 <p id="qy-booking-status" role="status" aria-live="polite"></p>
@@ -167,7 +170,7 @@ form.addEventListener("submit",e=>{
  if(!form.reportValidity())return;
  const data=new FormData(form),val=k=>String(data.get(k)||"").trim();
  const subject="Demande de rendez-vous — Queen Yemuna — "+val("date");
- const body=["Bonjour,","Je souhaite demander un rendez-vous à l’institut Queen Yemuna Cosmétique.","","Nom : "+val("nom"),"Téléphone : "+val("telephone"),"Prestation : "+val("prestation"),"Date souhaitée : "+val("date"),"Heure souhaitée : "+val("heure"),"Précisions : "+(val("details")||"Aucune"),"","Adresse : 4 rue Galilée, 77420 Champs-sur-Marne.","Je comprends que le rendez-vous doit être confirmé par l’institut."].join("\n");
+ const body=["Bonjour,","Je souhaite demander un rendez-vous à l’institut Queen Yemuna Cosmétique.","","Nom : "+val("nom"),"Téléphone : "+val("telephone"),"E-mail : "+val("email"),"Consentement aux e-mails promotionnels : "+(val("marketing")==="oui"?"Oui":"Non"),"Prestation : "+val("prestation"),"Date souhaitée : "+val("date"),"Heure souhaitée : "+val("heure"),"Précisions : "+(val("details")||"Aucune"),"","Adresse : 4 rue Galilée, 77420 Champs-sur-Marne.","Je comprends que le rendez-vous doit être confirmé par l’institut."].join("\n");
  status.textContent="Votre application de messagerie va s’ouvrir. Envoyez l’e-mail pour transmettre votre demande.";
  window.location.href="mailto:naturellemineral97@gmail.com?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
 });
